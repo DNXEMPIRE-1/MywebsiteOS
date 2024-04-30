@@ -17,7 +17,7 @@ const Home: React.FC<HomeProps> = (props) => {
     return (
         <div style={styles.page}>
             <div style={styles.header}>
-            <img src={dnx} style={styles.image} alt="" />
+            <img src={dnx}  alt="" />
                 <h1 style={styles.name}>Dennis Nzioki</h1>
                 <h2>Software Engineer</h2>
                 <h2>UI/UX Designer</h2><br></br>
