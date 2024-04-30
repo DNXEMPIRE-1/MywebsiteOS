@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from '../general';
 
 import forhire from '../../assets/pictures/forHireGif.gif';
+import dnx from '../../assets/pictures/dnxblack.png';
 import { useNavigate } from 'react-router';
 
 export interface HomeProps {}
@@ -16,11 +17,18 @@ const Home: React.FC<HomeProps> = (props) => {
     return (
         <div style={styles.page}>
             <div style={styles.header}>
+            <img src={dnx} style={styles.image} alt="" />
                 <h1 style={styles.name}>Dennis Nzioki</h1>
                 <h2>Software Engineer</h2>
+                <h2>UI/UX Designer</h2><br></br>
+                <h2>🎨 UI/UX Designer by day, Code Ninja by night. I don't just code; I create magic that users can see and feel. 💻 </h2>
             </div>
             <div style={styles.buttons}>
-                <Link containerStyle={styles.link} to="about" text="ABOUT" />
+                <Link 
+                    containerStyle={styles.link} 
+                    to="about" 
+                    text="ABOUT" 
+                />
                 <Link
                     containerStyle={styles.link}
                     to="experience"
@@ -35,6 +43,11 @@ const Home: React.FC<HomeProps> = (props) => {
                     containerStyle={styles.link}
                     to="contact"
                     text="CONTACT"
+                />
+                <Link
+                    containerStyle={styles.link}
+                    to="quicklinks"
+                    text="QUICK LINKS"
                 />
             </div>
             <div style={styles.forHireContainer} onMouseDown={goToContact}>
