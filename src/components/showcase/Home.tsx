@@ -83,7 +83,7 @@ const styles: StyleSheetCSS = {
         width: 800,
     },
     link: {
-        padding: 16,
+        padding: 10,
     },
     nowHiring: {
         backgroundColor: 'red',
