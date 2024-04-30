@@ -16,9 +16,9 @@ const About: React.FC<AboutProps> = (props) => {
             <br />
             <div className="text-block">
                 <p>
-                    I'm a software engineer currently working at Vercel! In May
-                    of 2024 I graduated from Rensselaer Polytechnic Institute
-                    with my BS in Computer Science.
+                    I'm a software engineer currently working at Gopro! In June I will
+                     graduated from Strathmore University
+                    with my BS in Business Information.
                 </p>
                 <br />
                 <p>
@@ -40,7 +40,7 @@ const About: React.FC<AboutProps> = (props) => {
                     From a young age, I have had a curiosity about how things
                     worked. This naturally led me to become absolutely obsessed
                     with Lego and I fell in love with building things. In
-                    elementary school, I joined the Lego Robotics team at my
+                    High school, I joined the Lego Robotics team at my
                     local middle school, which was my first real exposure to
                     programming. In 2008, my family and I moved across the
                     country from California to New York, where I attended middle
