@@ -80,10 +80,10 @@ const styles: StyleSheetCSS = {
         justifyContent: 'space-between',
     },
     image: {
-        width: 800,
+        width: 500,
     },
     link: {
-        padding: 10,
+        padding: 16,
     },
     nowHiring: {
         backgroundColor: 'red',
