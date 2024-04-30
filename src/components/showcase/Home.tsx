@@ -17,8 +17,7 @@ const Home: React.FC<HomeProps> = (props) => {
     return (
         <div style={styles.page}>
             <div style={styles.header}>
-            <img src={dnx} style={styles.Image} alt="" />
-                <h1 style={styles.name}>Dennis Nzioki DNX</h1>
+                <h1 style={styles.name}>Dennis Nzioki </h1>
                 <h2>Software Engineer & UI/UX Designer</h2>
                 <h2>🎨 UI/UX Designer by day, Code Ninja by night. I don't just code; I create magic that users can see and feel. 💻 </h2>
             </div>
@@ -50,7 +49,7 @@ const Home: React.FC<HomeProps> = (props) => {
                 />
             </div>
             <div style={styles.forHireContainer} onMouseDown={goToContact}>
-                {/* <img src={forhire} alt="" /> */}
+            <img src={dnx} alt="" />
             </div>
         </div>
     );
