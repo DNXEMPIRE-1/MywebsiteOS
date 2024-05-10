@@ -1,6 +1,6 @@
 import React from 'react';
 import me from '../../assets/pictures/workingAtComputer.jpg';
-import meNow from '../../assets/pictures/currentme.jpg';
+import meNow from '../../assets/pictures/currentme.png';
 import { Link } from 'react-router-dom';
 import ResumeDownload from './ResumeDownload';
 
@@ -18,7 +18,7 @@ const About: React.FC<AboutProps> = (props) => {
                 <p>
                     I'm a software engineer currently working at Gopro! In June I will
                      graduated from Strathmore University
-                    with my BS in Business Information.
+                    with my BS in Business Information Technology.
                 </p>
                 <br />
                 <p>
@@ -40,11 +40,11 @@ const About: React.FC<AboutProps> = (props) => {
                     From a young age, I have had a curiosity about how things
                     worked. This naturally led me to become absolutely obsessed
                     with Lego and I fell in love with building things. In
-                    High school, I joined the Lego Robotics team at my
-                    local middle school, which was my first real exposure to
-                    programming. In 2008, my family and I moved across the
-                    country from California to New York, where I attended middle
-                    school, high school, and college.
+                    High school, I joined the Computer Robotics team at my
+                    local High school, which was my first real exposure to
+                    programming. In 2010, my family and I moved across the
+                    country from upcountry to Nairobi, where I attended Primary
+                    school, high school, and University.
                 </p>
                 <br />
                 <div className="captioned-image">
@@ -60,29 +60,20 @@ const About: React.FC<AboutProps> = (props) => {
                 <p>
                     I started programming more seriously in high school,
                     initially learning how to scrape and interact with websites.
-                    I went on to do a ton of passion projects, many of them with
-                    one of my closest friends,{' '}
-                    <a
-                        rel="noreferrer"
-                        target="_blank"
-                        href="https://www.linkedin.com/in/scott-bass-189a7919b/"
-                    >
-                        Scott Bass
-                    </a>
-                    . We worked on many projects together, including chat bots,
+                    I went on to do a ton of passion projects.
+                    . I worked on many projects, including chat bots,
                     multiple game projects, apps, and more. One of these
                     projects is viewable on my{' '}
                     <Link to="/projects/software">Software Projects</Link> page.
                 </p>
                 <br />
                 <p>
-                    In 2017, I got accepted into Rennselear Polytechnic
-                    Institute to study Computer Science. It was my first choice
+                    In 2020, I got accepted into Strathmore University to study Business Information Technology. It was my first choice
                     and I was absolutely ecstatic to be going to such a great
                     university. At the end of my sophomore year, I got an
                     internship working for the startup Hover, primarily focusing
                     on frontend work. I continued to work at Hover on and off
-                    for about a year and a half, until the start of my senior
+                    for about a year, until the start of my senior
                     year when I decided to focus on other opportunities.
                 </p>
                 <br />
@@ -104,7 +95,10 @@ const About: React.FC<AboutProps> = (props) => {
                             hobbies I have are{' '}
                             <Link to="/projects/music">Music Production</Link>{' '}
                             and creating{' '}
-                            <Link to="/projects/art">Digital Art</Link>. You can
+                            <Link to="/projects/art">Digital Art</Link>.
+                            {' '}
+                            <Link to="/projects/design">Design</Link>. 
+                            You can
                             read more about each of these on their respective
                             pages under my projects tab. Some other hobbies I
                             enjoy are working out, cooking, and (unsurprisingly)
@@ -112,9 +106,8 @@ const About: React.FC<AboutProps> = (props) => {
                         </p>
                         <br />
                         <p>
-                            In college, I was an active member in the fraternity
-                            Sigma Alpha Epsilon and held multiple positions in
-                            the chapter. I met a lot of amazing people through
+                            In University, I was an active member in the fraternity
+                            Sigma Alpha Epsilon and held the Head of Cybersecurity Department of the Strathmore Computing and Engineering Student Association. I met a lot of amazing people through
                             my fraternity and thoroughly enjoyed the community.
                         </p>
                     </div>
@@ -122,7 +115,7 @@ const About: React.FC<AboutProps> = (props) => {
                         <img src={meNow} style={styles.image} alt="" />
                         <p>
                             <sub>
-                                <b>Figure 2:</b> Me, April 2024
+                                <b>Figure 2:</b> Me, December 2023
                             </sub>
                         </p>
                     </div>
@@ -137,9 +130,9 @@ const About: React.FC<AboutProps> = (props) => {
                     <a
                         rel="noreferrer"
                         target="_blank"
-                        href="https://twitter.com/dnxempire"
+                        href="https://www.instagram.com/denno_dnx/"
                     >
-                        @dnxempire
+                        @denno_dnx
                     </a>{' '}
                     Good luck and have fun!
                 </p>
