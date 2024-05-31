@@ -49,29 +49,25 @@ const About: React.FC<AboutProps> = (props) => {
                     <p>
                         <sub>
                             <b>Figure 1:</b> A real photo of me developing this
-                            website :)
+                            site :)
                         </sub>
                     </p>
                 </div>
 
                 <p>
-                    I started programming more seriously in high school,
-                    initially learning how to scrape and interact with websites.
-                    I went on to do a ton of passion projects.
-                    . I worked on many projects, including chat bots,
-                    multiple game projects, apps, and more. One of these
-                    projects is viewable on my{' '}
+                My serious programming journey kicked off in high school, where I began by learning to scrape and interact with websites. 
+                From there, I dived into numerous passion projects, creating chat bots, 
+                developing multiple game projects, building apps, and more. 
+                few of these projects are showcased on my...{' '}
                     <Link to="/projects/software">Software Projects</Link> page.
                 </p>
                 <br />
                 <p>
-                    In 2020, I got accepted into Strathmore University to study Business Information Technology. It was my first choice
-                    and I was absolutely ecstatic to be going to such a great
-                    university. At the end of my sophomore year, I got an
-                    internship working for the startup Hover, primarily focusing
-                    on frontend work. I continued to work at Hover on and off
-                    for about a year, until the start of my senior
-                    year when I decided to focus on other opportunities.
+                In 2020, I was thrilled to be accepted into Strathmore University,
+                to study Business Information Technology. By the end of my sophomore year, 
+                I landed an internship at the startup Fujicom, where I primarily focused on frontend development. 
+                I continued working at Fujicom intermittently for about a year. 
+                As my senior year approached, I decided to explore new opportunities and shift my focus to other exciting ventures.
                 </p>
                 <br />
                 <br />
