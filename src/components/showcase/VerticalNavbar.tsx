@@ -85,12 +85,13 @@ const VerticalNavbar: React.FC<VerticalNavbarProps> = (props) => {
                     to="contact"
                     text="CONTACT"
                 />
-                <Link containerStyle={styles.link} to="quicklinks" text="Quick Links" />
+                
             </div>
             <div style={styles.spacer} />
             <div style={styles.forHireContainer} onMouseDown={goToContact}>
                 {/* <img src={forHire} style={styles.image} alt="" /> */}
             </div>
+            <Link containerStyle={styles.link} to="quicklinks" text="Quick Links" />
         </div>
     ) : (
         <></>
