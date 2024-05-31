@@ -37,14 +37,11 @@ const About: React.FC<AboutProps> = (props) => {
                 <h3>About Me</h3>
                 <br />
                 <p>
-                    From a young age, I have had a curiosity about how things
-                    worked. This naturally led me to become absolutely obsessed
-                    with Lego and I fell in love with building things. In
-                    High school, I joined the Computer Robotics team at my
-                    local High school, which was my first real exposure to
-                    programming. In 2010, my family and I moved across the
-                    country from upcountry to Nairobi, where I attended Primary
-                    school, high school, and University.
+                Ever since I was a kid, I've been fascinated by how things work.
+                 This curiosity quickly turned into an obsession with Lego, sparking a lifelong love for building.
+                  In high school, I dove into programming for the first time by joining the Computer Robotics team,
+                   which opened up a whole new world for me. In 2010, my family and I made a big move to Nairobi, 
+                where I continued my journey through primary school, high school, and eventually university.
                 </p>
                 <br />
                 <div className="captioned-image">
