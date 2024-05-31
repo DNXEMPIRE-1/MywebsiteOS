@@ -99,8 +99,8 @@ const About: React.FC<AboutProps> = (props) => {
                         </p>
                         <br />
                         <p>
-                            In University, I was an active member in the fraternity
-                            Sigma Alpha Epsilon and held the Head of Cybersecurity Department of the Strathmore Computing and Engineering Student Association. I met a lot of amazing people through
+                            In University, I was an active member in the Strathmore Computing and Engineering Student Association 
+                            and held the Head of Cybersecurity Department. I met a lot of amazing people through
                             my fraternity and thoroughly enjoyed the community.
                         </p>
                     </div>
