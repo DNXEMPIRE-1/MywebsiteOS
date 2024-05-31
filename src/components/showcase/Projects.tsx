@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router';
 import software from '../../assets/pictures/projects/software.gif';
 import art from '../../assets/pictures/projects/art.gif';
 import music from '../../assets/pictures/projects/music.gif';
-import design from '../../assets/pictures/projects/design.gif'
+import design from '../../assets/pictures/projects/design.gif';
 
 export interface ProjectsProps {}
 
