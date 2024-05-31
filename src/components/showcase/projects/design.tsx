@@ -5,10 +5,10 @@ import gsts from '../../../assets/pictures/projects/art/gsts.png';
 
 export interface DesignProjectsProps {}
 
-const ArtProjects: React.FC<DesignProjectsProps> = (props) => {
+const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
     return (
         <div className="site-page-content">
-            <h1>Art & Design</h1>
+            <h1>Design</h1>
             <h3>Endeavors</h3>
             <br />
             <div className="text-block">
@@ -117,4 +117,4 @@ const ArtProjects: React.FC<DesignProjectsProps> = (props) => {
     );
 };
 
-export default ArtProjects;
+export default DesignProjects;
