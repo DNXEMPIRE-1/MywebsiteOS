@@ -101,8 +101,8 @@ const Projects: React.FC<ProjectsProps> = (props) => {
                     route="art"
                 />
                 <ProjectBox
-                    icon={music}
-                    iconStyle={styles.musicIcon}
+                    icon={design}
+                    iconStyle={styles.designIcon}
                     title="Design"
                     subtitle="CREATIVITY"
                     route="design"
