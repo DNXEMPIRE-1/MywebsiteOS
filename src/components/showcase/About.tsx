@@ -94,7 +94,7 @@ const About: React.FC<AboutProps> = (props) => {
                             You can
                             read more about each of these on their respective
                             pages under my projects tab. Some other hobbies I
-                            enjoy are working out, cooking, and (unsurprisingly)
+                            enjoy are working out, cooking, watching scifi/fantasy Movies/series, and (unsurprisingly)
                             playing video games.
                         </p>
                         <br />
