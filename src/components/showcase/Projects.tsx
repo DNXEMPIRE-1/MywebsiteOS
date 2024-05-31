@@ -158,8 +158,8 @@ const styles: StyleSheetCSS = {
         height: 37 * 2,
     },
     designIcon: {
-        width: 48,
-        height: 48,
+        width: 56,
+        height: 56,
     },
 };
 
