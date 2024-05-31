@@ -87,9 +87,9 @@ const About: React.FC<AboutProps> = (props) => {
                             enjoy doing in my free time. The more tangible
                             hobbies I have are{' '}
                             <Link to="/projects/music">Music Production</Link>{' '}
-                            and creating{' '}
+                            , creating{' '}
                             <Link to="/projects/art">Digital Art</Link>.
-                            {' '}
+                            and {' '}
                             <Link to="/projects/design">Design</Link>. 
                             You can
                             read more about each of these on their respective
