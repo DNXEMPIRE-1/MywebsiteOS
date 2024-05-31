@@ -102,7 +102,7 @@ const Projects: React.FC<ProjectsProps> = (props) => {
                 />
                 <ProjectBox
                     icon={design}
-                    iconStyle={styles.artIcon}
+                    iconStyle={styles.designIcon}
                     title="Design"
                     subtitle="CREATIVITY"
                     route="design"
@@ -156,6 +156,10 @@ const styles: StyleSheetCSS = {
     artIcon: {
         width: 21 * 2,
         height: 37 * 2,
+    },
+    designIcon: {
+        width: 48,
+        height: 48,
     },
 };
 
