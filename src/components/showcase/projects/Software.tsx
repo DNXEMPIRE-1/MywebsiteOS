@@ -24,10 +24,10 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
             <ResumeDownload />
             <br />
             <div className="text-block">
-                <h2>dennisnziokidnx.com</h2>
+                <h2>dennisnzioki.com</h2>
                 <br />
                 <p>
-                    dennisnziokidnx.com is my portfolio website, and also the
+                    dennisnzioki.com is my portfolio website, and also the
                     website you are on right now. This project was an absolute
                     joy to make and challenged me both technically and
                     creatively. Early in 2024, I knew I wanted to make an
@@ -73,10 +73,10 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://dennisnziokidnx.com"
+                            href="https://dennisnzioki.com"
                         >
                             <p>
-                                <b>[3D Site]</b> - dennisnziokidnx.com
+                                <b>[3D Site]</b> - dennisnzioki.com
                             </p>
                         </a>
                     </li>
