@@ -14,8 +14,6 @@ const CREDITS = [
         title: 'Modeling & Texturing',
         rows: [
             ['Dennis Nzioki', 'Texturing, Composition, & UV'],
-            ['Mickael Boitte', 'Computer Model'],
-            ['Sean Nicolas', 'Environment Models'],
         ],
     },
     {
@@ -27,18 +25,9 @@ const CREDITS = [
         ],
     },
     {
-        title: 'Special Thanks',
-        rows: [
-            ['Bruno Simon', 'SimonDev'],
-            ['Lorelei Kravinsky', 'Scott Bass'],
-            ['Trey Briccetti', 'Mom, Dad & Angela'],
-        ],
-    },
-    {
         title: 'Inspiration',
         rows: [
-            ['Bruno Simon', 'Jesse Zhou'],
-            ['Pink Yellow', 'Vivek Patel'],
+            ['Mr Henry', 'Website Idea'],
         ],
     },
 ];
@@ -86,7 +75,7 @@ const Credits: React.FC<CreditsProps> = (props) => {
                 style={styles.credits}
             >
                 <h2>Credits</h2>
-                <p>dennisnziokidnx.com, 2024</p>
+                <p>dennisnzioki.com, 2024</p>
                 <br />
                 <br />
                 <br />
