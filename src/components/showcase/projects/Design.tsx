@@ -13,7 +13,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
             <br />
             <div className="text-block">
                 <p>
-                    While I love programming and software development, Art,
+                    While I love programming and software development. Art,
                     Design, and Animation will always hold a special place in my
                     heart.
                 </p>
