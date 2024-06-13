@@ -47,6 +47,7 @@ const Home: React.FC<HomeProps> = (props) => {
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{
+                        ...styles.link,
                         fontWeight: 'bolder',
                         fontFamily: 'Futura Pro Black',
                         fontSize: '16px',
@@ -56,7 +57,7 @@ const Home: React.FC<HomeProps> = (props) => {
                 </a>
             </div>
             <div style={styles.forHireContainer} onMouseDown={goToContact}>
-                {<img src={forhire} alt="" /> }
+                {/* <img src={forhire} alt="" /> */}
             </div>
         </div>
     );
