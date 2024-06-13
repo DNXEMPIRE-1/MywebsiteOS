@@ -1,6 +1,6 @@
 import React from 'react';
 // @ts-ignore
-import saga from '../../../assets/pictures/projects/software/saga.mp4';
+import devdesign from '../../../assets/pictures/projects/software/devdesign.mp4';
 // @ts-ignore
 import computer from '../../../assets/pictures/projects/software/computer.mp4';
 // @ts-ignore
@@ -33,8 +33,8 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     creatively. Early in 2023, I knew I wanted to make an
                     interactive portfolio to aid my job search. I eventually got
                     the idea for this site around early February and began
-                    development late July. I've been developing it alongside
-                    my last semester at school and if you are reading this, it's
+                    development late July. I've been developing it alongside my
+                    last semester at school and if you are reading this, it's
                     pretty much done!
                 </p>
                 <br />
@@ -118,26 +118,25 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                 </p>
             </div>
             <div className="text-block">
-                <h2>Guntattchment Saga The Sequel</h2>
+                <h2>DevDesign-Hub</h2>
                 <br />
                 <p>
-                    Guntattchment Saga or GSTS is a game I made with my good
-                    friend Scott Bass back in 2019. The game is a wave based top
-                    down shooter where you progress by building the most
-                    outrageous of weapons through attaching as many attachments
-                    on your weapon as you can. The game ceased development in
-                    2019 because we unfortunately both had packed school
-                    schedules and were unable to find the time to work on it.
+                    All in one place where you can find all the resources and
+                    details of ambassador/fellowship, open source events, web
+                    dev sites, js toolkits etc. that are available across
+                    different sites. Consider this repository as your personal
+                    space to find or add any new resource that can make life
+                    easier for the community.
                 </p>
                 <br />
                 <div className="captioned-image">
-                    <VideoAsset src={saga} />
+                    <VideoAsset src={devdesign} />
                     <div style={styles.caption}>
                         <p>
                             <sub>
-                                <b>Figure 2: </b> Guntattchment Saga Gameplay
-                                demo, featuring the main character along with a
-                                few of our grunt and dasher enemies.
+                                <b>Figure 2: </b> DevDesign-Hub is a website
+                                where Developers and designers can get resources
+                                for their daily work
                             </sub>
                         </p>
                     </div>
