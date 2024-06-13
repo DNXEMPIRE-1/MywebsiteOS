@@ -14,6 +14,10 @@ const Home: React.FC<HomeProps> = (props) => {
         navigate('/contact');
     };
 
+    const redirectToExternalLink = () => {
+        window.location.href = 'https://linktr.ee/dnxempire';
+    };
+
 
     return (
         <div style={styles.page}>
@@ -43,11 +47,12 @@ const Home: React.FC<HomeProps> = (props) => {
                     to="contact"
                     text="CONTACT"
                 />
-                <Link
-                    containerStyle={styles.link}
-                    to="quicklinks"
-                    text="QUICK LINKS"
-                />
+                <a
+                    style={{ ...styles.link, cursor: 'pointer' }}
+                    onClick={redirectToExternalLink}
+                >
+                    QUICK LINKS
+                </a>
             </div>
             <div style={styles.forHireContainer} onMouseDown={goToContact}>
                 {/* <img src={forhire} alt="" /> */}
