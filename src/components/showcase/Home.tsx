@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from '../general';
+
 import forhire from '../../assets/pictures/forHireGif.gif';
 import dnx from '../../assets/pictures/dnxblack.png';
 import { useNavigate } from 'react-router';
-
 
 export interface HomeProps {}
 
@@ -13,11 +13,6 @@ const Home: React.FC<HomeProps> = (props) => {
     const goToContact = () => {
         navigate('/contact');
     };
-
-    const redirectToExternalLink = () => {
-        window.location.href = 'https://linktr.ee/dnxempire';
-    };
-
 
     return (
         <div style={styles.page}>
@@ -48,13 +43,10 @@ const Home: React.FC<HomeProps> = (props) => {
                     text="CONTACT"
                 />
                 <a
-                    style={{
-                        ...styles.link,
-                        cursor: 'pointer',
-                        color: 'inherit',
-                        textDecoration: 'none',
-                    }}
-                    onClick={redirectToExternalLink}
+                    href="https://linktr.ee/dnxempire"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={styles.link}
                 >
                     QUICK LINKS
                 </a>
