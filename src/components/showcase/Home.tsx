@@ -48,8 +48,9 @@ const Home: React.FC<HomeProps> = (props) => {
                     rel="noopener noreferrer"
                     style={{
                         ...styles.link,
-                        fontWeight: 'bold',
-                        fontFamily: 'serif',
+                        fontWeight: 'bolder',
+                        fontFamily: 'Futura Pro Black',
+                        fontSize: '16px',
                     }}
                 >
                      🔗 Quick Links 📌
