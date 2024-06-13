@@ -1,18 +1,16 @@
-import React, { useEffect, useState, useCallback } from 'react';
+import React, { useEffect, useState } from 'react';
+import emailjs from 'emailjs-com';
 import colors from '../../constants/colors';
 import twitterIcon from '../../assets/pictures/contact-twitter.png';
 import ghIcon from '../../assets/pictures/contact-gh.png';
-import figma from '../../assets/pictures/figma.jpeg'
+import figma from '../../assets/pictures/figma.jpeg';
 import inIcon from '../../assets/pictures/contact-in.png';
 import ResumeDownload from './ResumeDownload';
 
 export interface ContactProps {}
 
-// function to validate email
 const validateEmail = (email: string) => {
-    const re =
-        // eslint-disable-next-line
-        /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return re.test(String(email).toLowerCase());
 };
 
@@ -24,8 +22,8 @@ interface SocialBoxProps {
 const SocialBox: React.FC<SocialBoxProps> = ({ link, icon }) => {
     return (
         <a rel="noreferrer" target="_blank" href={link}>
-            <div className="big-button-container" style={styles.social}>
-                <img src={icon} alt="" style={styles.socialImage} />
+            <div className="big-button-container social">
+                <img src={icon} alt="" className="socialImage" />
             </div>
         </a>
     );
@@ -49,7 +47,8 @@ const Contact: React.FC<ContactProps> = (props) => {
         }
     }, [email, name, message]);
 
-    async function submitForm() {
+    const submitForm = async (e: React.FormEvent) => {
+        e.preventDefault();
         if (!isFormValid) {
             setFormMessage('Form unable to validate, please try again.');
             setFormMessageColor('red');
@@ -57,49 +56,33 @@ const Contact: React.FC<ContactProps> = (props) => {
         }
         try {
             setIsLoading(true);
-            const res = await fetch(
-                'https://formsubmit.co/el/bohuti',
-                {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({
-                        company,
-                        email,
-                        name,
-                        message,
-                    }),
-                }
+            const templateParams = {
+                company,
+                email,
+                name,
+                message,
+            };
+
+            await emailjs.send(
+                'YOUR_SERVICE_ID',
+                'YOUR_TEMPLATE_ID',
+                templateParams,
+                'YOUR_USER_ID'
             );
-            // the response will be either {success: true} or {success: false, error: message}
-            const data = (await res.json()) as
-                | {
-                      success: false;
-                      error: string;
-                  }
-                | { success: true };
-            if (data.success) {
-                setFormMessage(`Message successfully sent. Thank you ${name}!`);
-                setCompany('');
-                setEmail('');
-                setName('');
-                setMessage('');
-                setFormMessageColor(colors.blue);
-                setIsLoading(false);
-            } else {
-                setFormMessage(data.error);
-                setFormMessageColor(colors.red);
-                setIsLoading(false);
-            }
-        } catch (e) {
-            setFormMessage(
-                'There was an error sending your message. Please try again.'
-            );
+
+            setFormMessage(`Message successfully sent. Thank you ${name}!`);
+            setCompany('');
+            setEmail('');
+            setName('');
+            setMessage('');
+            setFormMessageColor(colors.blue);
+        } catch (error) {
+            setFormMessage('There was an error sending your message. Please try again.');
             setFormMessageColor(colors.red);
+        } finally {
             setIsLoading(false);
         }
-    }
+    };
 
     useEffect(() => {
         if (formMessage.length > 0) {
@@ -112,51 +95,34 @@ const Contact: React.FC<ContactProps> = (props) => {
 
     return (
         <div className="site-page-content">
-            <div style={styles.header}>
+            <div className="header">
                 <h1>Contact</h1>
-                <div style={styles.socials}>
-                    <SocialBox
-                        icon={ghIcon}
-                        link={'https://github.com/DNXEMPIRE-1'}
-                    />
-                    <SocialBox
-                        icon={figma}
-                        link={'https://www.figma.com/@dnxempire'}
-                    />
-                    <SocialBox
-                        icon={inIcon}
-                        link={'https://www.linkedin.com/in/dennisnzioki/'}
-                    />
-                    <SocialBox
-                        icon={twitterIcon}
-                        link={'https://www.instagram.com/denno_dnx/'}
-                    />
+                <div className="socials">
+                    <SocialBox icon={ghIcon} link={'https://github.com/DNXEMPIRE-1'} />
+                    <SocialBox icon={figma} link={'https://www.figma.com/@dnxempire'} />
+                    <SocialBox icon={inIcon} link={'https://www.linkedin.com/in/dennisnzioki/'} />
+                    <SocialBox icon={twitterIcon} link={'https://www.instagram.com/denno_dnx/'} />
                 </div>
             </div>
             <div className="text-block">
                 <p>
-                    I am currently employed, however if you have any
-                    opportunities, feel free to reach out - I would love to
-                    chat! You can reach me via my personal email, or fill out
-                    the form below!
+                    I am currently employed, however if you have any opportunities, feel free to reach out - I would love to chat! You can reach me via my personal email, or fill out the form below!
                 </p>
                 <br />
                 <p>
                     <b>Email: </b>
-                    <a href="mailto:dennisnzioki019@gmail.com">
-                        dennisnzioki019@gmail.com
-                    </a>
+                    <a href="mailto:dennisnzioki019@gmail.com">dennisnzioki019@gmail.com</a>
                 </p>
 
-                <div style={styles.form}>
+                <form onSubmit={submitForm} className="form">
                     <label>
                         <p>
-                            {!name && <span style={styles.star}>*</span>}
+                            {!name && <span className="star">*</span>}
                             <b>Your name:</b>
                         </p>
                     </label>
                     <input
-                        style={styles.formItem}
+                        className="formItem"
                         type="text"
                         name="name"
                         placeholder="Name"
@@ -165,14 +131,12 @@ const Contact: React.FC<ContactProps> = (props) => {
                     />
                     <label>
                         <p>
-                            {!validateEmail(email) && (
-                                <span style={styles.star}>*</span>
-                            )}
+                            {!validateEmail(email) && <span className="star">*</span>}
                             <b>Email:</b>
                         </p>
                     </label>
                     <input
-                        style={styles.formItem}
+                        className="formItem"
                         type="email"
                         name="email"
                         placeholder="Email"
@@ -185,7 +149,7 @@ const Contact: React.FC<ContactProps> = (props) => {
                         </p>
                     </label>
                     <input
-                        style={styles.formItem}
+                        className="formItem"
                         type="company"
                         name="company"
                         placeholder="Company"
@@ -194,38 +158,27 @@ const Contact: React.FC<ContactProps> = (props) => {
                     />
                     <label>
                         <p>
-                            {!message && <span style={styles.star}>*</span>}
+                            {!message && <span className="star">*</span>}
                             <b>Message:</b>
                         </p>
                     </label>
                     <textarea
                         name="message"
                         placeholder="Message"
-                        style={styles.formItem}
+                        className="formItem"
                         value={message}
                         onChange={(e) => setMessage(e.target.value)}
                     />
-                    <div style={styles.buttons}>
+                    <div className="buttons">
                         <button
                             className="site-button"
-                            style={styles.button}
                             type="submit"
                             disabled={!isFormValid || isLoading}
-                            onMouseDown={submitForm}
                         >
-                            {!isLoading ? (
-                                'Send Message'
-                            ) : (
-                                <p className="loading">Sending</p>
-                            )}
+                            {!isLoading ? 'Send Message' : <p className="loading">Sending</p>}
                         </button>
-                        <div style={styles.formInfo}>
-                            <p
-                                style={Object.assign(
-                                    {},
-                                    { color: formMessageColor }
-                                )}
-                            >
+                        <div className="formInfo">
+                            <p style={{ color: formMessageColor }}>
                                 <b>
                                     <sub>
                                         {formMessage
@@ -238,8 +191,7 @@ const Contact: React.FC<ContactProps> = (props) => {
                                 <sub>
                                     {!isFormValid ? (
                                         <span>
-                                            <b style={styles.star}>*</b> =
-                                            required
+                                            <b className="star">*</b> = required
                                         </span>
                                     ) : (
                                         '\xa0'
@@ -248,62 +200,11 @@ const Contact: React.FC<ContactProps> = (props) => {
                             </p>
                         </div>
                     </div>
-                </div>
+                </form>
             </div>
             <ResumeDownload altText="Need a copy of my Resume?" />
         </div>
     );
-};
-
-const styles: StyleSheetCSS = {
-    form: {
-        flexDirection: 'column',
-        marginTop: 32,
-    },
-    formItem: {
-        marginTop: 4,
-        marginBottom: 16,
-    },
-    socialImage: {
-        width: 36,
-        height: 36,
-    },
-    buttons: {
-        justifyContent: 'space-between',
-        alignItems: 'center',
-    },
-    formInfo: {
-        textAlign: 'right',
-
-        flexDirection: 'column',
-        alignItems: 'flex-end',
-        paddingLeft: 24,
-    },
-    star: {
-        paddingRight: 4,
-        color: 'red',
-    },
-    button: {
-        minWidth: 184,
-        height: 32,
-    },
-    header: {
-        alignItems: 'flex-end',
-        justifyContent: 'space-between',
-    },
-    socials: {
-        marginBottom: 16,
-        justifyContent: 'flex-end',
-    },
-    social: {
-        width: 4,
-        height: 4,
-        // borderRadius: 1000,
-
-        justifyContent: 'center',
-        alignItems: 'center',
-        marginLeft: 8,
-    },
 };
 
 export default Contact;
