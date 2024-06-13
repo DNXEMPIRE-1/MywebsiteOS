@@ -52,7 +52,7 @@ const Home: React.FC<HomeProps> = (props) => {
                         fontFamily: 'serif',
                     }}
                 >
-                    QUICK LINKS
+                     *-* QUICK LINKS *-*
                 </a>
             </div>
             <div style={styles.forHireContainer} onMouseDown={goToContact}>
