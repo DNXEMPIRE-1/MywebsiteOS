@@ -3,6 +3,7 @@ import { Link } from '../general';
 import forhire from '../../assets/pictures/forHireGif.gif';
 import dnx from '../../assets/pictures/dnxblack.png';
 import { useNavigate } from 'react-router';
+import { Link1 } from 'react-router-dom';
 
 
 
@@ -47,7 +48,7 @@ const redirectToExternalLink = (e) => {
                     to="contact"
                     text="CONTACT"
                 />
-                <Link
+                <Link1
                     containerStyle={styles.link}
                     to="quicklinks"
                     text="QUICK LINKS"
