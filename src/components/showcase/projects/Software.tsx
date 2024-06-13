@@ -76,7 +76,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                             href="https://dennisnzioki.com"
                         >
                             <p>
-                                <b>[3D Site]</b> - dennisnzioki.com
+                                <b>[🚀3D Site]</b> - dennisnzioki.com
                             </p>
                         </a>
                     </li>
@@ -87,7 +87,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                             href="https://mywebsite-os.vercel.app/"
                         >
                             <p>
-                                <b>[OS Site]</b> - dnxempire-1.vercel.app
+                                <b>[🚀OS Site]</b> - dnxempire-1.vercel.app
                             </p>
                         </a>
                     </li>
@@ -98,7 +98,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                             href="https://github.com/DNXEMPIRE-1/MywebsiteOS"
                         >
                             <p>
-                                <b>[GitHub]</b> - OS Site Repository
+                                <b>[👨‍💻GitHub]</b> - OS Site Repository
                             </p>
                         </a>
                     </li>
@@ -177,7 +177,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                             href="https://devdesignhub.vercel.app/"
                         >
                             <p>
-                                <b>[Site]</b> - DevDesign-Hub Site
+                                <b>[🚀Live Demo]</b> - DevDesign-Hub Site
                             </p>
                         </a>
                     </li>
@@ -188,15 +188,13 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                             href="https://github.com/DNXEMPIRE-1/DevDesign-Hub"
                         >
                             <p>
-                                <b>[GitHub]</b> - DevDesign-Hub Repository
+                                <b>[👨‍💻GitHub]</b> - DevDesign-Hub Repository
                             </p>
                         </a>
                     </li>
                 </ul>
                 <p>
-                    Unfortunately, the game currently is not in a releasable
-                    state and so there is no demo available online. If this ever
-                    changes, however, a link to the game will be added here.
+                    Unfortunately, the DevDesign Hub is still on development and Contributors are all welcome.✨
                 </p>
             </div>
             <div className="text-block">
