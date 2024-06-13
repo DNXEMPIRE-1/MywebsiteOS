@@ -1,8 +1,8 @@
 import React from 'react';
 // @ts-ignore
 import devdesign from '../../../assets/pictures/projects/software/devdesign.mp4';
+// @ts-ignore
 import trush from '../../../assets/pictures/projects/software/trush.mp4';
-
 // @ts-ignore
 import computer from '../../../assets/pictures/projects/software/computer.mp4';
 // @ts-ignore
