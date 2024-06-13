@@ -376,7 +376,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                             href="https://github.com/DNXEMPIRE-1/"
                         >
                             <p>
-                                <b>[👨‍💻GitHub]</b> - My Github Profile
+                                <b>👨‍💻 My GitHub Profile</b>
                             </p>
                         </a>
                     </li>
