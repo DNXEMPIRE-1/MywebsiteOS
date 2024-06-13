@@ -64,10 +64,10 @@ const Contact: React.FC<ContactProps> = (props) => {
             };
 
             await emailjs.send(
-                'YOUR_SERVICE_ID',
-                'YOUR_TEMPLATE_ID',
+                'service_wsno1ca',
+                'template_6j3p8u5',
                 templateParams,
-                'YOUR_USER_ID'
+                '5AefxUw6Rx59h8tZ4jCAK'
             );
 
             setFormMessage(`Message successfully sent. Thank you ${name}!`);
