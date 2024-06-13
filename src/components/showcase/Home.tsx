@@ -46,7 +46,12 @@ const Home: React.FC<HomeProps> = (props) => {
                     href="https://linktr.ee/dnxempire"
                     target="_blank"
                     rel="noopener noreferrer"
-                    style={{ ...styles.link, fontWeight: 'bolder', fontFamily: 'serif' }}                >
+                    style={{
+                        ...styles.link,
+                        fontWeight: 'bold',
+                        fontFamily: 'serif',
+                    }}
+                >
                     QUICK LINKS
                 </a>
             </div>
