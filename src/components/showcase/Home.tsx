@@ -57,7 +57,7 @@ const Home: React.FC<HomeProps> = (props) => {
                 </a>
             </div>
             <div style={styles.forHireContainer} onMouseDown={goToContact}>
-                {/* <img src={forhire} alt="" /> */}
+                {<img src={forhire} alt="" /> }
             </div>
         </div>
     );
