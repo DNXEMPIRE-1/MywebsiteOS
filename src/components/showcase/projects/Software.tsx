@@ -95,7 +95,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://github.com/henryjeff/portfolio-inner-site"
+                            href="https://github.com/DNXEMPIRE-1/MywebsiteOS"
                         >
                             <p>
                                 <b>[GitHub]</b> - OS Site Repository
