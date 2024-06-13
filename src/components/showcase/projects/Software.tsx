@@ -368,6 +368,18 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     documented what we've done. I think this is a good practice
                     to follow when learning something new.
                 </p>
+                <h3>For more Projects visit </h3>
+                    <li>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href="https://github.com/DNXEMPIRE-1/"
+                        >
+                            <p>
+                                <b>[👨‍💻GitHub]</b> - My Github Profile
+                            </p>
+                        </a>
+                    </li>
             </div>
             <ResumeDownload />
         </div>
