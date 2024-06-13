@@ -107,7 +107,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     I'm skipping over a lot of details in exchange for brevity,
                     but I do plan on doing a more in depth breakdown for those
                     interested sometime in the future. To get updates with that
-                    project feel free to follow me on twitter{' '}
+                    project feel free to follow me on Instagram{' '}
                     <a
                         rel="noreferrer"
                         target="_blank"
