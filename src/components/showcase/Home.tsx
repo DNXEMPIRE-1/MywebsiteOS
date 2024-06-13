@@ -3,8 +3,6 @@ import { Link } from '../general';
 import forhire from '../../assets/pictures/forHireGif.gif';
 import dnx from '../../assets/pictures/dnxblack.png';
 import { useNavigate } from 'react-router';
-import { Link1 } from 'react-router-dom';
-
 
 
 export interface HomeProps {}
@@ -15,8 +13,7 @@ const Home: React.FC<HomeProps> = (props) => {
     const goToContact = () => {
         navigate('/contact');
     };
-const redirectToExternalLink = (e) => {
-        e.preventDefault();
+    const redirectToExternalLink = () => {
         window.location.href = 'https://linktr.ee/dnxempire';
     };
 
@@ -48,7 +45,7 @@ const redirectToExternalLink = (e) => {
                     to="contact"
                     text="CONTACT"
                 />
-                <Link1
+                <Link
                     containerStyle={styles.link}
                     to="quicklinks"
                     text="QUICK LINKS"
