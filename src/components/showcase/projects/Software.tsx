@@ -1,7 +1,7 @@
 import React from 'react';
 // @ts-ignore
 import devdesign from '../../../assets/pictures/projects/software/devdesign.mp4';
-import typerush from '../../../assets/pictures/projects/software/typerush.mp4';
+import trush from '../../../assets/pictures/projects/software/trush.mp4';
 
 // @ts-ignore
 import computer from '../../../assets/pictures/projects/software/computer.mp4';
@@ -225,7 +225,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                 </p>
                 <br />
                 <div className="captioned-image">
-                    <VideoAsset src={typerush} />
+                    <VideoAsset src={trush} />
                     <p style={styles.caption}>
                         <sub>
                             <b>Figure 3:</b> Skip the Scroll in action, finding
