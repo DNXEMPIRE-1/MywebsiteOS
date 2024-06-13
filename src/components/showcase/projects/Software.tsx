@@ -6,6 +6,8 @@ import trush from '../../../assets/pictures/projects/software/trush.mp4';
 // @ts-ignore
 import computer from '../../../assets/pictures/projects/software/computer.mp4';
 // @ts-ignore
+import ninja from '../../../assets/pictures/projects/software/ninja.mp4';
+// @ts-ignore
 import ResumeDownload from '../ResumeDownload';
 import VideoAsset from '../../general/VideoAsset';
 
@@ -203,34 +205,34 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                 <br />
                 <p>
                     Features<br></br>
-                    New Typing Tests Every Time: The app has lots of
-                    different texts to keep your practice interesting and
-                    challenging. <br></br>
-                    See Your Progress as You Type: You can watch
-                    your typing speed, how well you're doing, and your score
-                    update live. <br></br>
-                    Spot Your Mistakes Easily: If you type
-                    something wrong, it'll light up so you can see where you
-                    need to improve. <br></br>
-                    Caps Lock Warning: It tells you if you've
-                    accidentally left Caps Lock on to avoid errors. <br></br>
-                    Summary After Each Test: When you finish a test, you get a detailed
-                    report of your speed, score, and mistakes. <br></br>
-                    Keep Practicing: You can start new tests over and over to keep getting
-                    better. <br></br>
-                    Nice and Simple Design: The design is clean and easy
-                    to use, helping you focus on practicing. <br></br>
-                    Light and Dark Mode: Matches your system preference to make it easy on your
-                    eyes, day or night.
+                    New Typing Tests Every Time: The app has lots of different
+                    texts to keep your practice interesting and challenging.{' '}
+                    <br></br>
+                    See Your Progress as You Type: You can watch your typing
+                    speed, how well you're doing, and your score update live.{' '}
+                    <br></br>
+                    Spot Your Mistakes Easily: If you type something wrong,
+                    it'll light up so you can see where you need to improve.{' '}
+                    <br></br>
+                    Caps Lock Warning: It tells you if you've accidentally left
+                    Caps Lock on to avoid errors. <br></br>
+                    Summary After Each Test: When you finish a test, you get a
+                    detailed report of your speed, score, and mistakes.{' '}
+                    <br></br>
+                    Keep Practicing: You can start new tests over and over to
+                    keep getting better. <br></br>
+                    Nice and Simple Design: The design is clean and easy to use,
+                    helping you focus on practicing. <br></br>
+                    Light and Dark Mode: Matches your system preference to make
+                    it easy on your eyes, day or night.
                 </p>
                 <br />
                 <div className="captioned-image">
                     <VideoAsset src={trush} />
                     <p style={styles.caption}>
                         <sub>
-                            <b>Figure 3:</b> Skip the Scroll in action, finding
-                            the highest rated comments and scrolling right to
-                            them
+                            <b>Figure 3:</b>TypeRush to help Devs and typers to
+                            fastern their typing ratio.
                         </sub>
                     </p>
                 </div>
@@ -272,6 +274,99 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                 <p>
                     TypeRush is a web app that helps you get faster and more
                     accurate at typing.
+                </p>
+            </div>
+            <div className="text-block">
+                <h2>🥷🏽 NinjaSketch</h2>
+                <br />
+                <p>
+                    An Excalidraw clone with React and TypeScript. Rough.js is
+                    used for the sketchy, hand-drawn style. I built the side
+                    project for learning purposes. The app is not responsive. I
+                    mainly focused on the functionalities since I already have
+                    plenty of projects that are responsive.
+                </p>
+                <br />
+                <div className="captioned-image">
+                    <VideoAsset src={ninja} />
+                    <p style={styles.caption}>
+                        <sub>
+                            <b>Figure 3:</b>An Excalidraw clone with React and TypeScript. Rough.js is used for the sketchy, hand-drawn style.
+                        </sub>
+                    </p>
+                </div>
+                <p>
+                    📝 Here's what you can do with NinjaSketch: <br></br>
+                    Choose a Tool: You have pencils, lines, rectangles, and text
+                    tools. Pick one and start creating. <br></br>
+                    Draw and Move: Click and drag on the canvas to draw. To move
+                    something, select it and drag it to a new spot. Also, resize
+                    elements by dragging the corners. Resizing only works on
+                    rectangles or lines. <br></br>
+                    Edit Text: Click on the canvas and start typing to add text
+                    to your drawings. You can also edit existing text. <br></br>
+                    Zoom: Use Ctrl + Scroll or click on the buttons to zoom in
+                    for detail or out to see the whole picture. <br></br>
+                    Pan: Hold the Space bar and drag or use the middle mouse
+                    button to move around the whiteboard canvas.
+                </p>
+                <br />
+                <h3>Links:</h3>
+                <ul>
+                    <li>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href="https://github.com/DNXEMPIRE-1/NinjaSketch"
+                        >
+                            <p>
+                                <b>[👨‍💻GitHub]</b> - NinjaSketch Repository
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href="https://ninja-sketch-azure.vercel.app/"
+                        >
+                            <p>
+                                <b>[🚀Live Demo]</b> - 🥷🏽 NinjaSketch
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+                <p>
+                    👩🏽‍🍳 The Process<br></br>
+                     I started by rendering a canvas with rough.js
+                    to create the base for all the drawings. Then, I focused on
+                    drawing on the canvas, allowing users to make lines,
+                    rectangles, and other shapes. <br></br>
+                    Next, I made sure users could
+                    move elements around. This was important for adjusting
+                    drawings. After that, I added the ability to resize elements
+                    to give more control over the shapes.<br></br> 
+                    To make sure mistakes could be fixed, I implemented undo and redo features. I also
+                    added freehand drawing for a more natural sketching
+                    experience and a text tool to label or note on the canvas.<br></br>
+                    To navigate larger drawings, I put in pan and zoom tools.
+                    With everything functioning, I designed the whole UI to make
+                    it user-friendly and appealing. <br></br>
+                    Finally, I added testing with Cypress and Testing Library. I conducted end-to-end
+                    tests on drawing and manipulating text, lines, rectangles,
+                    and freehand drawings to make sure everything worked
+                    smoothly. <br></br>
+                    Along the way, while building everything, I took
+                    notes on what I've learned so I don't miss out on it. I also
+                    documented the behind-the-scenes processes every time a
+                    feature was added. <br></br>
+                    This way, I understood what I've built.
+                    The funny thing is, as soon as I started to document what
+                    happened behind the scenes and the features I've added, it
+                    made me realize that we fully understand something once
+                    we've actually taken a step back, thought about it, and
+                    documented what we've done. I think this is a good practice
+                    to follow when learning something new.
                 </p>
             </div>
             <ResumeDownload />
