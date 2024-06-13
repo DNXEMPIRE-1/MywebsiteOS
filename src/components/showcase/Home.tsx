@@ -18,15 +18,15 @@ const Home: React.FC<HomeProps> = (props) => {
         <div style={styles.page}>
             <div style={styles.header}>
                 <h1 style={styles.name}>Dennis Nzioki </h1>
-                <h2>Software Engineer & UI/UX Designer</h2><br></br>
-                <h2>🎨 UI/UX Designer by day, Code Ninja by night. I don't just code; I create magic that users can see and feel. 💻 </h2>
+                <h2>Software Engineer & UI/UX Designer</h2>
+                <br></br>
+                <h2>
+                    🎨 UI/UX Designer by day, Code Ninja by night. I don't just
+                    code; I create magic that users can see and feel. 💻{' '}
+                </h2>
             </div>
             <div style={styles.buttons}>
-                <Link 
-                    containerStyle={styles.link} 
-                    to="about" 
-                    text="ABOUT" 
-                />
+                <Link containerStyle={styles.link} to="about" text="ABOUT" />
                 <Link
                     containerStyle={styles.link}
                     to="experience"
@@ -42,11 +42,14 @@ const Home: React.FC<HomeProps> = (props) => {
                     to="contact"
                     text="CONTACT"
                 />
-                <Link
-                    containerStyle={styles.link}
-                    to="quicklinks"
-                    text="QUICK LINKS"
-                />
+                <a
+                    href="https://linktr.ee/dnxempire"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={styles.link}
+                >
+                    QUICK LINKS
+                </a>
             </div>
             <div style={styles.forHireContainer} onMouseDown={goToContact}>
                 {/* <img src={forhire} alt="" /> */}
