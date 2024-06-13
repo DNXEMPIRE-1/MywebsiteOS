@@ -57,7 +57,7 @@ const Contact: React.FC<ContactProps> = (props) => {
         try {
             setIsLoading(true);
             const res = await fetch(
-                'https://api.dennisnzioki.com/api/contact',
+                'https://api.dennisnzioki.vercel.app/api/contact',
                 {
                     method: 'POST',
                     headers: {
