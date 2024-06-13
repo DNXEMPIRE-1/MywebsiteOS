@@ -145,27 +145,26 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     DevDesign-Hub is a premier online platform dedicated to
                     providing developers and designers with a wealth of
                     resources tailored to their professional needs. The site
-                    serves as a comprehensive hub where users can find: <br></br>
-                    Design Assets: High-quality graphics, UI kits, icons, fonts, and
-                    more to enhance your design projects. <br></br>
-                    Coding Libraries: A
-                    curated selection of libraries and frameworks to streamline
-                    your development process. <br></br>
-                    Project Inspiration: Case studies,
-                    portfolios, and showcases of outstanding work from the
-                    design and development community. <br></br>
-                    Educational Resources:
-                    Tutorials, articles, and guides to help you learn new skills
-                    and stay updated with industry trends. <br></br>
-                    Community Support:
-                    Forums, discussion groups, and networking opportunities to
-                    connect with like-minded professionals and collaborate on
-                    projects. <br></br>
-                    Whether you are a seasoned professional or just
-                    starting, DevDesign-Hub is your go-to resource for
-                    everything related to design and development. Join our
-                    community to access top-notch resources, stay inspired, and
-                    elevate your projects to the next level.
+                    serves as a comprehensive hub where users can find:{' '}
+                    <br></br>
+                    Design Assets: High-quality graphics, UI kits, icons, fonts,
+                    and more to enhance your design projects. <br></br>
+                    Coding Libraries: A curated selection of libraries and
+                    frameworks to streamline your development process. <br></br>
+                    Project Inspiration: Case studies, portfolios, and showcases
+                    of outstanding work from the design and development
+                    community. <br></br>
+                    Educational Resources: Tutorials, articles, and guides to
+                    help you learn new skills and stay updated with industry
+                    trends. <br></br>
+                    Community Support: Forums, discussion groups, and networking
+                    opportunities to connect with like-minded professionals and
+                    collaborate on projects. <br></br>
+                    Whether you are a seasoned professional or just starting,
+                    DevDesign-Hub is your go-to resource for everything related
+                    to design and development. Join our community to access
+                    top-notch resources, stay inspired, and elevate your
+                    projects to the next level.
                 </p>
                 <br />
                 <h3>Links:</h3>
@@ -194,23 +193,34 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     </li>
                 </ul>
                 <p>
-                    Unfortunately, the DevDesign Hub is still on development and Contributors are all welcome.✨
+                    Unfortunately, DevDesign Hub is still on development and
+                    Contributors are all welcome.✨
                 </p>
             </div>
             <div className="text-block">
-                <h2>Skip the Scroll</h2>
+                <h2>TypeRush - Get Better at Typing!</h2>
                 <br />
                 <p>
-                    While working at Hover, I spent a lot of time on GitHub
-                    issue pages looking for answers and solutions to problems I
-                    had run into. I would always find myself sifting though the
-                    comments trying to find the right answer, which usually had
-                    the most upvotes and positive reactions. With that
-                    information, I decided to create a very simple chrome
-                    extension that would sift through all the comments on the
-                    page, sort them by positive reactions, and then allow you to
-                    traverse them from most positive reactions to least positive
-                    reactions.
+                    Features<br></br>
+                    New Typing Tests Every Time: The app has lots of
+                    different texts to keep your practice interesting and
+                    challenging. <br></br>
+                    See Your Progress as You Type: You can watch
+                    your typing speed, how well you're doing, and your score
+                    update live. <br></br>
+                    Spot Your Mistakes Easily: If you type
+                    something wrong, it'll light up so you can see where you
+                    need to improve. <br></br>
+                    Caps Lock Warning: It tells you if you've
+                    accidentally left Caps Lock on to avoid errors. <br></br>
+                    Summary After Each Test: When you finish a test, you get a detailed
+                    report of your speed, score, and mistakes. <br></br>
+                    Keep Practicing: You can start new tests over and over to keep getting
+                    better. <br></br>
+                    Nice and Simple Design: The design is clean and easy
+                    to use, helping you focus on practicing. <br></br>
+                    Light and Dark Mode: Matches your system preference to make it easy on your
+                    eyes, day or night.
                 </p>
                 <br />
                 <div className="captioned-image">
@@ -224,12 +234,12 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     </p>
                 </div>
                 <p>
-                    The extension is open source and currently released on the
-                    Chrome web store. Skip the Scroll is obviously not a project
-                    with massive scope, but was fun to make and dive into the
-                    world of browser extensions. I wanted to showcase since it's
-                    a developer tool and I wanna give it some visibility for
-                    those who might find it useful.
+                    📝 How It Works <br></br>
+                    TypeRush picks a passage for you to type. As you type, it
+                    keeps track of how fast and accurate you are, and how many
+                    points you get. It shows mistakes clearly and warns you
+                    about Caps Lock. After each round, you get a full breakdown
+                    of your performance to encourage you to keep improving.
                 </p>
                 <br />
                 <h3>Links:</h3>
@@ -238,10 +248,10 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://github.com/henryjeff/skip-the-scroll"
+                            href="https://github.com/DNXEMPIRE-1/TypeRush"
                         >
                             <p>
-                                <b>[GitHub]</b> - Skip the Scroll Repository
+                                <b>[👨‍💻GitHub]</b> - TypeRush Repository
                             </p>
                         </a>
                     </li>
@@ -249,21 +259,18 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://chrome.google.com/webstore/detail/skip-the-scroll/mfehannpjmgfagldoilpngeoecdfgmnd"
+                            href="https://typerush-eight.vercel.app/"
                         >
                             <p>
-                                <b>[Chrome Web Store]</b> - Skip the Scroll
+                                <b>[🚀Live Demo]</b> - TypeRush - Get Better at
+                                Typing!
                             </p>
                         </a>
                     </li>
                 </ul>
                 <p>
-                    If you are a developer and have also found yourself
-                    scrolling through github comment after github comment saying
-                    "i also have this problem...", then I highly recommend you
-                    check out Skip the Scroll to save you some of your precious
-                    time. If you like it, feel free to star it on GitHub and
-                    rate it on the Chrome web store.
+                    TypeRush is a web app that helps you get faster and more
+                    accurate at typing.
                 </p>
             </div>
             <ResumeDownload />
