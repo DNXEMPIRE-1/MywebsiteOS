@@ -142,20 +142,29 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     </div>
                 </div>
                 <p>
-                    Guntattchment Saga was a really fun project to work on and
-                    had a multitude of challenges. An interesting challenge that
-                    you may not even notice was the rotation of objects such as
-                    the players weapon. Rotating pixel art is a very difficult
-                    thing to do because in the world of pixels you are dealing
-                    with such a little amount of information. Even a single
-                    misplaced pixel can cause a sprite to read in a totally
-                    different and unintended way. To deal with this we developed
-                    an algorithm to prioritize outlines, while rotating the
-                    insides with a simple Nearest Neighbor algorithm. Doing so
-                    resulted in a relatively readable sprite when rotating
-                    sprites. It was a surprisingly difficult challenge as it
-                    intersected both art and programming, but was fun to work on
-                    overall.
+                    DevDesign-Hub is a premier online platform dedicated to
+                    providing developers and designers with a wealth of
+                    resources tailored to their professional needs. The site
+                    serves as a comprehensive hub where users can find: 
+                    Design Assets: High-quality graphics, UI kits, icons, fonts, and
+                    more to enhance your design projects. Coding Libraries: A
+                    curated selection of libraries and frameworks to streamline
+                    your development process. <br></br>
+                    Project Inspiration: Case studies,
+                    portfolios, and showcases of outstanding work from the
+                    design and development community. <br></br>
+                    Educational Resources:
+                    Tutorials, articles, and guides to help you learn new skills
+                    and stay updated with industry trends. <br></br>
+                    Community Support:
+                    Forums, discussion groups, and networking opportunities to
+                    connect with like-minded professionals and collaborate on
+                    projects. <br></br>
+                    Whether you are a seasoned professional or just
+                    starting, DevDesign-Hub is your go-to resource for
+                    everything related to design and development. Join our
+                    community to access top-notch resources, stay inspired, and
+                    elevate your projects to the next level.
                 </p>
                 <br />
                 <h3>Links:</h3>
