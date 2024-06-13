@@ -48,7 +48,12 @@ const Home: React.FC<HomeProps> = (props) => {
                     text="CONTACT"
                 />
                 <a
-                    style={{ ...styles.link, cursor: 'pointer' }}
+                    style={{
+                        ...styles.link,
+                        cursor: 'pointer',
+                        color: 'inherit',
+                        textDecoration: 'none',
+                    }}
                     onClick={redirectToExternalLink}
                 >
                     QUICK LINKS
