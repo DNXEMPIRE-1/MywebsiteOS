@@ -145,9 +145,10 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     DevDesign-Hub is a premier online platform dedicated to
                     providing developers and designers with a wealth of
                     resources tailored to their professional needs. The site
-                    serves as a comprehensive hub where users can find: 
+                    serves as a comprehensive hub where users can find: <br></br>
                     Design Assets: High-quality graphics, UI kits, icons, fonts, and
-                    more to enhance your design projects. Coding Libraries: A
+                    more to enhance your design projects. <br></br>
+                    Coding Libraries: A
                     curated selection of libraries and frameworks to streamline
                     your development process. <br></br>
                     Project Inspiration: Case studies,
@@ -173,11 +174,10 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://github.com/scottbass47/gsts"
+                            href="https://devdesignhub.vercel.app/"
                         >
                             <p>
-                                <b>[GitHub]</b> - Guntattchment Saga The Sequel
-                                Unity Repository
+                                <b>[Site]</b> - DevDesign-Hub Site
                             </p>
                         </a>
                     </li>
@@ -185,11 +185,10 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://github.com/henryjeff/gsts_assets"
+                            href="https://github.com/DNXEMPIRE-1/DevDesign-Hub"
                         >
                             <p>
-                                <b>[GitHub]</b> - Guntattchment Saga The Sequel
-                                Assets Repository
+                                <b>[GitHub]</b> - DevDesign-Hub Repository
                             </p>
                         </a>
                     </li>
