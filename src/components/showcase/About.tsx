@@ -65,7 +65,7 @@ const About: React.FC<AboutProps> = (props) => {
                 <p>
                 In 2020, I was thrilled to be accepted into Strathmore University,
                 to study Business Information Technology. By the end of my sophomore year, 
-                I landed an internship at the startup Fujicom, where I primarily focused on frontend development. 
+                I landed an internship at the startup Fujicom, where I primarily focused on Website development. 
                 I continued working at Fujicom intermittently for about a year. 
                 As my senior year approached, I decided to explore new opportunities and shift my focus to other exciting ventures.
                 </p>
@@ -119,7 +119,7 @@ const About: React.FC<AboutProps> = (props) => {
                     Thanks for reading about me! I hope that you enjoy exploring
                     the rest of my portfolio website and everything it has to
                     offer. If you find the easter egg make sure to let me know
-                    on twitter{' '}
+                    on Instagram{' '}
                     <a
                         rel="noreferrer"
                         target="_blank"
