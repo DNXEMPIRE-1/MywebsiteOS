@@ -10,7 +10,6 @@
     "@types/node": "^16.11.26",
     "@types/react": "^17.0.40",
     "@types/react-dom": "^17.0.13",
-    "emailjs-com": "^3.2.0",
     "emulators-ui": "^0.73.1",
     "framer-motion": "^6.2.9",
     "js-dos": "^7.3.9",
