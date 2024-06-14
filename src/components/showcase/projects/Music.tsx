@@ -11,10 +11,16 @@ import dnbDrums from '../../../assets/audio/dnb_drop_drums.mp3';
 import dubstep from '../../../assets/audio/Dubstep.mp3';
 // @ts-ignore
 import africa from '../../../assets/audio/africa.mp3';
+// @ts-ignore
+import badguy from '../../../assets/audio/badguy.mp3';
+
+
 import houseProject from '../../../assets/pictures/projects/audio/houseProject.png';
 import dnbDrumsProject from '../../../assets/pictures/projects/audio/dnbDrumsProject.png';
 import dubstepProject from '../../../assets/pictures/projects/audio/dubstep.png';
 import africaProject from '../../../assets/pictures/projects/audio/africa.png';
+import badguyProject from '../../../assets/pictures/projects/audio/badguy.png';
+
 import { MusicPlayer } from '../../general';
 
 export interface MusicProjectsProps {}
@@ -214,18 +220,18 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <br />
             <br />
             <MusicPlayer
-                src={africa}
-                title="Dubstep lots of good different tunes"
+                src={badguy}
+                title="Billie Eilish- Bad Guy"
                 subtitle="Dennis Nzioki - 2019/2024"
                 currentSong={currentSong}
                 setCurrentSong={setCurrentSong}
             />
             <br />
             <div className="captioned-image">
-                <img src={africaProject} alt="" />
+                <img src={badguyProject} alt="" />
                 <p>
                     <sub>
-                        <b>Figure 2:</b> Dubstep lots of good different tunes!
+                        <b>Figure 2:</b> Billie Eilish- Bad Guy Beat with few modifications!
                     </sub>
                 </p>
             </div>
