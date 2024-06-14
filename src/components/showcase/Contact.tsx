@@ -49,7 +49,7 @@ const Contact: React.FC<ContactProps> = (props) => {
         }
     }, [email, name, message]);
 
-    async function submitForm(event) {
+    async function submitForm() {
         event.preventDefault();
         if (!isFormValid) {
           setFormMessage('Form unable to validate, please try again.');
