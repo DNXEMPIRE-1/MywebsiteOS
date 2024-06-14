@@ -49,66 +49,51 @@ const Contact: React.FC<ContactProps> = (props) => {
         }
     }, [email, name, message]);
 
-    async function submitForm() {
+    async function submitForm(event) {
+        event.preventDefault();
         if (!isFormValid) {
-            setFormMessage('Form unable to validate, please try again.');
-            setFormMessageColor('red');
-            return;
+          setFormMessage('Form unable to validate, please try again.');
+          setFormMessageColor('red');
+          return;
         }
         try {
-            setIsLoading(true);
-            const res = await fetch(
-                'https://formsubmit.co/el/bohuti',
-                {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({
-                        company,
-                        email,
-                        name,
-                        message,
-                    }),
-                }
-            );
-            // the response will be either {success: true} or {success: false, error: message}
-            const data = (await res.json()) as
-                | {
-                      success: false;
-                      error: string;
-                  }
-                | { success: true };
-            if (data.success) {
-                setFormMessage(`Message successfully sent. Thank you ${name}!`);
-                setCompany('');
-                setEmail('');
-                setName('');
-                setMessage('');
-                setFormMessageColor(colors.blue);
-                setIsLoading(false);
-            } else {
-                setFormMessage(data.error);
-                setFormMessageColor(colors.red);
-                setIsLoading(false);
-            }
-        } catch (e) {
-            setFormMessage(
-                'There was an error sending your message. Please try again.'
-            );
+          setIsLoading(true);
+          const formData = new FormData(event.target);
+          formData.append("access_key", "74b00840-f1c7-456a-beee-6b5ed6e5e746");
+      
+          const object = Object.fromEntries(formData);
+          const json = JSON.stringify(object);
+      
+          const response = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+              Accept: "application/json"
+            },
+            body: json
+          });
+          const result = await response.json();
+          if (result.success) {
+            setFormMessage(`Message successfully sent. Thank you ${object.name}!`);
+            setCompany('');
+            setEmail('');
+            setName('');
+            setMessage('');
+            setFormMessageColor(colors.blue);
+            setIsLoading(false);
+          } else {
+            setFormMessage(result.error);
             setFormMessageColor(colors.red);
             setIsLoading(false);
+          }
+        } catch (e) {
+          setFormMessage(
+            'There was an error sending your message. Please try again.'
+          );
+          setFormMessageColor(colors.red);
+          setIsLoading(false);
         }
-    }
-
-    useEffect(() => {
-        if (formMessage.length > 0) {
-            setTimeout(() => {
-                setFormMessage('');
-                setFormMessageColor('');
-            }, 4000);
-        }
-    }, [formMessage]);
+      }
 
     return (
         <div className="site-page-content">
