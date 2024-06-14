@@ -7,8 +7,11 @@ import edge from '../../../assets/audio/edge_unmastered.mp3';
 import dnb from '../../../assets/audio/break.mp3';
 // @ts-ignore
 import dnbDrums from '../../../assets/audio/dnb_drop_drums.mp3';
+// @ts-ignore
+import dubstep from '../../../assets/audio/Dubstep.mp3';
 import houseProject from '../../../assets/pictures/projects/audio/houseProject.png';
 import dnbDrumsProject from '../../../assets/pictures/projects/audio/dnbDrumsProject.png';
+import dubstepProject from '../../../assets/pictures/projects/audio/dubstep.png';
 import { MusicPlayer } from '../../general';
 
 export interface MusicProjectsProps {}
@@ -24,10 +27,9 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <div className="text-block">
                 <p>
                     Music has been a passion of mine for my whole life. When I
-                    was 15 years old, I downloaded FL Studio and started to
+                    was 20 years old, I downloaded FL Studio and started to
                     produce my own music. I found a wonderful community on
-                    reddit called r/edmproduction and in 2016 created the now
-                    popular discord server EDM Production with over 14k members.
+                    reddit called r/edmproduction.
                 </p>
                 <br />
                 <p>
@@ -48,9 +50,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <h2>Exploring house</h2>
             <br />
             <p>
-                In 2020 I went through a phase of really enjoying house. Some of
-                my favorite artists at the time were Malaa, Chirs Lake, Kyle
-                Walker and many more. Inspired, I decided to take a stab at
+                In 2017- now I went through a phase of really enjoying house. Inspired, I decided to take a stab at
                 making some house tracks.
             </p>
             <br />
@@ -64,7 +64,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <MusicPlayer
                 src={house}
                 title="Timeless"
-                subtitle="Dennis Nzioki - 2024"
+                subtitle="Dennis Nzioki - 2020"
                 currentSong={currentSong}
                 setCurrentSong={setCurrentSong}
             />
@@ -92,10 +92,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <br />
             <p>
                 After making this track around fall 2020, my interest for house
-                overall was tapering off. Around this time I was starting to go
-                to the gym more consistently and ended up listening to a lot
-                more hard bass music, specifically drum & bass, mid tempo and of
-                course dubstep.
+                overall was tapering off.
             </p>
             <br />
             <h2>Mid-Tempo?</h2>
@@ -141,7 +138,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <br />
             <p>
                 The track below is a snip-it from a DnB track I started work on
-                back in 2019. I recently decided to pick it up again and work on
+                back in 2021. I recently decided to pick it up again and work on
                 it more because I loved the idea, bassline and especially the
                 drums. Below is a short demo of the track including a small
                 buildup and drop.
@@ -156,10 +153,8 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             />
             <br />
             <p>
-                Like I said, I decided to come back to this track because I
-                absolutely loved so much about it. When I picked up work on it
-                again I decided to totally remix the drums and I'm super proud
-                with how they turned out. So proud in fact, I wanted to show
+                When I picked up work on it again I decided to totally remix the drums 
+                and I'm super proud with how they turned out. So proud in fact, I wanted to show
                 them off some more on their own! Below are the drums in the
                 above track, but isolated. I have also included the sub bass
                 because it is drum and bass after all!
@@ -194,6 +189,25 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
                 parallel compression on drums in DnB can be an absolute life
                 saver to keep the drums controlled but still hard hitting.
             </p>
+            <br />
+            <h2> More Projects</h2>
+            <br />
+            <MusicPlayer
+                src={dubstep}
+                title="Dubstep lots of good different tunes"
+                subtitle="Dennis Nzioki - 2019/2024"
+                currentSong={currentSong}
+                setCurrentSong={setCurrentSong}
+            />
+            <br />
+            <div className="captioned-image">
+                <img src={dubstepProject} alt="" />
+                <p>
+                    <sub>
+                        <b>Figure 2:</b> Dubstep lots of good different tunes!
+                    </sub>
+                </p>
+            </div>
             <br />
             <h2>The Future of my music</h2>
             <br />
