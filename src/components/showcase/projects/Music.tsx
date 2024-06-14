@@ -203,6 +203,24 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <br />
             <MusicPlayer
                 src={dubstep}
+                title="Dubstep lots of good different tunes"
+                subtitle="Dennis Nzioki - 2019/2024"
+                currentSong={currentSong}
+                setCurrentSong={setCurrentSong}
+            />
+            <br />
+            <div className="captioned-image">
+                <img src={dubstepProject} alt="" />
+                <p>
+                    <sub>
+                        <b>Figure 2:</b> Dubstep lots of good different tunes!
+                    </sub>
+                </p>
+            </div>
+            <br />
+            <br />
+            <MusicPlayer
+                src={dubstep}
                 title="african beat remix"
                 subtitle="Dennis Nzioki - 2019/2024"
                 currentSong={currentSong}
@@ -235,7 +253,8 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
                     </sub>
                 </p>
             </div>
-            <br /><br />
+            <br />
+            <br />
             <MusicPlayer
                 src={dubstep}
                 title="Dubstep lots of good different tunes"
