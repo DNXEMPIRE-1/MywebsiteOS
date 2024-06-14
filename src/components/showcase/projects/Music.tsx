@@ -9,9 +9,12 @@ import dnb from '../../../assets/audio/break.mp3';
 import dnbDrums from '../../../assets/audio/dnb_drop_drums.mp3';
 // @ts-ignore
 import dubstep from '../../../assets/audio/Dubstep.mp3';
+// @ts-ignore
+import africa from '../../../assets/audio/africa.mp3';
 import houseProject from '../../../assets/pictures/projects/audio/houseProject.png';
 import dnbDrumsProject from '../../../assets/pictures/projects/audio/dnbDrumsProject.png';
 import dubstepProject from '../../../assets/pictures/projects/audio/dubstep.png';
+import africaProject from '../../../assets/pictures/projects/audio/africa.png';
 import { MusicPlayer } from '../../general';
 
 export interface MusicProjectsProps {}
@@ -192,6 +195,109 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <br />
             <h2> More Projects</h2>
             <br />
+            <MusicPlayer
+                src={dubstep}
+                title="african beat remix"
+                subtitle="Dennis Nzioki - 2019/2024"
+                currentSong={currentSong}
+                setCurrentSong={setCurrentSong}
+            />
+            <br />
+            <div className="captioned-image">
+                <img src={dubstepProject} alt="" />
+                <p>
+                    <sub>
+                        <b>Figure 2:</b> african beat remix tunes!
+                    </sub>
+                </p>
+            </div>
+            <br />
+            <br />
+            <MusicPlayer
+                src={africa}
+                title="Dubstep lots of good different tunes"
+                subtitle="Dennis Nzioki - 2019/2024"
+                currentSong={currentSong}
+                setCurrentSong={setCurrentSong}
+            />
+            <br />
+            <div className="captioned-image">
+                <img src={africaProject} alt="" />
+                <p>
+                    <sub>
+                        <b>Figure 2:</b> Dubstep lots of good different tunes!
+                    </sub>
+                </p>
+            </div>
+            <br /><br />
+            <MusicPlayer
+                src={dubstep}
+                title="Dubstep lots of good different tunes"
+                subtitle="Dennis Nzioki - 2019/2024"
+                currentSong={currentSong}
+                setCurrentSong={setCurrentSong}
+            />
+            <br />
+            <div className="captioned-image">
+                <img src={dubstepProject} alt="" />
+                <p>
+                    <sub>
+                        <b>Figure 2:</b> Dubstep lots of good different tunes!
+                    </sub>
+                </p>
+            </div>
+            <br /><br />
+            <MusicPlayer
+                src={dubstep}
+                title="Dubstep lots of good different tunes"
+                subtitle="Dennis Nzioki - 2019/2024"
+                currentSong={currentSong}
+                setCurrentSong={setCurrentSong}
+            />
+            <br />
+            <div className="captioned-image">
+                <img src={dubstepProject} alt="" />
+                <p>
+                    <sub>
+                        <b>Figure 2:</b> Dubstep lots of good different tunes!
+                    </sub>
+                </p>
+            </div>
+            <br /><br />
+            <MusicPlayer
+                src={dubstep}
+                title="Dubstep lots of good different tunes"
+                subtitle="Dennis Nzioki - 2019/2024"
+                currentSong={currentSong}
+                setCurrentSong={setCurrentSong}
+            />
+            <br />
+            <div className="captioned-image">
+                <img src={dubstepProject} alt="" />
+                <p>
+                    <sub>
+                        <b>Figure 2:</b> Dubstep lots of good different tunes!
+                    </sub>
+                </p>
+            </div>
+            <br /><br />
+            <MusicPlayer
+                src={dubstep}
+                title="Dubstep lots of good different tunes"
+                subtitle="Dennis Nzioki - 2019/2024"
+                currentSong={currentSong}
+                setCurrentSong={setCurrentSong}
+            />
+            <br />
+            <div className="captioned-image">
+                <img src={dubstepProject} alt="" />
+                <p>
+                    <sub>
+                        <b>Figure 2:</b> Dubstep lots of good different tunes!
+                    </sub>
+                </p>
+            </div>
+            <br /><br />
             <MusicPlayer
                 src={dubstep}
                 title="Dubstep lots of good different tunes"
