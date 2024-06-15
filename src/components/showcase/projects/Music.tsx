@@ -256,89 +256,49 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <br />
             <br />
             <MusicPlayer
-                src={dubstep}
-                title="Dubstep lots of good different tunes"
+                src={future}
+                title="Future House(stock plugins)"
                 subtitle="Dennis Nzioki - 2019/2024"
                 currentSong={currentSong}
                 setCurrentSong={setCurrentSong}
             />
             <br />
-            <div className="captioned-image">
-                <img src={dubstepProject} alt="" />
-                <p>
-                    <sub>
-                        <b>Figure 2:</b> Dubstep lots of good different tunes!
-                    </sub>
-                </p>
-            </div>
-            <br /><br />
+            
+            <br />
+            <br />
             <MusicPlayer
-                src={dubstep}
-                title="Dubstep lots of good different tunes"
+                src={trap}
+                title="DARK TRAP BEAT 2 !! ALL STOCK SOUNDS !!"
                 subtitle="Dennis Nzioki - 2019/2024"
                 currentSong={currentSong}
                 setCurrentSong={setCurrentSong}
             />
             <br />
-            <div className="captioned-image">
-                <img src={dubstepProject} alt="" />
-                <p>
-                    <sub>
-                        <b>Figure 2:</b> Dubstep lots of good different tunes!
-                    </sub>
-                </p>
-            </div>
-            <br /><br />
+            
+            <br />
+            <br />
             <MusicPlayer
-                src={dubstep}
-                title="Dubstep lots of good different tunes"
+                src={vybz}
+                title="vybz kartel hi lmms remake"
                 subtitle="Dennis Nzioki - 2019/2024"
                 currentSong={currentSong}
                 setCurrentSong={setCurrentSong}
             />
             <br />
-            <div className="captioned-image">
-                <img src={dubstepProject} alt="" />
-                <p>
-                    <sub>
-                        <b>Figure 2:</b> Dubstep lots of good different tunes!
-                    </sub>
-                </p>
-            </div>
-            <br /><br />
+            
+            <br />
+            <br />
             <MusicPlayer
-                src={dubstep}
-                title="Dubstep lots of good different tunes"
+                src={sample}
+                title="Dubstep with soundcloud sample"
                 subtitle="Dennis Nzioki - 2019/2024"
                 currentSong={currentSong}
                 setCurrentSong={setCurrentSong}
             />
             <br />
-            <div className="captioned-image">
-                <img src={dubstepProject} alt="" />
-                <p>
-                    <sub>
-                        <b>Figure 2:</b> Dubstep lots of good different tunes!
-                    </sub>
-                </p>
-            </div>
-            <br /><br />
-            <MusicPlayer
-                src={dubstep}
-                title="Dubstep lots of good different tunes"
-                subtitle="Dennis Nzioki - 2019/2024"
-                currentSong={currentSong}
-                setCurrentSong={setCurrentSong}
-            />
+            
             <br />
-            <div className="captioned-image">
-                <img src={dubstepProject} alt="" />
-                <p>
-                    <sub>
-                        <b>Figure 2:</b> Dubstep lots of good different tunes!
-                    </sub>
-                </p>
-            </div>
+            
             <br />
             <h2>The Future of my music</h2>
             <br />
