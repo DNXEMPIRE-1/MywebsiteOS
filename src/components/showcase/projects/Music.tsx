@@ -210,6 +210,15 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <h2> More Projects</h2>
             <br />
             <MusicPlayer
+                src={sample}
+                title="Dubstep with soundcloud sample"
+                subtitle="Dennis Nzioki - 2019/2024"
+                currentSong={currentSong}
+                setCurrentSong={setCurrentSong}
+            />
+            
+            <br />
+            <MusicPlayer
                 src={dubstep}
                 title="Dubstep lots of good different tunes"
                 subtitle="Dennis Nzioki - 2019/2024"
@@ -262,7 +271,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
                 </p>
             </div>
             <br />
-            <br />
+           
             <MusicPlayer
                 src={future}
                 title="Future House(stock plugins)"
@@ -272,8 +281,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             />
             <br />
             
-            <br />
-            <br />
+    
             <MusicPlayer
                 src={trap}
                 title="DARK TRAP BEAT !! ALL STOCK SOUNDS !!"
@@ -281,9 +289,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
                 currentSong={currentSong}
                 setCurrentSong={setCurrentSong}
             />
-            <br />
             
-            <br />
             <br />
             <MusicPlayer
                 src={vybz}
@@ -292,20 +298,8 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
                 currentSong={currentSong}
                 setCurrentSong={setCurrentSong}
             />
-            <br />
             
-            <br />
-            <br />
-            <MusicPlayer
-                src={sample}
-                title="Dubstep with soundcloud sample"
-                subtitle="Dennis Nzioki - 2019/2024"
-                currentSong={currentSong}
-                setCurrentSong={setCurrentSong}
-            />
-            <br />
             
-            <br />
             
             <br />
             <h2>The Future of my music</h2>
