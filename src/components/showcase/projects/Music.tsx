@@ -276,7 +276,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <br />
             <MusicPlayer
                 src={trap}
-                title="DARK TRAP BEAT 2 !! ALL STOCK SOUNDS !!"
+                title="DARK TRAP BEAT !! ALL STOCK SOUNDS !!"
                 subtitle="Dennis Nzioki - 2019/2024"
                 currentSong={currentSong}
                 setCurrentSong={setCurrentSong}
