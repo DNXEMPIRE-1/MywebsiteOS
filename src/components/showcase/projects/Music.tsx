@@ -22,7 +22,6 @@ import vybz from '../../../assets/audio/vybz.mp3';
 // @ts-ignore
 import trap from '../../../assets/audio/trap.mp3';
 
-
 import houseProject from '../../../assets/pictures/projects/audio/houseProject.png';
 import dnbDrumsProject from '../../../assets/pictures/projects/audio/dnbDrumsProject.png';
 import dubstepProject from '../../../assets/pictures/projects/audio/dubstep.png';
@@ -44,9 +43,10 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <div className="text-block">
                 <p>
                     Music has been a passion of mine for my whole life. When I
-                    was 20 years old, I downloaded FL Studio and started to
-                    produce my own music. I found a wonderful community on
-                    reddit called r/edmproduction.
+                    was 19 years old, I downloaded FL Studio and started to
+                    playing around creating beats and music. I found a wonderful
+                    community on reddit called r/edmproduction and few others on
+                    discord.
                 </p>
                 <br />
                 <p>
@@ -67,8 +67,9 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <h2>Exploring house</h2>
             <br />
             <p>
-                In 2017 to now I went through a phase of really enjoying house, pop and EDM. Inspired, I decided to take a stab at
-                making some house tracks.
+                From 2015 to now I went through a phase of really enjoying
+                house, pop and EDM. Inspired, I decided to take a stab at making
+                some house tracks.
             </p>
             <br />
             <p>
@@ -81,7 +82,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <MusicPlayer
                 src={house}
                 title="Timeless"
-                subtitle="Dennis Nzioki - 2020"
+                subtitle="Dennis Nzioki - 2019-2021"
                 currentSong={currentSong}
                 setCurrentSong={setCurrentSong}
             />
@@ -126,7 +127,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <MusicPlayer
                 src={edge}
                 title="Edge [W.I.P.]"
-                subtitle="Dennis Nzioki - 2024"
+                subtitle="Dennis Nzioki - 2020-2024"
                 currentSong={currentSong}
                 setCurrentSong={setCurrentSong}
             />
@@ -164,23 +165,23 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <MusicPlayer
                 src={dnb}
                 title="Break [Demo]"
-                subtitle="Dennis Nzioki - 2019/2024"
+                subtitle="Dennis Nzioki - 2019-2024"
                 currentSong={currentSong}
                 setCurrentSong={setCurrentSong}
             />
             <br />
             <p>
-                When I picked up work on it again I decided to totally remix the drums 
-                and I'm super proud with how they turned out. So proud in fact, I wanted to show
-                them off some more on their own! Below are the drums in the
-                above track, but isolated. I have also included the sub bass
-                because it is drum and bass after all!
+                When I picked up work on it again I decided to totally remix the
+                drums and I'm super proud with how they turned out. So proud in
+                fact, I wanted to show them off some more on their own! Below
+                are the drums in the above track, but isolated. I have also
+                included the sub bass because it is drum and bass after all!
             </p>
             <br />
             <MusicPlayer
                 src={dnbDrums}
                 title="Break [Drums and Sub]"
-                subtitle="Dennis Nzioki - 2019/2024"
+                subtitle="Dennis Nzioki - 2019-2024"
                 currentSong={currentSong}
                 setCurrentSong={setCurrentSong}
             />
@@ -212,16 +213,16 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <MusicPlayer
                 src={sample}
                 title="Dubstep sample"
-                subtitle="Dennis Nzioki - 2019/2024"
+                subtitle="Dennis Nzioki - 2019-2024"
                 currentSong={currentSong}
                 setCurrentSong={setCurrentSong}
             />
-            
+
             <br />
             <MusicPlayer
                 src={dubstep}
                 title="Dubstep lots of good different tunes"
-                subtitle="Dennis Nzioki - 2019/2024"
+                subtitle="Dennis Nzioki - 2019-2024"
                 currentSong={currentSong}
                 setCurrentSong={setCurrentSong}
             />
@@ -239,7 +240,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <MusicPlayer
                 src={dubstep}
                 title="african beat remix"
-                subtitle="Dennis Nzioki - 2019/2024"
+                subtitle="Dennis Nzioki - 2019-2024"
                 currentSong={currentSong}
                 setCurrentSong={setCurrentSong}
             />
@@ -257,7 +258,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <MusicPlayer
                 src={badguy}
                 title="Billie Eilish- Bad Guy"
-                subtitle="Dennis Nzioki - 2019/2024"
+                subtitle="Dennis Nzioki - 2019-2024"
                 currentSong={currentSong}
                 setCurrentSong={setCurrentSong}
             />
@@ -266,41 +267,39 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
                 <img src={badguyProject} alt="" />
                 <p>
                     <sub>
-                        <b>Figure 2:</b> Billie Eilish- Bad Guy Beat with few modifications!
+                        <b>Figure 2:</b> Billie Eilish- Bad Guy Beat with few
+                        modifications!
                     </sub>
                 </p>
             </div>
             <br />
-           
+
             <MusicPlayer
                 src={future}
                 title="Future House(stock plugins)"
-                subtitle="Dennis Nzioki - 2019/2024"
+                subtitle="Dennis Nzioki - 2019-2024"
                 currentSong={currentSong}
                 setCurrentSong={setCurrentSong}
             />
             <br />
-            
-    
+
             <MusicPlayer
                 src={trap}
                 title="DARK TRAP BEAT !! ALL STOCK SOUNDS !!"
-                subtitle="Dennis Nzioki - 2019/2024"
+                subtitle="Dennis Nzioki - 2019-2024"
                 currentSong={currentSong}
                 setCurrentSong={setCurrentSong}
             />
-            
+
             <br />
             <MusicPlayer
                 src={vybz}
                 title="vybz kartel hi lmms remake"
-                subtitle="Dennis Nzioki - 2019/2024"
+                subtitle="Dennis Nzioki - 2019-2024"
                 currentSong={currentSong}
                 setCurrentSong={setCurrentSong}
             />
-            
-            
-            
+
             <br />
             <h2>The Future of my music</h2>
             <br />
@@ -315,10 +314,9 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <p>
                 I am aware this section of my portfolio is rather short, but
                 it's because I am very selective with what I want to show off to
-                the world. I only
-                recently have been feeling very content with the stuff I've made
-                and I'm very excited to see what I can do for the future. Thanks
-                for listening I hope you enjoyed!
+                the world. I only recently have been feeling very content with
+                the stuff I've made and I'm very excited to see what I can do
+                for the future. Thanks for listening I hope you enjoyed!
             </p>
             <br />
         </div>
