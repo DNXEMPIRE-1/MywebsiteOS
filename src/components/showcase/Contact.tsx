@@ -58,7 +58,7 @@ const Contact: React.FC<ContactProps> = (props) => {
         try {
             setIsLoading(true);
             const res = await fetch(
-                'https://api.web3forms.com/submit',
+                '',
                 {
                     method: 'POST',
                     headers: {
