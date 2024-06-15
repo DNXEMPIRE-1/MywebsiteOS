@@ -67,7 +67,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <h2>Exploring house</h2>
             <br />
             <p>
-                In 2017- now I went through a phase of really enjoying house. Inspired, I decided to take a stab at
+                In 2017 to now I went through a phase of really enjoying house, pop and EDM. Inspired, I decided to take a stab at
                 making some house tracks.
             </p>
             <br />
