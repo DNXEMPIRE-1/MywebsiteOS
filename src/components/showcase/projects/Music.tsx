@@ -13,6 +13,14 @@ import dubstep from '../../../assets/audio/Dubstep.mp3';
 import africa from '../../../assets/audio/africa.mp3';
 // @ts-ignore
 import badguy from '../../../assets/audio/badguy.mp3';
+// @ts-ignore
+import future from '../../../assets/audio/future.mp3';
+// @ts-ignore
+import sample from '../../../assets/audio/sample.mp3';
+// @ts-ignore
+import vybz from '../../../assets/audio/vybz.mp3';
+// @ts-ignore
+import trap from '../../../assets/audio/trap.mp3';
 
 
 import houseProject from '../../../assets/pictures/projects/audio/houseProject.png';
