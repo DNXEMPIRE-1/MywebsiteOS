@@ -305,7 +305,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <h2>The Future of my music</h2>
             <br />
             <p>
-                I love to make music and will continue to make music as long as
+                I enjoy making music and will continue to make music as long as
                 I can. I think soon enough I will be releasing music publicly
                 since I feel like my personal style has slowly developed into
                 something I am proud of over these last few years. I also want
@@ -315,8 +315,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <p>
                 I am aware this section of my portfolio is rather short, but
                 it's because I am very selective with what I want to show off to
-                the world. I've been producing for over 6 years and have made
-                hundreds maybe even a thousand tracks/loops in that time. I only
+                the world. I only
                 recently have been feeling very content with the stuff I've made
                 and I'm very excited to see what I can do for the future. Thanks
                 for listening I hope you enjoyed!
