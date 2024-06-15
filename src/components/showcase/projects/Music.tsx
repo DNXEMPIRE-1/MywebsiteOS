@@ -211,7 +211,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <br />
             <MusicPlayer
                 src={sample}
-                title="Dubstep with soundcloud sample"
+                title="Dubstep sample"
                 subtitle="Dennis Nzioki - 2019/2024"
                 currentSong={currentSong}
                 setCurrentSong={setCurrentSong}
