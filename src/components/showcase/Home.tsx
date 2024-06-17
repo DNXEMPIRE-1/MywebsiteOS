@@ -55,16 +55,6 @@ const Home: React.FC<HomeProps> = (props) => {
                 >
                     <b>🔗 Quick Links 📌</b> 
                 </a>
-                
-                        <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href="https://linktr.ee/dnxempire"
-                        >
-                            
-                                <b>🔗 Quick Links 📌</b>
-                            
-                        </a>
                     
             </div>
             <div style={styles.forHireContainer} onMouseDown={goToContact}>
