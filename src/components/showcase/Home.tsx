@@ -55,7 +55,7 @@ const Home: React.FC<HomeProps> = (props) => {
                 >
                      🔗 Quick Links 📌
                 </a>
-                <li>
+                
                         <a
                             rel="noreferrer"
                             target="_blank"
@@ -65,7 +65,7 @@ const Home: React.FC<HomeProps> = (props) => {
                                 <b>🔗 Quick Links 📌</b>
                             </p>
                         </a>
-                    </li>
+                    
             </div>
             <div style={styles.forHireContainer} onMouseDown={goToContact}>
                 {/* <img src={forhire} alt="" /> */}
