@@ -29,7 +29,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
             </div>
             <div className="text-block">
                 <h2>🌟 Furniture eCommerce Website UI 🌟</h2>
-                
+
                 <p>
                     Explore a sleek and modern web page design, featuring a
                     user-friendly interface and high-quality product images. The
@@ -85,7 +85,8 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                         <img src={ecobazar} alt="" />
                         <p>
                             <sub>
-                                <b>Figure 1:</b> Shop sustainably and stylishly with Ecobazar! 🍃🛒📱
+                                <b>Figure 1:</b> Shop sustainably and stylishly
+                                with Ecobazar! 🍃🛒📱
                             </sub>
                         </p>
                     </div>
@@ -98,44 +99,45 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                                 href="https://www.figma.com/community/file/1348512198352618529/ecobazar-organic-ecommerce-shop-website"
                             >
                                 <p>
-                                    <b>File</b> - Welcome to my Ecobazar - Organic eCommerce Shop Website
+                                    <b>File</b> - Welcome to Ecobazar, your go-to destination for all
+                                    things organic!
                                 </p>
                             </a>
                         </li>
                     </ul>
                     <div className="text-block">
-                    <h2>🌿 Ecobazar - Organic eCommerce Shop Website 🌿</h2>
-                    <p>
-                        Welcome to Ecobazar, your go-to destination for all
-                        things organic! Dive into a clean, eco-friendly web page
-                        design featuring a seamless user experience and vibrant
-                        product images. The intuitive UI KIT guarantees a
-                        harmonious and cohesive look, perfect for showcasing
-                        your favorite organic products.
-                    </p>
-                    <div className="captioned-image">
-                        <img src={ecobazar} alt="" />
+                        <h2>🗂️ Task Management Dashboard 🗂️</h2>
                         <p>
-                            <sub>
-                                <b>Figure 1:</b> Shop sustainably and stylishly with Ecobazar! 🍃🛒📱
-                            </sub>
+                            Welcome to your ultimate Task Management Dashboard,
+                            designed for efficiency and productivity! Experience
+                            a sleek, modern interface with intuitive navigation
+                            and real-time updates. The customizable UI KIT
+                            provides a cohesive and functional design, perfect
+                            for managing your tasks seamlessly.
                         </p>
-                    </div>
-                    <h3>File Link:</h3>
-                    <br />
-                    <ul>
-                        <li>
-                            <a
-                                rel="noreferrer"
-                                target="_blank"
-                                href="https://www.figma.com/community/file/1348512198352618529/ecobazar-organic-ecommerce-shop-website"
-                            >
-                                <p>
-                                    <b>File</b> - Welcome to my Ecobazar - Organic eCommerce Shop Website
-                                </p>
-                            </a>
-                        </li>
-                    </ul>
+                        <div className="captioned-image">
+                            <img src={task} alt="" />
+                            <p>
+                                <sub>
+                                    <b>Figure 1:</b> Stay organized and on top of your tasks with ease! 📋✅📱
+                                </sub>
+                            </p>
+                        </div>
+                        <h3>File Link:</h3>
+                        <br />
+                        <ul>
+                            <li>
+                                <a
+                                    rel="noreferrer"
+                                    target="_blank"
+                                    href="https://www.figma.com/community/file/1375949888965696148/task-management-dashboard"
+                                >
+                                    <p>
+                                        <b>File</b> - Welcome to your ultimate Task Management Dashboard
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
