@@ -61,35 +61,10 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://www.youtube.com/watch?v=pDtUX3ZVHJ0"
+                            href="https://www.figma.com/community/file/1331381641303792117/furniture-ecommerce-website-ui"
                         >
                             <p>
-                                <b>VIDEO</b> - Pixel Art Walk Cycle Time-lapse
-                                and Tutorial
-                            </p>
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href="https://www.youtube.com/watch?v=xXEDKQ3wSfM"
-                        >
-                            <p>
-                                <b>VIDEO</b> - Pixel Art "Bag Up" Animation
-                                Time-lapse
-                            </p>
-                        </a>
-                    </li>
-                    <li>
-                        <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href="https://www.youtube.com/watch?v=leZzb-Y0SKQ"
-                        >
-                            <p>
-                                <b>VIDEO</b> - Pixel Art Bipedal Creature Run
-                                Cycle Time-lapse
+                                <b>File</b> - Welcome to my Furniture eCommerce Website!
                             </p>
                         </a>
                     </li>
