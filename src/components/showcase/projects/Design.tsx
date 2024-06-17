@@ -1,6 +1,8 @@
 import React from 'react';
 
 import furniture from '../../../assets/pictures/projects/design/furniture.png';
+import ecobazar from '../../../assets/pictures/projects/design/ecobazar.png';
+
 import gsts from '../../../assets/pictures/projects/art/gsts.png';
 
 export interface DesignProjectsProps {}
@@ -85,7 +87,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                     </p>
                     <br />
                     <div className="captioned-image">
-                        <img src={furniture} alt="" />
+                        <img src={ecobazar} alt="" />
                         <p>
                             <sub>
                                 <b>Figure 1:</b> Shop sustainably and stylishly with Ecobazar! 🍃🛒📱
