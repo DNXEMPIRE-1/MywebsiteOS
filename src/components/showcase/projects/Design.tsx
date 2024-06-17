@@ -143,7 +143,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                         </ul>
                     </div>
                     <div className="text-block">
-                        <h2>🗂️ Task Management Dashboard 🗂️</h2>
+                        <h2>👜 Prada - E-commerce Website and Mobile App 👜</h2>
                         <p>
                             Welcome to your ultimate Task Management Dashboard,
                             designed for efficiency and productivity! Experience
