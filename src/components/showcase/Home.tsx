@@ -43,29 +43,14 @@ const Home: React.FC<HomeProps> = (props) => {
                     text="CONTACT"
                 />
                 <a
-                    href="https://linktr.ee/dnxempire"
+                    rel="noreferrer"
                     target="_blank"
-                    rel="noopener noreferrer"
-                    style={{
-                        ...styles.link,
-                        fontWeight: 'bolder',
-                        fontFamily: 'Futura Pro Black',
-                        fontSize: '16px',
-                    }}
+                    href="https://linktr.ee/dnxempire"
                 >
-                    <b>🔗 Quick Links 📌</b> 
+                    <p>
+                        <b>🔗 Quick Links 📌</b>
+                    </p>
                 </a>
-                
-                        <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href="https://linktr.ee/dnxempire"
-                        >
-                            <p>
-                                <b>🔗 Quick Links 📌</b>
-                            </p>
-                        </a>
-                    
             </div>
             <div style={styles.forHireContainer} onMouseDown={goToContact}>
                 {/* <img src={forhire} alt="" /> */}
