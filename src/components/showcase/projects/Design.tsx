@@ -1,6 +1,6 @@
 import React from 'react';
 
-import girlRun from '../../../assets/pictures/projects/art/girl-run.gif';
+import furniture from '../../../assets/pictures/projects/design/furniture.png';
 import gsts from '../../../assets/pictures/projects/art/gsts.png';
 
 export interface DesignProjectsProps {}
@@ -20,40 +20,41 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                 <br />
                 <p>
                     Here are a few projects/things I've done over the years to
-                    keep the Design side of me alive and grow my UI/UX career. I'm always looking to
-                    push myself creatively and learn new things.
+                    keep the Design side of me alive and grow my UI/UX career.
+                    I'm always looking to push myself creatively and learn new
+                    things.
                 </p>
             </div>
             <div className="text-block">
-                <h2>Pixel Art and Animation</h2>
+                <h2>🌟 Furniture eCommerce Website UI 🌟</h2>
                 <br />
                 <p>
-                    In high school, I started learning how to draw and animate
-                    pixel art after becoming interested in video game
-                    development. As I worked on making games over the years, I
-                    learned so much about pixel art and fell in love with
-                    animation.
+                    Explore a sleek and modern web page design, featuring a
+                    user-friendly interface and high-quality product images. The
+                    customizable UI KIT ensures a consistent and beautiful
+                    design across the site, making it easy to integrate with
+                    your favorite design tools.
                 </p>
                 <br />
                 <div className="captioned-image">
-                    <img src={girlRun} alt="" />
+                    <img src={furniture} alt="" />
                     <p>
                         <sub>
-                            <b>Figure 1:</b> Eight Frame Run cycle animated by
-                            myself, original sprite by kevink
+                            <b>Figure 1:</b> 🌟 Welcome to my Furniture eCommerce Website! 🌟
                         </sub>
                     </p>
                 </div>
                 <p>
-                    I really started enjoying the work I was doing, and felt I
-                    was improving a lot. Around 2017, I started to upload videos
-                    of my work flow and animation process to YouTube just for
-                    fun. I was really surprised however when my first video took
-                    off and got a few thousand views! Below are the video links
-                    to the work I uploaded to youtube.
+                    The Interior Landing Page offers stunning visuals and
+                    layouts, with prominent call-to-action buttons and
+                    feature-rich product showcases. Enjoy a full-page experience
+                    with a responsive design that works seamlessly on all
+                    devices, fast loading times, and an intuitive, accessible
+                    interface. Enhance your online furniture shopping with style
+                    and efficiency! 🛋️🛒📱
                 </p>
                 <br />
-                <h3>Video Links:</h3>
+                <h3>File Link:</h3>
                 <br />
                 <ul>
                     <li>
