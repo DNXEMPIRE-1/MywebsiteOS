@@ -69,9 +69,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                         </a>
                     </li>
                 </ul>
-                <br />
                 
-            </div>
             <div className="text-block">
                 <h2>🌟 Furniture eCommerce Website UI 🌟</h2>
                 <br />
@@ -118,6 +116,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                 </ul>
                 <br />
                 
+            </div>
             </div>
         </div>
     );
