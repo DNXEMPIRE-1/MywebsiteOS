@@ -29,7 +29,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
             </div>
             <div className="text-block">
                 <h2>🌟 Furniture eCommerce Website UI 🌟</h2>
-                <br />
+                
                 <p>
                     Explore a sleek and modern web page design, featuring a
                     user-friendly interface and high-quality product images. The
@@ -37,7 +37,6 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                     design across the site, making it easy to integrate with
                     your favorite design tools.
                 </p>
-                <br />
                 <div className="captioned-image">
                     <img src={furniture} alt="" />
                     <p>
@@ -56,9 +55,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                     interface. Enhance your online furniture shopping with style
                     and efficiency! 🛋️🛒📱
                 </p>
-                <br />
                 <h3>File Link:</h3>
-                <br />
                 <ul>
                     <li>
                         <a
@@ -76,7 +73,6 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
 
                 <div className="text-block">
                     <h2>🌿 Ecobazar - Organic eCommerce Shop Website 🌿</h2>
-                    <br />
                     <p>
                         Welcome to Ecobazar, your go-to destination for all
                         things organic! Dive into a clean, eco-friendly web page
@@ -85,7 +81,6 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                         harmonious and cohesive look, perfect for showcasing
                         your favorite organic products.
                     </p>
-                    <br />
                     <div className="captioned-image">
                         <img src={ecobazar} alt="" />
                         <p>
@@ -94,7 +89,38 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                             </sub>
                         </p>
                     </div>
-                    <br />
+                    <h3>File Link:</h3>
+                    <ul>
+                        <li>
+                            <a
+                                rel="noreferrer"
+                                target="_blank"
+                                href="https://www.figma.com/community/file/1348512198352618529/ecobazar-organic-ecommerce-shop-website"
+                            >
+                                <p>
+                                    <b>File</b> - Welcome to my Ecobazar - Organic eCommerce Shop Website
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                    <div className="text-block">
+                    <h2>🌿 Ecobazar - Organic eCommerce Shop Website 🌿</h2>
+                    <p>
+                        Welcome to Ecobazar, your go-to destination for all
+                        things organic! Dive into a clean, eco-friendly web page
+                        design featuring a seamless user experience and vibrant
+                        product images. The intuitive UI KIT guarantees a
+                        harmonious and cohesive look, perfect for showcasing
+                        your favorite organic products.
+                    </p>
+                    <div className="captioned-image">
+                        <img src={ecobazar} alt="" />
+                        <p>
+                            <sub>
+                                <b>Figure 1:</b> Shop sustainably and stylishly with Ecobazar! 🍃🛒📱
+                            </sub>
+                        </p>
+                    </div>
                     <h3>File Link:</h3>
                     <br />
                     <ul>
@@ -110,7 +136,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                             </a>
                         </li>
                     </ul>
-                    <br />
+                    </div>
                 </div>
             </div>
         </div>
