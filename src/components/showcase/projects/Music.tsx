@@ -10,8 +10,6 @@ import dnbDrums from '../../../assets/audio/dnb_drop_drums.mp3';
 // @ts-ignore
 import dubstep from '../../../assets/audio/Dubstep.mp3';
 // @ts-ignore
-import africa from '../../../assets/audio/africa.mp3';
-// @ts-ignore
 import badguy from '../../../assets/audio/badguy.mp3';
 // @ts-ignore
 import future from '../../../assets/audio/future.mp3';
