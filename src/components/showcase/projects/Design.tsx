@@ -172,8 +172,8 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                             href="https://www.figma.com/community/file/1375949888965696148/task-management-dashboard"
                         >
                             <p>
-                                <b>File</b> - Welcome to your ultimate Task
-                                Management Dashboard
+                                <b>File</b> - Welcome to the Prada e-commerce experience, where luxury
+                                meets technology
                             </p>
                         </a>
                     </li>
