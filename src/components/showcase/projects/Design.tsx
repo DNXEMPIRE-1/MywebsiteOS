@@ -179,6 +179,41 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                     </li>
                 </ul>
             </div>
+            <div className="text-block">
+                <h2>👜 Prada - E-commerce Website and Mobile App 👜</h2>
+                <p>
+                    Welcome to the Prada e-commerce experience, where luxury
+                    meets technology. Explore our sophisticated website and
+                    mobile app, designed to offer a seamless and elegant
+                    shopping journey. With a sleek and intuitive interface, you
+                    can effortlessly browse our high-fashion collections and
+                    exclusive products.
+                </p>
+                <div className="captioned-image">
+                    <img src={prada} alt="" />
+                    <p>
+                        <sub>
+                            <b>Figure 1:</b> Shop in style with Prada! 👗🛍️📱
+                        </sub>
+                    </p>
+                </div>
+                <h3>File Link:</h3>
+                <br />
+                <ul>
+                    <li>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href="https://www.figma.com/community/file/1370610603197764617/prada-ecommerce-website-and-mobile-app"
+                        >
+                            <p>
+                                <b>File</b> - Welcome to the Prada e-commerce experience, where luxury
+                                meets technology
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     );
 };
