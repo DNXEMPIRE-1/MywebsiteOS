@@ -180,7 +180,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                 </ul>
             </div>
             <div className="text-block">
-                <h2>👜 Prada - E-commerce Website and Mobile App 👜</h2>
+                <h2>👟 Sneaker Shoe E-commerce App UI 👟</h2>
                 <p>
                     Welcome to the Prada e-commerce experience, where luxury
                     meets technology. Explore our sophisticated website and
