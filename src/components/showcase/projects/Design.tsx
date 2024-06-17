@@ -157,8 +157,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                     <img src={task} alt="" />
                     <p>
                         <sub>
-                            <b>Figure 1:</b> Stay organized and on top of your
-                            tasks with ease! 📋✅📱
+                            <b>Figure 1:</b> Shop in style with Prada! 👗🛍️📱
                         </sub>
                     </p>
                 </div>
