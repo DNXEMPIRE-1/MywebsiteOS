@@ -13,7 +13,7 @@ export interface DesignProjectsProps {}
 const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
     return (
         <div className="site-page-content">
-            <h1>Design</h1>
+            <h1>UI/UX Design</h1>
             <h3>Endeavors</h3>
             <br />
             <div className="text-block">
