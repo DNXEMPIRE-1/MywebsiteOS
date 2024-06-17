@@ -154,7 +154,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                     exclusive products.
                 </p>
                 <div className="captioned-image">
-                    <img src={task} alt="" />
+                    <img src={prada} alt="" />
                     <p>
                         <sub>
                             <b>Figure 1:</b> Shop in style with Prada! 👗🛍️📱
@@ -168,7 +168,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://www.figma.com/community/file/1375949888965696148/task-management-dashboard"
+                            href="https://www.figma.com/community/file/1370610603197764617/prada-ecommerce-website-and-mobile-app"
                         >
                             <p>
                                 <b>File</b> - Welcome to the Prada e-commerce experience, where luxury
