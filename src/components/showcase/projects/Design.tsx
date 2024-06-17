@@ -183,18 +183,15 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
             <div className="text-block">
                 <h2>👟 Sneaker Shoe E-commerce App UI 👟</h2>
                 <p>
-                    Welcome to the Prada e-commerce experience, where luxury
-                    meets technology. Explore our sophisticated website and
-                    mobile app, designed to offer a seamless and elegant
-                    shopping journey. With a sleek and intuitive interface, you
-                    can effortlessly browse our high-fashion collections and
-                    exclusive products.
+                Welcome to the ultimate Sneaker Shoe E-commerce App, 
+                designed for sneaker enthusiasts! This app features a sleek and modern interface, 
+                making it easy to find and purchase the latest and greatest in sneaker fashion.
                 </p>
                 <div className="captioned-image">
                     <img src={sneaker} alt="" />
                     <p>
                         <sub>
-                            <b>Figure 1:</b> Shop in style with Prada! 👗🛍️📱
+                            <b>Figure 1:</b> Shop the freshest kicks with ease! 🏷️🛒📱
                         </sub>
                     </p>
                 </div>
@@ -208,8 +205,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                             href="https://www.figma.com/community/file/1362402752696343203/sneaker-shoe-e-commerce-app-ui"
                         >
                             <p>
-                                <b>File</b> - Welcome to the Prada e-commerce experience, where luxury
-                                meets technology
+                                <b>File</b> -  Welcome to the ultimate Sneaker Shoe E-commerce App, designed for sneaker enthusiasts!
                             </p>
                         </a>
                     </li>
