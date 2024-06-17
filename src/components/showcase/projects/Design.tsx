@@ -4,6 +4,7 @@ import furniture from '../../../assets/pictures/projects/design/furniture.png';
 import ecobazar from '../../../assets/pictures/projects/design/ecobazar.png';
 import task from '../../../assets/pictures/projects/design/task.png';
 import prada from '../../../assets/pictures/projects/design/prada.png';
+import sneaker from '../../../assets/pictures/projects/design/sneaker.png';
 
 import gsts from '../../../assets/pictures/projects/art/gsts.png';
 
@@ -190,7 +191,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                     exclusive products.
                 </p>
                 <div className="captioned-image">
-                    <img src={prada} alt="" />
+                    <img src={sneaker} alt="" />
                     <p>
                         <sub>
                             <b>Figure 1:</b> Shop in style with Prada! 👗🛍️📱
