@@ -205,7 +205,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://www.figma.com/community/file/1370610603197764617/prada-ecommerce-website-and-mobile-app"
+                            href="https://www.figma.com/community/file/1362402752696343203/sneaker-shoe-e-commerce-app-ui"
                         >
                             <p>
                                 <b>File</b> - Welcome to the Prada e-commerce experience, where luxury
