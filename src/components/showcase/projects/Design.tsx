@@ -20,7 +20,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                 <br />
                 <p>
                     Here are a few projects/things I've done over the years to
-                    keep the artistic side of me alive. I'm always looking to
+                    keep the Design side of me alive and grow my UI/UX career. I'm always looking to
                     push myself creatively and learn new things.
                 </p>
             </div>
