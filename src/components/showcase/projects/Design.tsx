@@ -40,7 +40,8 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                     <img src={furniture} alt="" />
                     <p>
                         <sub>
-                            <b>Figure 1:</b> 🌟 Welcome to my Furniture eCommerce Website! 🌟
+                            <b>Figure 1:</b> 🌟 Welcome to my Furniture
+                            eCommerce Website! 🌟
                         </sub>
                     </p>
                 </div>
@@ -64,59 +65,51 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                             href="https://www.figma.com/community/file/1331381641303792117/furniture-ecommerce-website-ui"
                         >
                             <p>
-                                <b>File</b> - Welcome to my Furniture eCommerce Website!
+                                <b>File</b> - Welcome to my Furniture eCommerce
+                                Website!
                             </p>
                         </a>
                     </li>
                 </ul>
-                
-            <div className="text-block">
-                <h2>🌟 Furniture eCommerce Website UI 🌟</h2>
-                <br />
-                <p>
-                    Explore a sleek and modern web page design, featuring a
-                    user-friendly interface and high-quality product images. The
-                    customizable UI KIT ensures a consistent and beautiful
-                    design across the site, making it easy to integrate with
-                    your favorite design tools.
-                </p>
-                <br />
-                <div className="captioned-image">
-                    <img src={furniture} alt="" />
+
+                <div className="text-block">
+                    <h2>🌿 Ecobazar - Organic eCommerce Shop Website 🌿</h2>
+                    <br />
                     <p>
-                        <sub>
-                            <b>Figure 1:</b> 🌟 Welcome to my Furniture eCommerce Website! 🌟
-                        </sub>
+                        Welcome to Ecobazar, your go-to destination for all
+                        things organic! Dive into a clean, eco-friendly web page
+                        design featuring a seamless user experience and vibrant
+                        product images. The intuitive UI KIT guarantees a
+                        harmonious and cohesive look, perfect for showcasing
+                        your favorite organic products.
                     </p>
+                    <br />
+                    <div className="captioned-image">
+                        <img src={furniture} alt="" />
+                        <p>
+                            <sub>
+                                <b>Figure 1:</b> Shop sustainably and stylishly with Ecobazar! 🍃🛒📱
+                            </sub>
+                        </p>
+                    </div>
+                    <br />
+                    <h3>File Link:</h3>
+                    <br />
+                    <ul>
+                        <li>
+                            <a
+                                rel="noreferrer"
+                                target="_blank"
+                                href="https://www.figma.com/community/file/1348512198352618529/ecobazar-organic-ecommerce-shop-website"
+                            >
+                                <p>
+                                    <b>File</b> - Welcome to my Ecobazar - Organic eCommerce Shop Website
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                    <br />
                 </div>
-                <p>
-                    The Interior Landing Page offers stunning visuals and
-                    layouts, with prominent call-to-action buttons and
-                    feature-rich product showcases. Enjoy a full-page experience
-                    with a responsive design that works seamlessly on all
-                    devices, fast loading times, and an intuitive, accessible
-                    interface. Enhance your online furniture shopping with style
-                    and efficiency! 🛋️🛒📱
-                </p>
-                <br />
-                <h3>File Link:</h3>
-                <br />
-                <ul>
-                    <li>
-                        <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href="https://www.figma.com/community/file/1331381641303792117/furniture-ecommerce-website-ui"
-                        >
-                            <p>
-                                <b>File</b> - Welcome to my Furniture eCommerce Website!
-                            </p>
-                        </a>
-                    </li>
-                </ul>
-                <br />
-                
-            </div>
             </div>
         </div>
     );
