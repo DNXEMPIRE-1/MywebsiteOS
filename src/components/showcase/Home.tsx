@@ -53,7 +53,7 @@ const Home: React.FC<HomeProps> = (props) => {
                         fontSize: '16px',
                     }}
                 >
-                     🔗 Quick Links 📌
+                    <b>🔗 Quick Links 📌</b> 
                 </a>
                 
                         <a
