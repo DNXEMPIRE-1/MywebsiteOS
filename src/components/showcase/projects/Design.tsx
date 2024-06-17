@@ -2,6 +2,7 @@ import React from 'react';
 
 import furniture from '../../../assets/pictures/projects/design/furniture.png';
 import ecobazar from '../../../assets/pictures/projects/design/ecobazar.png';
+import task from '../../../assets/pictures/projects/design/task.png';
 
 import gsts from '../../../assets/pictures/projects/art/gsts.png';
 
