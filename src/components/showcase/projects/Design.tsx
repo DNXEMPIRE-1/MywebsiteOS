@@ -369,7 +369,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                     <img src={food} alt="" />
                     <p>
                         <sub>
-                            <b>Figure 1:</b> Happy shopping! 🛒✨📱💻
+                            <b>Figure 1:</b> Order your favorite meals with ease! 🍕📱🍲
                         </sub>
                     </p>
                 </div>
@@ -380,12 +380,10 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://www.figma.com/community/file/1362402752696343203/sneaker-shoe-e-commerce-app-ui"
+                            href="https://www.figma.com/community/file/1338962144499157725"
                         >
                             <p>
-                                <b>File</b> - Welcome to the ultimate Shopping
-                                E-commerce Website, where convenience meets
-                                style!
+                                <b>File</b> - Enhance your dining experience with a user-friendly and visually appealing food delivery platform.
                             </p>
                         </a>
                     </li>
