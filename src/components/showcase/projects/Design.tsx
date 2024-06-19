@@ -9,7 +9,7 @@ import coffee from '../../../assets/pictures/projects/design/coffee.png';
 import plant from '../../../assets/pictures/projects/design/plant.jpg';
 import krist from '../../../assets/pictures/projects/design/krist.png';
 import food from '../../../assets/pictures/projects/design/food.jpg';
-import sap from '../../../assets/pictures/projects/design/sap.png';
+import sap from '../../../assets/pictures/projects/design/sap.jpg';
 
 import gsts from '../../../assets/pictures/projects/art/gsts.png';
 
