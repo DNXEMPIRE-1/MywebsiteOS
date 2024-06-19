@@ -385,6 +385,18 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                     </li>
                 </ul>
             </div>
+            <h3>For more Projects visit </h3>
+                    <li>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href="https://www.figma.com/@dnxempire"
+                        >
+                            <p>
+                                <b>👨‍💻 My Figma Profile</b>
+                            </p>
+                        </a>
+                    </li>
         </div>
     );
 };
