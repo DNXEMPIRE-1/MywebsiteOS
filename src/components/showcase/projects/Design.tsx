@@ -212,7 +212,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                 </ul>
             </div>
             <div className="text-block">
-                <h2>👟 Sneaker Shoe E-commerce App UI 👟</h2>
+                <h2>☕ Coffee Shop App UI ☕</h2>
                 <p>
                 Welcome to the ultimate Sneaker Shoe E-commerce App, 
                 designed for sneaker enthusiasts! This app features a sleek and modern interface, 
