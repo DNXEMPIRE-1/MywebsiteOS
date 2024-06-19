@@ -282,8 +282,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                         >
                             <p>
                                 <b>File</b> - Welcome to the Flutter Plant
-                                E-commerce App, your go-to destination for all
-                                things green and leafy!
+                                E-commerce App
                             </p>
                         </a>
                     </li>
@@ -316,8 +315,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                         >
                             <p>
                                 <b>File</b> - Welcome to the ultimate Shopping
-                                E-commerce Website, where convenience meets
-                                style!
+                                E-commerce Website
                             </p>
                         </a>
                     </li>
