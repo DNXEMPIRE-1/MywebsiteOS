@@ -226,8 +226,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                     <img src={coffee} alt="" />
                     <p>
                         <sub>
-                            <b>Figure 1:</b> Shop the freshest kicks with ease!
-                            🏷️🛒📱
+                            <b>Figure 1:</b>Elevate your coffee experience with convenience and style! ☕📱🛒
                         </sub>
                     </p>
                 </div>
@@ -241,9 +240,8 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                             href="https://www.figma.com/community/file/1362402752696343203/sneaker-shoe-e-commerce-app-ui"
                         >
                             <p>
-                                <b>File</b> - Welcome to the ultimate Sneaker
-                                Shoe E-commerce App, designed for sneaker
-                                enthusiasts!
+                                <b>File</b> - Welcome to your favorite Coffee Shop App, designed to
+                                enhance your coffee experience
                             </p>
                         </a>
                     </li>
