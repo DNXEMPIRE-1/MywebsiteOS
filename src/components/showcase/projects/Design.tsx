@@ -213,8 +213,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                         >
                             <p>
                                 <b>File</b> - Welcome to the ultimate Sneaker
-                                Shoe E-commerce App, designed for sneaker
-                                enthusiasts!
+                                Shoe E-commerce App
                             </p>
                         </a>
                     </li>
@@ -247,8 +246,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                         >
                             <p>
                                 <b>File</b> - Welcome to your favorite Coffee
-                                Shop App, designed to enhance your coffee
-                                experience
+                                Shop App
                             </p>
                         </a>
                     </li>
