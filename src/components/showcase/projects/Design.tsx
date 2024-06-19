@@ -333,7 +333,8 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                     <img src={sap} alt="" />
                     <p>
                         <sub>
-                            <b>Figure 1:</b> Create a lasting impression with amazing headers! 🚀📸💻
+                            <b>Figure 1:</b> Create a lasting impression with
+                            amazing headers! 🚀📸💻
                         </sub>
                     </p>
                 </div>
@@ -347,23 +348,25 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                             href="https://www.figma.com/community/file/1362402752696343203/sneaker-shoe-e-commerce-app-ui"
                         >
                             <p>
-                                <b>File</b> - Welcome to your Portfolio Amazing Headers Website, designed
-                                to showcase your work with stunning and captivating headers
+                                <b>File</b> - Welcome to your Portfolio Amazing
+                                Headers Website, designed to showcase your work
+                                with stunning and captivating headers
                             </p>
                         </a>
                     </li>
                 </ul>
             </div>
             <div className="text-block">
-                <h2>🛍️ Shopping E-commerce Website UI 🛍️</h2>
+                <h2>🍔 Food Delivery App/Website UI 🍔</h2>
                 <p>
-                    Welcome to the ultimate Shopping E-commerce Website, where
-                    convenience meets style! This website is designed with a
-                    sleek and modern interface, ensuring a seamless shopping
-                    experience for all users.
+                    Welcome to the ultimate Food Delivery App/Website, designed
+                    to make ordering your favorite meals quick and enjoyable.
+                    This platform combines a sleek and intuitive interface with
+                    efficient functionality to provide a seamless dining
+                    experience.
                 </p>
                 <div className="captioned-image">
-                    <img src={krist} alt="" />
+                    <img src={food} alt="" />
                     <p>
                         <sub>
                             <b>Figure 1:</b> Happy shopping! 🛒✨📱💻
