@@ -238,7 +238,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://www.figma.com/community/file/1362402752696343203/sneaker-shoe-e-commerce-app-ui"
+                            href="https://www.figma.com/community/file/1328448248372679805/coffee-shop-app"
                         >
                             <p>
                                 <b>File</b> - Welcome to your favorite Coffee Shop App, designed to
