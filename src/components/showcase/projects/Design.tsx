@@ -6,6 +6,7 @@ import task from '../../../assets/pictures/projects/design/task.png';
 import prada from '../../../assets/pictures/projects/design/prada.png';
 import sneaker from '../../../assets/pictures/projects/design/sneaker.png';
 import coffee from '../../../assets/pictures/projects/design/coffee.png';
+import plant from '../../../assets/pictures/projects/design/plant.jpg';
 
 import gsts from '../../../assets/pictures/projects/art/gsts.png';
 
