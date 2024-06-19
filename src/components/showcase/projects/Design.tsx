@@ -347,12 +347,11 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://www.figma.com/community/file/1362402752696343203/sneaker-shoe-e-commerce-app-ui"
+                            href="https://www.figma.com/community/file/1331393391962083837/portfolio-amazing-headers-website"
                         >
                             <p>
                                 <b>File</b> - Welcome to your Portfolio Amazing
-                                Headers Website, designed to showcase your work
-                                with stunning and captivating headers
+                                Headers Website
                             </p>
                         </a>
                     </li>
@@ -385,7 +384,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                             href="https://www.figma.com/community/file/1338962144499157725"
                         >
                             <p>
-                                <b>File</b> - Enhance your dining experience with a user-friendly and visually appealing food delivery platform.
+                                <b>File</b> - Welcome to the ultimate Food Delivery App/Website
                             </p>
                         </a>
                     </li>
