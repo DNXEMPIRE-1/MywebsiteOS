@@ -296,7 +296,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                     experience for all users.
                 </p>
                 <div className="captioned-image">
-                    <img src={ecom} alt="" />
+                    <img src={krist} alt="" />
                     <p>
                         <sub>
                             <b>Figure 1:</b> Happy shopping! 🛒✨📱💻
@@ -313,8 +313,76 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                             href="https://www.figma.com/community/file/1362402752696343203/sneaker-shoe-e-commerce-app-ui"
                         >
                             <p>
-                                <b>File</b> - Welcome to the ultimate Shopping E-commerce Website, where
-                                convenience meets style!
+                                <b>File</b> - Welcome to the ultimate Shopping
+                                E-commerce Website, where convenience meets
+                                style!
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div className="text-block">
+                <h2>🎨 Portfolio Amazing Headers Website 🎨</h2>
+                <p>
+                    Welcome to your Portfolio Amazing Headers Website, designed
+                    to showcase your work with stunning and captivating headers.
+                    This website features a modern, sleek interface that
+                    highlights your projects and personal brand.
+                </p>
+                <div className="captioned-image">
+                    <img src={sap} alt="" />
+                    <p>
+                        <sub>
+                            <b>Figure 1:</b> Create a lasting impression with amazing headers! 🚀📸💻
+                        </sub>
+                    </p>
+                </div>
+                <h3>File Link:</h3>
+                <br />
+                <ul>
+                    <li>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href="https://www.figma.com/community/file/1362402752696343203/sneaker-shoe-e-commerce-app-ui"
+                        >
+                            <p>
+                                <b>File</b> - Welcome to your Portfolio Amazing Headers Website, designed
+                                to showcase your work with stunning and captivating headers
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div className="text-block">
+                <h2>🛍️ Shopping E-commerce Website UI 🛍️</h2>
+                <p>
+                    Welcome to the ultimate Shopping E-commerce Website, where
+                    convenience meets style! This website is designed with a
+                    sleek and modern interface, ensuring a seamless shopping
+                    experience for all users.
+                </p>
+                <div className="captioned-image">
+                    <img src={krist} alt="" />
+                    <p>
+                        <sub>
+                            <b>Figure 1:</b> Happy shopping! 🛒✨📱💻
+                        </sub>
+                    </p>
+                </div>
+                <h3>File Link:</h3>
+                <br />
+                <ul>
+                    <li>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href="https://www.figma.com/community/file/1362402752696343203/sneaker-shoe-e-commerce-app-ui"
+                        >
+                            <p>
+                                <b>File</b> - Welcome to the ultimate Shopping
+                                E-commerce Website, where convenience meets
+                                style!
                             </p>
                         </a>
                     </li>
