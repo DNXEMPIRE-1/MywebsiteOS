@@ -263,7 +263,8 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                     <img src={plant} alt="" />
                     <p>
                         <sub>
-                            <b>Figure 1:</b> Grow your plant collection with ease and style! 🌱🛒📱
+                            <b>Figure 1:</b> Grow your plant collection with
+                            ease and style! 🌱🛒📱
                         </sub>
                     </p>
                 </div>
@@ -274,26 +275,27 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href="https://www.figma.com/community/file/1362402752696343203/sneaker-shoe-e-commerce-app-ui"
+                            href="https://www.figma.com/community/file/1329894836111050125/flutter-plant-ecommerce-app-ui"
                         >
                             <p>
-                                <b>File</b> - Welcome to the Flutter Plant E-commerce App, your go-to
-                                destination for all things green and leafy!
+                                <b>File</b> - Welcome to the Flutter Plant
+                                E-commerce App, your go-to destination for all
+                                things green and leafy!
                             </p>
                         </a>
                     </li>
                 </ul>
             </div>
             <div className="text-block">
-                <h2>👟 Sneaker Shoe E-commerce App UI 👟</h2>
+                <h2>🛍️ Shopping E-commerce Website UI 🛍️</h2>
                 <p>
-                    Welcome to the ultimate Sneaker Shoe E-commerce App,
-                    designed for sneaker enthusiasts! This app features a sleek
-                    and modern interface, making it easy to find and purchase
-                    the latest and greatest in sneaker fashion.
+                    Welcome to the ultimate Shopping E-commerce Website, where
+                    convenience meets style! This website is designed with a
+                    sleek and modern interface, ensuring a seamless shopping
+                    experience for all users.
                 </p>
                 <div className="captioned-image">
-                    <img src={sneaker} alt="" />
+                    <img src={ecom} alt="" />
                     <p>
                         <sub>
                             <b>Figure 1:</b> Shop the freshest kicks with ease!
