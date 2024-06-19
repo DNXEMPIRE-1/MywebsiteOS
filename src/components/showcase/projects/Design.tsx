@@ -73,7 +73,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                         >
                             <p>
                                 <b>File</b> - Welcome to my Furniture eCommerce
-                                Website!
+                                Website
                             </p>
                         </a>
                     </li>
@@ -108,8 +108,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                             href="https://www.figma.com/community/file/1348512198352618529/ecobazar-organic-ecommerce-shop-website"
                         >
                             <p>
-                                <b>File</b> - Welcome to Ecobazar, your go-to
-                                destination for all things organic!
+                                <b>File</b> - Welcome to Ecobazar
                             </p>
                         </a>
                     </li>
@@ -179,7 +178,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                         >
                             <p>
                                 <b>File</b> - Welcome to the Prada e-commerce
-                                experience, where luxury meets technology
+                                experience
                             </p>
                         </a>
                     </li>
