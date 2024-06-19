@@ -298,8 +298,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                     <img src={ecom} alt="" />
                     <p>
                         <sub>
-                            <b>Figure 1:</b> Shop the freshest kicks with ease!
-                            🏷️🛒📱
+                            <b>Figure 1:</b> Happy shopping! 🛒✨📱💻
                         </sub>
                     </p>
                 </div>
@@ -313,9 +312,8 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                             href="https://www.figma.com/community/file/1362402752696343203/sneaker-shoe-e-commerce-app-ui"
                         >
                             <p>
-                                <b>File</b> - Welcome to the ultimate Sneaker
-                                Shoe E-commerce App, designed for sneaker
-                                enthusiasts!
+                                <b>File</b> - Welcome to the ultimate Shopping E-commerce Website, where
+                                convenience meets style!
                             </p>
                         </a>
                     </li>
