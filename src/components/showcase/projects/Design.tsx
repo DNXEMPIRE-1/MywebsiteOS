@@ -108,7 +108,7 @@ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
                             href="https://www.figma.com/community/file/1348512198352618529/ecobazar-organic-ecommerce-shop-website"
                         >
                             <p>
-                                <b>File</b> - Welcome to Ecobazar
+                                <b>File</b> - Welcome to Ecobazar 🍃
                             </p>
                         </a>
                     </li>
