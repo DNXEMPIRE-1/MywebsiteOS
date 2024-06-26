@@ -81,7 +81,7 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
                     found myself wanting to make more pixel art & Animation recently and I
                     have some project plans and ideas in the works. Expect
                     updates to this page as I dive back into the world of pixel
-                    art !
+                    art & Animation !
                 </p>
                 {/* <h3> Screen record time-lapses and make gifs</h3> */}
             </div>
