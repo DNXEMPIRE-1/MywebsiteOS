@@ -46,9 +46,7 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
                 </div>
                 <p>
                     I really started enjoying the work I was doing, and felt I
-                    was improving a lot.. I was really surprised however when my first video took
-                    off and got a few thousand views! Below are the video links
-                    to the work I uploaded to youtube.
+                    was improving a lot.
                 </p>
                 <br />
                 <h3>Video Links:</h3>
