@@ -22,7 +22,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     <div style={styles.headerRow}>
                         <h3>CTO/CO-FOUNDER</h3>
                         <b>
-                            <p>Jully 2024 → Now</p>
+                            <p>June 2024 → Now</p>
                         </b>
                     </div>
                 </div>
