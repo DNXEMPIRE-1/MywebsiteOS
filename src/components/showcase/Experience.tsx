@@ -10,13 +10,13 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>Hover</h1>
+                        <h1></h1>
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href={'https://hover.gg/'}
+                            href={'https://studybuddy.co.ke/'}
                         >
-                            <h4>www.hover.gg</h4>
+                            <h4>studybuddy.co.ke/</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
