@@ -29,10 +29,13 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             </div>
             <div className="text-block">
                 <p>
-                    Targeted towards online content creators and streamers
-                    looking to build a brand, Hover is the home of over 150K
-                    users. Written in Typescript using React, React-Native,
-                    Framer, Express, and Redux.
+                    StudyBuddy is an innovative e-learning platform
+                    revolutionizing education in Africa by providing students
+                    with access to a diverse range of teachers from any school
+                    in the country. Through StudyBuddy, students can engage with
+                    teachers outside their own school, expanding their learning
+                    opportunities and gaining insights from a variety of
+                    perspectives.
                 </p>
                 <br />
                 <ul>
