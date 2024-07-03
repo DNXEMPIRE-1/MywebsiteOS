@@ -95,7 +95,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                             rel="noreferrer"
                             href={'https://www.facebook.com/MaasaiHighSchool/'}
                         >
-                            <h4>www.bracs.co</h4>
+                            <h4>MaasaiHighSchool</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
