@@ -149,7 +149,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         <a
                             target="_blank"
                             rel="noreferrer"
-                            href={'https://kfxnyc.com/'}
+                            href={'https://www.facebook.com/groups/140141072662630/'}
                         >
                             <h4>www.kfxnyc.com</h4>
                         </a>
