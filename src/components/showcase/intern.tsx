@@ -10,17 +10,17 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>StudyBuddy</h1>
+                        <h1>National Bank of Kenya</h1>
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href={'https://studybuddy.co.ke/'}
+                            href={'https://www.nationalbank.co.ke/'}
                         >
-                            <h4>studybuddy.co.ke/</h4>
+                            <h4>nationalbank.co.ke/</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>CTO/CO-FOUNDER</h3>
+                        <h3>Quality Assurance QA</h3>
                         <b>
                             <p>June 2024 → Now</p>
                         </b>
