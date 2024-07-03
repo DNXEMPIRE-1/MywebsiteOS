@@ -99,7 +99,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Kenya Certificate of Secondary Education (KCSE)</h3>
+                        <h3>Kenya Certificate of Secondary Education - KCSE</h3>
                         <b>
                             <p>Fall 2024 → Spring 2024</p>
                         </b>
