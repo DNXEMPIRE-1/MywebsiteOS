@@ -31,7 +31,15 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             </div>
             <div className="text-block">
                 <p>
-                Strathmore University is a Chartered University located in Nairobi, Kenya. It was the first multiracial and multi religious educational institution in English speaking Eastern Africa and more recently the first institute of higher learning to be ISO certified in East and Central Africa in 2004. Our mission is to provide all-round quality education in an atmosphere of freedom and responsibility; excellence in teaching, research and scholarship; ethical and social development; and service to society.
+                    Strathmore University is a Chartered University located in
+                    Nairobi, Kenya. It was the first multiracial and multi
+                    religious educational institution in English speaking
+                    Eastern Africa and more recently the first institute of
+                    higher learning to be ISO certified in East and Central
+                    Africa in 2004. Our mission is to provide all-round quality
+                    education in an atmosphere of freedom and responsibility;
+                    excellence in teaching, research and scholarship; ethical
+                    and social development; and service to society.
                 </p>
                 <br />
                 <ul>
