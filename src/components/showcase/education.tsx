@@ -126,7 +126,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     </li>
                     <li>
                         <p>
-                            Vice President, Student Government<br></br>
+                            Vice President, Student Government<br />
                             As the Vice President of the Student Government, my
                             responsibilities have included: Leadership:
                             Assisting the President in leading the student
@@ -178,80 +178,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     which is controlled by the Kenya National Examination
                     Council (KNEC) under Ministry of Education.
                 </p>
-                <br />
-                <h3 style={styles.indent}>Screen Credits:</h3>
-                <ul>
-                    <li style={styles.row}>
-                        <p>• Ray Donovan</p>
-                        <p>
-                            [{' '}
-                            <a
-                                href="https://www.sho.com/ray-donovan"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                SHOWTIME
-                            </a>{' '}
-                            ]
-                        </p>
-                    </li>
-                    <li style={styles.row}>
-                        <p>• Ray Donovan: The Movie</p>
-                        <p>
-                            [{' '}
-                            <a
-                                href="https://www.sho.com/titles/3508117/ray-donovan-the-movie"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                SHOWTIME
-                            </a>{' '}
-                            ]
-                        </p>
-                    </li>
-                    <li style={styles.row}>
-                        <p>• Hightown</p>
-                        <p>
-                            [{' '}
-                            <a
-                                href="https://www.starz.com/us/en/series/hightown/57463"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                STARZ
-                            </a>{' '}
-                            ]
-                        </p>
-                    </li>
-                    <li style={styles.row}>
-                        <p>• Bull</p>
-                        <p>
-                            [{' '}
-                            <a
-                                href="https://www.cbs.com/shows/bull/"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                CBS
-                            </a>{' '}
-                            ]
-                        </p>
-                    </li>
-                    <li style={styles.row}>
-                        <p>• At Home with Amy Sedaris</p>
-                        <p>
-                            [{' '}
-                            <a
-                                href="https://www.trutv.com/shows/at-home-with-amy-sedaris"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                truTV
-                            </a>{' '}
-                            ]
-                        </p>
-                    </li>
-                </ul>
+               
             </div>
         </div>
     );
