@@ -95,7 +95,15 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             </div>
             <div className="text-block">
                 <p>
-                    
+                    The Maasai depends on its generations. Future generations
+                    depend on efforts from fore generations. A successful
+                    community depends on responsible and proud citizens, which
+                    depends on a community of good morale and values.
+                    <br></br>
+                    Today's children are leaders for tomorrow. It is important
+                    to educate Maasai children and enable them to make a strong
+                    contribution to the ongoing needs of their community.This
+                    philosophy nurtures the values of a strong community.
                 </p>
                 <br />
                 <ul>
@@ -137,7 +145,6 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                             objectives.
                         </p>
                     </li>
-                    
                 </ul>
             </div>
             <div style={styles.headerContainer}>
