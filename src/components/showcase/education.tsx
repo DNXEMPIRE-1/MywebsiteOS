@@ -29,13 +29,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             </div>
             <div className="text-block">
                 <p>
-                    StudyBuddy is an innovative e-learning platform
-                    revolutionizing education in Africa by providing students
-                    with access to a diverse range of teachers from any school
-                    in the country. Through StudyBuddy, students can engage with
-                    teachers outside their own school, expanding their learning
-                    opportunities and gaining insights from a variety of
-                    perspectives.
+                With a total student body of 8189, comprising both part-time and full-time learners, our university prides itself in offering comprehensive educational opportunities to individuals from all walks of life. Our student community is richly diverse, with 86% of our students enrolled on a full-time basis and 14% pursuing their studies part-time. Embracing global perspectives, we welcome students from across the world, with 11% of our student population representing international communities.
                 </p>
                 <br />
                 <ul>
