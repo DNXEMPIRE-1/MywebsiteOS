@@ -63,16 +63,14 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         </p>
                     </li>
                     <li>
-                        <p>
-                        IT consultant Volunteer at South Muchatha Academy
-                        </p>
+                        <p>IT consultant Volunteer at South Muchatha Academy</p>
                     </li>
                     <li>
                         <p>
-                        Mathematics, Science and Computer Teacher volunteer at North Muchatha Academy.
+                            Mathematics, Science and Computer Teacher volunteer
+                            at North Muchatha Academy.
                         </p>
                     </li>
-                    
                 </ul>
             </div>
             <div style={styles.headerContainer}>
@@ -106,7 +104,19 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 <ul>
                     <li>
                         <p>
-                            
+                            Head, Science Club & Math Club <br></br>
+                            As the Head of both
+                            the Science Club and the Math Club, I have been
+                            responsible for: Leadership and Management: Leading
+                            weekly meetings, planning and organizing events, and
+                            coordinating with club members and faculty advisors
+                            to ensure smooth operations. Event Planning:
+                            Organizing educational events, competitions, and
+                            workshops to enhance members' knowledge and skills
+                            in science and mathematics. Community Outreach:
+                            Collaborating with local schools and organizations
+                            to promote STEM education and encourage
+                            participation in science and math activities.
                         </p>
                     </li>
                     <li>
