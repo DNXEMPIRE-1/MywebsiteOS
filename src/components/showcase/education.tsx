@@ -134,8 +134,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     </li>
                     <li>
                         <p>
-                            Created conversion algorithms to serialize bracket
-                            tree data to allow for saving in the cloud.
+                        These roles have helped me develop strong leadership, organizational, and communication skills, and have given me valuable experience in working with diverse groups of people towards common objectives.
                         </p>
                     </li>
                     <li>
