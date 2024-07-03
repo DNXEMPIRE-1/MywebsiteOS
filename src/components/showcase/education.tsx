@@ -20,7 +20,9 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Bachelor of Business Information Technology - BBIT</h3>
+                        <h3>
+                            Bachelor of Business Information Technology - BBIT
+                        </h3>
                         <b>
                             <p>April 2020 → Now</p>
                         </b>
@@ -29,7 +31,15 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             </div>
             <div className="text-block">
                 <p>
-                With a total student body of 8189, comprising both part-time and full-time learners, our university prides itself in offering comprehensive educational opportunities to individuals from all walks of life. Our student community is richly diverse, with 86% of our students enrolled on a full-time basis and 14% pursuing their studies part-time. Embracing global perspectives, we welcome students from across the world, with 11% of our student population representing international communities.
+                    With a total student body of 8189, comprising both part-time
+                    and full-time learners, our university prides itself in
+                    offering comprehensive educational opportunities to
+                    individuals from all walks of life. Our student community is
+                    richly diverse, with 86% of our students enrolled on a
+                    full-time basis and 14% pursuing their studies part-time.
+                    Embracing global perspectives, we welcome students from
+                    across the world, with 11% of our student population
+                    representing international communities.
                 </p>
                 <br />
                 <ul>
