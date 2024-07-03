@@ -42,7 +42,19 @@ const Home: React.FC<HomeProps> = (props) => {
                     to="contact"
                     text="CONTACT"
                 />
-                
+                <a
+                    href="https://linktr.ee/dnxempire"
+                    target="_blank"
+                    rel="noreferrer"
+                    style={{
+                        ...styles.link,
+                        fontWeight: 'bolder',
+                        fontFamily: 'Futura Pro Black',
+                        fontSize: '16px',
+                    }}
+                >
+                    <b>🔗 Quick Links 📌</b> 
+                </a>
                     
             </div>
             <div style={styles.forHireContainer} onMouseDown={goToContact}>
