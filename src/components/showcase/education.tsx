@@ -14,13 +14,13 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href={'https://studybuddy.co.ke/'}
+                            href={'https://strathmore.edu/'}
                         >
-                            <h4>studybuddy.co.ke/</h4>
+                            <h4>strathmore.edu/</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>CTO/CO-FOUNDER</h3>
+                        <h3>Bachelor </h3>
                         <b>
                             <p>June 2024 → Now</p>
                         </b>
