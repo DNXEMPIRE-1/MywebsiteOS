@@ -158,7 +158,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                                 'https://www.facebook.com/groups/140141072662630/'
                             }
                         >
-                            <h4>SanDamiano</h4>
+                            <h4>San Damiano</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
