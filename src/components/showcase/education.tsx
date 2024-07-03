@@ -72,22 +72,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         Mathematics, Science and Computer Teacher volunteer at North Muchatha Academy.
                         </p>
                     </li>
-                    <li>
-                        <p>
-                            Directed and executed an internal migration of 3
-                            individual repositories to a single monorepo,
-                            greatly reducing overhead for developing new
-                            features, fixing bugs, and managing dependencies.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Rebuilt the website with React and shared mobile app
-                            components allowing users to access a wide variety
-                            of app interactions entirely on the web, resulting
-                            in over 700,000 total site visits.
-                        </p>
-                    </li>
+                    
                 </ul>
             </div>
             <div style={styles.headerContainer}>
