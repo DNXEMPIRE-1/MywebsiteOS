@@ -121,9 +121,8 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     </li>
                     <li>
                         <p>
-                            Vice President, Student Government<br></br> 
-                            As the Vice
-                            President of the Student Government, my
+                            Vice President, Student Government<br></br>
+                            As the Vice President of the Student Government, my
                             responsibilities have included: Leadership:
                             Assisting the President in leading the student
                             government and representing the student body in
@@ -134,16 +133,14 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     </li>
                     <li>
                         <p>
-                        These roles have helped me develop strong leadership, organizational, and communication skills, and have given me valuable experience in working with diverse groups of people towards common objectives.
+                            These roles have helped me develop strong
+                            leadership, organizational, and communication
+                            skills, and have given me valuable experience in
+                            working with diverse groups of people towards common
+                            objectives.
                         </p>
                     </li>
-                    <li>
-                        <p>
-                            Implemented bracket generation utilities which
-                            employ gray code for proper team seeding and
-                            placement.
-                        </p>
-                    </li>
+                    
                 </ul>
             </div>
             <div style={styles.headerContainer}>
