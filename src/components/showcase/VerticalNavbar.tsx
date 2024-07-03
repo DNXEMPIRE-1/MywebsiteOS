@@ -49,7 +49,7 @@ const VerticalNavbar: React.FC<VerticalNavbarProps> = (props) => {
                 
                 containerStyle={styles.link}
                 to="intern"
-                text="Internship"
+                text="INTERNSHIP"
             />
             <Link
                     containerStyle={Object.assign(
