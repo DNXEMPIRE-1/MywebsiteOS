@@ -105,23 +105,31 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     <li>
                         <p>
                             Head, Science Club & Math Club <br></br>
-                            As the Head of both
-                            the Science Club and the Math Club, I have been
-                            responsible for: Leadership and Management: Leading
-                            weekly meetings, planning and organizing events, and
-                            coordinating with club members and faculty advisors
-                            to ensure smooth operations. Event Planning:
-                            Organizing educational events, competitions, and
-                            workshops to enhance members' knowledge and skills
-                            in science and mathematics. Community Outreach:
-                            Collaborating with local schools and organizations
-                            to promote STEM education and encourage
-                            participation in science and math activities.
+                            As the Head of both the Science Club and the Math
+                            Club, I have been responsible for: Leadership and
+                            Management: Leading weekly meetings, planning and
+                            organizing events, and coordinating with club
+                            members and faculty advisors to ensure smooth
+                            operations. Event Planning: Organizing educational
+                            events, competitions, and workshops to enhance
+                            members' knowledge and skills in science and
+                            mathematics. Community Outreach: Collaborating with
+                            local schools and organizations to promote STEM
+                            education and encourage participation in science and
+                            math activities.
                         </p>
                     </li>
                     <li>
                         <p>
-                            
+                            Vice President, Student Government<br></br> 
+                            As the Vice
+                            President of the Student Government, my
+                            responsibilities have included: Leadership:
+                            Assisting the President in leading the student
+                            government and representing the student body in
+                            school decisions. Policy Development: Working with
+                            other student leaders to develop and implement
+                            policies that address student needs and concerns.
                         </p>
                     </li>
                     <li>
