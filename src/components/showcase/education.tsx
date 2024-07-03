@@ -172,7 +172,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div className="text-block">
                 <p>
                     The San Damiano Boarding Primary School is an ordinary
-                    private educational institute in Kya Kenya.
+                    private educational institute in Kenya.
                     This school is managed / sponsored by religious organization
                     and offers Kenya Certificate of Primary Education (KCPE),
                     which is controlled by the Kenya National Examination
