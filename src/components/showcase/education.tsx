@@ -89,7 +89,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>Maasai group of schools</h1>
+                        <h1>Maasai Group of Schools</h1>
                         <a
                             target="_blank"
                             rel="noreferrer"
