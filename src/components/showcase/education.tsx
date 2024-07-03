@@ -45,7 +45,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 <ul>
                     <li>
                         <p>
-                            Community Lead- Cybersecurity, SCESA.<br></br>
+                            Community Lead- Cybersecurity, SCESA.<br />
                             Strathmore Computing and Engineering Students’
                             Association (SCESA) is a club, involving more than
                             250 members, to focus on being a bridge between the
@@ -99,7 +99,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     depend on efforts from fore generations. A successful
                     community depends on responsible and proud citizens, which
                     depends on a community of good morale and values.
-                    <br></br>
+                    <br />
                     Today's children are leaders for tomorrow. It is important
                     to educate Maasai children and enable them to make a strong
                     contribution to the ongoing needs of their community.This
@@ -109,7 +109,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 <ul>
                     <li>
                         <p>
-                            Head, Science Club & Math Club <br></br>
+                            Head, Science Club & Math Club <br />
                             As the Head of both the Science Club and the Math
                             Club, I have been responsible for: Leadership and
                             Management: Leading weekly meetings, planning and
