@@ -24,7 +24,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                             Bachelor of Business Information Technology - BBIT
                         </h3>
                         <b>
-                            <p>April 2020 → Now</p>
+                            <p>2020 → Now</p>
                         </b>
                     </div>
                 </div>
@@ -45,10 +45,21 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 <ul>
                     <li>
                         <p>
-                            Architected and engineered the vertical scrolling
-                            discover player which, at its daily peak, was
-                            responsible for generating over 600,000 views across
-                            20,000 active users.
+                            Community Lead- Cybersecurity, SCESA.<br></br>
+                            Strathmore Computing and Engineering Students’
+                            Association (SCESA) is a club, involving more than
+                            250 members, to focus on being a bridge between the
+                            students and organizations, and vice versa. The
+                            association is aimed at providing industrial
+                            experiences to students that are not offered in the
+                            classroom setup. Since the association is of a vast
+                            range, the Diversity and Inclusivity team was formed
+                            so as to address the needs of all the groups in the
+                            association. The team engages in various activities
+                            that include individuals in different groups. In
+                            line with the SCESA objectives of engaging students
+                            in the real-life problems, the Women in Tech launch
+                            was suggested.
                         </p>
                     </li>
                     <li>
@@ -149,7 +160,9 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         <a
                             target="_blank"
                             rel="noreferrer"
-                            href={'https://www.facebook.com/groups/140141072662630/'}
+                            href={
+                                'https://www.facebook.com/groups/140141072662630/'
+                            }
                         >
                             <h4>San-Damiano</h4>
                         </a>
