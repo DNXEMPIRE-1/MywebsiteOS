@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from '../showcase/Home';
 import About from '../showcase/About';
+import Education from '../showcase/education';
 import Window from '../os/Window';
 import Experience from '../showcase/Experience';
 import Projects from '../showcase/Projects';
@@ -41,6 +42,7 @@ const ShowcaseExplorer: React.FC<ShowcaseExplorerProps> = (props) => {
                         <Route path="/projects" element={<Projects />} />
                         <Route path="/contact" element={<Contact />} />
                         <Route path="/intern" element={<Intern />} />
+                        <Route path="/education" element={<Education />} />
                         <Route
                             path="/projects/software"
                             element={<SoftwareProjects />}
