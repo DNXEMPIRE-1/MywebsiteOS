@@ -125,7 +125,7 @@ const About: React.FC<AboutProps> = (props) => {
                         target="_blank"
                         href="https://www.instagram.com/dnx_tech/"
                     >
-                        @denno_dnx
+                        @dnx_tech
                     </a>{' '}
                     Good luck and have fun!
                 </p>
