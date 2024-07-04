@@ -94,7 +94,7 @@ const Contact: React.FC<ContactProps> = (props) => {
             }
         } catch (e) {
             setFormMessage(
-                'There seems to be a problem with the system, We have notifield Dennis.In the mean time contact him directly through his gmail dennisnzioki019@gmail.com'
+                'There seems to be a problem with the system, We have notifield Dennis. In the mean time contact him directly through his gmail dennisnzioki019@gmail.com'
             );
             setFormMessageColor(colors.red);
             setIsLoading(false);
