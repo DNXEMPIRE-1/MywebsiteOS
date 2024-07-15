@@ -68,7 +68,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     <li>
                         <p>
                             Mathematics, Science and Computer Teacher volunteer
-                            at North Muchatha Academy.
+                            at South Muchatha Academy.
                         </p>
                     </li>
                 </ul>
