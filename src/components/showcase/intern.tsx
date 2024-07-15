@@ -182,18 +182,10 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     </li>
                     <li>
                         <p>
-                            Database Management: Worked with both SQL and NoSQL
-                            databases (e.g., MySQL, MongoDB) to design,
-                            implement, and manage data models.
+                        Through volunteer service, I contribute to bridging educational gaps and promoting academic excellence within the community.
                         </p>
                     </li>
-                    <li>
-                        <p>
-                            API Development: Created and consumed RESTful APIs
-                            to enable communication between various software
-                            components.
-                        </p>
-                    </li>
+                    
                 </ul>
             </div>
                 
