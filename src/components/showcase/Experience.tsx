@@ -99,8 +99,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     </li>
                     <li>
                         <p>
-                            Architected bracket view UI using React Flow and
-                            custom bracket data types built from binary trees.
+                            
                         </p>
                     </li>
                     <li>
