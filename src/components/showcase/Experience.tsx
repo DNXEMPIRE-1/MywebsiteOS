@@ -73,7 +73,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         <a
                             target="_blank"
                             rel="noreferrer"
-                            href={'https://et.linkedin.com/company/gopro-digital'}
+                            href={'https://gopro4.vercel.app/'}
                         >
                             <h4>gopro-digital</h4>
                         </a>
