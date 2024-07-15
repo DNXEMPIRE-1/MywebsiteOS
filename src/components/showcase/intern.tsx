@@ -163,10 +163,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             </div>
             <div className="text-block">
                 <p>
-                    Applied problem solving and technical skills to operate
-                    large equipment such as rain machines, fog machines, small
-                    explosives and general rigging with a professional crew of
-                    50+ people.
+                Dedicated Mathematics, Science, and Computer Teacher Volunteer at South Muchatha Primary School, committed to empowering the next generation with essential skills for success in the digital age. 
                 </p>
                 <br />
                 <h3 style={styles.indent}>Screen Credits:</h3>
