@@ -172,17 +172,12 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 <ul>
                     <li>
                         <p>
-                            Front-End Development: Designed and implemented
-                            responsive user interfaces using HTML, CSS,
-                            JavaScript, and popular frameworks like React.js.
+                        Leveraging a passion for education and expertise in mathematics, science, and computer literacy, I design and deliver engaging lessons that inspire curiosity and critical thinking among students.
                         </p>
                     </li>
                     <li>
                         <p>
-                            Back-End Development: Developed and maintained
-                            server-side logic using Node.js and Express.js,
-                            ensuring seamless integration with front-end
-                            components.
+                        By fostering a supportive learning environment, I aim to instill confidence in young learners and cultivate a lifelong love for learning.
                         </p>
                     </li>
                     <li>
