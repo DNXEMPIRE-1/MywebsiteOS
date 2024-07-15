@@ -104,8 +104,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     </li>
                     <li>
                         <p>
-                            Created conversion algorithms to serialize bracket
-                            tree data to allow for saving in the cloud.
+                           
                         </p>
                     </li>
                     <li>
