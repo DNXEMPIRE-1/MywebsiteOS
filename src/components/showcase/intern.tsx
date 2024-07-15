@@ -127,9 +127,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     </li>
                     <li>
                         <p>
-                            Implemented bracket generation utilities which
-                            employ gray code for proper team seeding and
-                            placement.
+                        API Development: Created and consumed RESTful APIs to enable communication between various software components.
                         </p>
                     </li>
                 </ul>
