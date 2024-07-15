@@ -85,7 +85,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>BrACS</h1>
+                        <h1>GoPro Digital Agency</h1>
                         <a
                             target="_blank"
                             rel="noreferrer"
@@ -95,9 +95,9 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Team Lead & Engineer</h3>
+                        <h3>Web Developer & Web Designer</h3>
                         <b>
-                            <p>Fall 2024 → Spring 2024</p>
+                            <p>March 2024 → Now</p>
                         </b>
                     </div>
                 </div>
