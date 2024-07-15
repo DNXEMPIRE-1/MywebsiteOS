@@ -171,11 +171,11 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                             rel="noreferrer"
                             href={'https://fujicom-main.vercel.app/'}
                         >
-                            <h4>Ogilvista</h4>
+                            <h4>fujicom.com</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Vue js Developer</h3>
+                        <h3>V</h3>
                         <b>
                             <p>January 2024 → Now</p>
                         </b>
