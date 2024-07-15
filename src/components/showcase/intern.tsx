@@ -148,9 +148,9 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         <a
                             target="_blank"
                             rel="noreferrer"
-                            href={'https://kfxnyc.com/'}
+                            href={'#'}
                         >
-                            <h4>www.kfxnyc.com</h4>
+                            <h4>SouthMuchatha</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
