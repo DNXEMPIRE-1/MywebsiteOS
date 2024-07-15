@@ -172,23 +172,28 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 <ul>
                     <li>
                         <p>
-                        Leveraging a passion for education and expertise in mathematics, science, and computer literacy, I design and deliver engaging lessons that inspire curiosity and critical thinking among students.
+                            Leveraging a passion for education and expertise in
+                            mathematics, science, and computer literacy, I
+                            design and deliver engaging lessons that inspire
+                            curiosity and critical thinking among students.
                         </p>
                     </li>
                     <li>
                         <p>
-                        By fostering a supportive learning environment, I aim to instill confidence in young learners and cultivate a lifelong love for learning.
+                            By fostering a supportive learning environment, I
+                            aim to instill confidence in young learners and
+                            cultivate a lifelong love for learning.
                         </p>
                     </li>
                     <li>
                         <p>
-                        Through volunteer service, I contribute to bridging educational gaps and promoting academic excellence within the community.
+                            Through volunteer service, I contribute to bridging
+                            educational gaps and promoting academic excellence
+                            within the community.
                         </p>
                     </li>
-                    
                 </ul>
             </div>
-                
         </div>
     );
 };
