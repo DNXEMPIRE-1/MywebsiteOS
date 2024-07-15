@@ -112,22 +112,31 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 <ul>
                     <li>
                         <p>
-                        Front-End Development: Designed and implemented responsive user interfaces using HTML, CSS, JavaScript, and popular frameworks like React.js.
+                            Front-End Development: Designed and implemented
+                            responsive user interfaces using HTML, CSS,
+                            JavaScript, and popular frameworks like React.js.
                         </p>
                     </li>
                     <li>
                         <p>
-                        Back-End Development: Developed and maintained server-side logic using Node.js and Express.js, ensuring seamless integration with front-end components.
+                            Back-End Development: Developed and maintained
+                            server-side logic using Node.js and Express.js,
+                            ensuring seamless integration with front-end
+                            components.
                         </p>
                     </li>
                     <li>
                         <p>
-                        Database Management: Worked with both SQL and NoSQL databases (e.g., MySQL, MongoDB) to design, implement, and manage data models.
+                            Database Management: Worked with both SQL and NoSQL
+                            databases (e.g., MySQL, MongoDB) to design,
+                            implement, and manage data models.
                         </p>
                     </li>
                     <li>
                         <p>
-                        API Development: Created and consumed RESTful APIs to enable communication between various software components.
+                            API Development: Created and consumed RESTful APIs
+                            to enable communication between various software
+                            components.
                         </p>
                     </li>
                 </ul>
