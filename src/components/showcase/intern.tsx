@@ -122,8 +122,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     </li>
                     <li>
                         <p>
-                            Created conversion algorithms to serialize bracket
-                            tree data to allow for saving in the cloud.
+                        Database Management: Worked with both SQL and NoSQL databases (e.g., MySQL, MongoDB) to design, implement, and manage data models.
                         </p>
                     </li>
                     <li>
