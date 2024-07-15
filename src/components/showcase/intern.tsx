@@ -90,7 +90,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                             rel="noreferrer"
                             href={'https://thegaogroup.com/'}
                         >
-                            <h4>www.thegaogroup.com/</h4>
+                            <h4>www.thegaogroup.com</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
@@ -103,17 +103,16 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             </div>
             <div className="text-block">
                 <p>
-                    Supervised and developed the front end of bracs.co, a
-                    beautifully simple and effective bracket creation and
-                    management engine. Written in Typescript using React and
-                    deployed using AWS Elastic Beanstalk.
+                    During my internship at GAOTek Inc., I had the opportunity
+                    to enhance my skills and gain hands-on experience in
+                    full-stack development. My role encompassed a variety of
+                    responsibilities and projects, including:
                 </p>
                 <br />
                 <ul>
                     <li>
                         <p>
-                            Managed the project and team members by conducting
-                            bi-weekly stand-ups.
+                        Front-End Development: Designed and implemented responsive user interfaces using HTML, CSS, JavaScript, and popular frameworks like React.js.
                         </p>
                     </li>
                     <li>
