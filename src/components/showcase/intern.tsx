@@ -163,83 +163,45 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             </div>
             <div className="text-block">
                 <p>
-                Dedicated Mathematics, Science, and Computer Teacher Volunteer at South Muchatha Primary School, committed to empowering the next generation with essential skills for success in the digital age. 
+                    Dedicated Mathematics, Science, and Computer Teacher
+                    Volunteer at South Muchatha Primary School, committed to
+                    empowering the next generation with essential skills for
+                    success in the digital age.
                 </p>
                 <br />
-                <h3 style={styles.indent}>Screen Credits:</h3>
                 <ul>
-                    <li style={styles.row}>
-                        <p>• Ray Donovan</p>
+                    <li>
                         <p>
-                            [{' '}
-                            <a
-                                href="https://www.sho.com/ray-donovan"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                SHOWTIME
-                            </a>{' '}
-                            ]
+                            Front-End Development: Designed and implemented
+                            responsive user interfaces using HTML, CSS,
+                            JavaScript, and popular frameworks like React.js.
                         </p>
                     </li>
-                    <li style={styles.row}>
-                        <p>• Ray Donovan: The Movie</p>
+                    <li>
                         <p>
-                            [{' '}
-                            <a
-                                href="https://www.sho.com/titles/3508117/ray-donovan-the-movie"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                SHOWTIME
-                            </a>{' '}
-                            ]
+                            Back-End Development: Developed and maintained
+                            server-side logic using Node.js and Express.js,
+                            ensuring seamless integration with front-end
+                            components.
                         </p>
                     </li>
-                    <li style={styles.row}>
-                        <p>• Hightown</p>
+                    <li>
                         <p>
-                            [{' '}
-                            <a
-                                href="https://www.starz.com/us/en/series/hightown/57463"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                STARZ
-                            </a>{' '}
-                            ]
+                            Database Management: Worked with both SQL and NoSQL
+                            databases (e.g., MySQL, MongoDB) to design,
+                            implement, and manage data models.
                         </p>
                     </li>
-                    <li style={styles.row}>
-                        <p>• Bull</p>
+                    <li>
                         <p>
-                            [{' '}
-                            <a
-                                href="https://www.cbs.com/shows/bull/"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                CBS
-                            </a>{' '}
-                            ]
-                        </p>
-                    </li>
-                    <li style={styles.row}>
-                        <p>• At Home with Amy Sedaris</p>
-                        <p>
-                            [{' '}
-                            <a
-                                href="https://www.trutv.com/shows/at-home-with-amy-sedaris"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                truTV
-                            </a>{' '}
-                            ]
+                            API Development: Created and consumed RESTful APIs
+                            to enable communication between various software
+                            components.
                         </p>
                     </li>
                 </ul>
             </div>
+                
         </div>
     );
 };
