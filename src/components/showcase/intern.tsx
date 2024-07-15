@@ -154,9 +154,9 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Special Effects Technician</h3>
+                        <h3>Volunteer Teacher</h3>
                         <b>
-                            <p>Fall 2019, Summer 2024</p>
+                            <p>January 2020 , Summer 2024</p>
                         </b>
                     </div>
                 </div>
