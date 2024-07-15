@@ -117,8 +117,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     </li>
                     <li>
                         <p>
-                            Architected bracket view UI using React Flow and
-                            custom bracket data types built from binary trees.
+                        Back-End Development: Developed and maintained server-side logic using Node.js and Express.js, ensuring seamless integration with front-end components.
                         </p>
                     </li>
                     <li>
