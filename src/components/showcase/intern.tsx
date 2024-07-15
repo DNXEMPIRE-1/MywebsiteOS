@@ -144,7 +144,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>K-F/X</h1>
+                        <h1>South Muchatha primary School</h1>
                         <a
                             target="_blank"
                             rel="noreferrer"
