@@ -180,7 +180,11 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         </p>
                     </li>
                     <li>
-                        <p>Integrated third-party APIs and services to add functionalities such as payment gateways, social media sharing, and geolocation services.</p>
+                        <p>
+                            Integrated third-party APIs and services to add
+                            functionalities such as payment gateways, social
+                            media sharing, and geolocation services.
+                        </p>
                     </li>
                     <li>
                         <p></p>
