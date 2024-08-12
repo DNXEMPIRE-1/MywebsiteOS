@@ -16,7 +16,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                             target="_blank"
                             href={'https://www.nationalbank.co.ke/'}
                         >
-                            <h4>studybuddy.co.ke/</h4>
+                            <h4>nationalbank.co.ke/</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
