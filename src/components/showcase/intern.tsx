@@ -103,7 +103,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         </p>
                     </li>
                     <li>
-                        <p></p>
+                        <p>Implemented state management solutions with Vuex to maintain a centralized store for application data.</p>
                     </li>
                     <li>
                         <p></p>
