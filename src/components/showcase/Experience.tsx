@@ -107,7 +107,7 @@ Ensure effective communication and collaboration between the technology team and
                     </li>
                     <li>
                         <p>
-                        Product Development:</br>
+                        
 Oversee the development and delivery of StudyBuddy’s software products and services.
 Ensure the highest standards of quality, security, and performance in all technology initiatives.
 Manage the product lifecycle from concept to launch, ensuring timely and efficient delivery.
