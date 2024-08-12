@@ -29,7 +29,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             </div>
             <div className="text-block">
                 <p>
-                National Bank of Kenya Limited is a financial services
+                    National Bank of Kenya Limited is a financial services
                     provider headquartered in Nairobi, Kenya. It is licensed as
                     a commercial bank, by the Central Bank of Kenya, the
                     national banking regulator. The bank has also been running
@@ -39,29 +39,19 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 <br />
                 <ul>
                     <li>
-                        <p>
-                          
-                        </p>
+                        <p></p>
                     </li>
                     <li>
-                        <p>
-                            
-                        </p>
+                        <p></p>
                     </li>
                     <li>
-                        <p>
-                           
-                        </p>
+                        <p></p>
                     </li>
                     <li>
-                        <p>
-                            
-                        </p>
+                        <p></p>
                     </li>
                     <li>
-                        <p>
-                            
-                        </p>
+                        <p></p>
                     </li>
                 </ul>
             </div>
@@ -99,7 +89,12 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 <ul>
                     <li>
                         <p>
-                          
+                            Technology Strategy and Vision:</br> Develop and
+                            implement StudyBuddy’s technology vision and
+                            strategy. Align the technology roadmap with overall
+                            business goals and objectives. Stay abreast of
+                            emerging technologies and trends to keep StudyBuddy
+                            competitive and innovative.
                         </p>
                     </li>
                     <li>
@@ -108,19 +103,13 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         </p>
                     </li>
                     <li>
-                        <p>
-                           
-                        </p>
+                        <p></p>
                     </li>
                     <li>
-                        <p>
-                            
-                        </p>
+                        <p></p>
                     </li>
                     <li>
-                        <p>
-                            
-                        </p>
+                        <p></p>
                     </li>
                 </ul>
             </div>
@@ -145,34 +134,24 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 </div>
             </div>
             <div className="text-block">
-                <p>
-                    
-                </p>
+                <p></p>
                 <br />
                 <ul>
                     <li>
-                        <p>
-                            
-                        </p>
+                        <p></p>
                     </li>
                     <li>
-                        <p>
-                            
-                        </p>
+                        <p></p>
                     </li>
                     <li>
-                        <p>
-                           
-                        </p>
+                        <p></p>
                     </li>
                     <li>
-                        <p>
-                           
-                        </p>
+                        <p></p>
                     </li>
                 </ul>
             </div>
-            
+
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
@@ -194,30 +173,20 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 </div>
             </div>
             <div className="text-block">
-                <p>
-                    
-                </p>
+                <p></p>
                 <br />
                 <ul>
                     <li>
-                        <p>
-                            
-                        </p>
+                        <p></p>
                     </li>
                     <li>
-                        <p>
-                            
-                        </p>
+                        <p></p>
                     </li>
                     <li>
-                        <p>
-                            
-                        </p>
+                        <p></p>
                     </li>
                     <li>
-                        <p>
-                           
-                        </p>
+                        <p></p>
                     </li>
                 </ul>
             </div>
