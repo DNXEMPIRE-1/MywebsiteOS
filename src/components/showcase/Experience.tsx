@@ -123,7 +123,7 @@ Implement best practices for IT operations, including disaster recovery, data ba
                     </li>
                     <li>
                         <p>
-                        Budget and Resource Management:
+                        Budget and Resource Management:</br>
 Develop and manage the technology budget, ensuring cost-effective use of resources.
 Identify and manage external partnerships and vendor relationships.
 Optimize the allocation of technical resources to support business priorities.
