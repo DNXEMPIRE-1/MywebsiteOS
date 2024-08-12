@@ -194,6 +194,14 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                             web interfaces.
                         </p>
                     </li>
+                    <li>
+                        <p>
+                            Collaborated closely with designers, UX/UI
+                            specialists, and project managers to translate
+                            design mockups and wireframes into fully functional
+                            web interfaces.
+                        </p>
+                    </li>
                 </ul>
             </div>
 
