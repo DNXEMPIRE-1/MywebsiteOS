@@ -17,7 +17,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                             rel="noreferrer"
                             href={'https://thegaogroup.com/'}
                         >
-                            <h4>www.thegaogroup.com</h4>
+                            <h4>thegaogroup.com</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
