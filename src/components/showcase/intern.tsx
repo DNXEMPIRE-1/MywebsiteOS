@@ -123,15 +123,15 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         <a
                             target="_blank"
                             rel="noreferrer"
-                            href={'https://www.linkedin.com/company/ogilvista'}
+                            href={'https://gssoc.girlscript.tech/'}
                         >
-                            <h4>Ogilvista</h4>
+                            <h4>girlscrip</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
                         <h3>Contributor</h3>
                         <b>
-                            <p>January 2024 → Now</p>
+                            <p>may 2024 → August 2024</p>
                         </b>
                     </div>
                 </div>
