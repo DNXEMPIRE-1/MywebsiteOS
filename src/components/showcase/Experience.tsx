@@ -29,13 +29,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             </div>
             <div className="text-block">
                 <p>
-                    StudyBuddy is an innovative e-learning platform
-                    revolutionizing education in Africa by providing students
-                    with access to a diverse range of teachers from any school
-                    in the country. Through StudyBuddy, students can engage with
-                    teachers outside their own school, expanding their learning
-                    opportunities and gaining insights from a variety of
-                    perspectives.
+                   
                 </p>
                 <br />
                 <ul>
