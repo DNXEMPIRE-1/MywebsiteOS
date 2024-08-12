@@ -106,10 +106,20 @@ Ensure effective communication and collaboration between the technology team and
                         </p>
                     </li>
                     <li>
-                        <p></p>
+                        <p>
+                        Product Development:
+Oversee the development and delivery of StudyBuddy’s software products and services.
+Ensure the highest standards of quality, security, and performance in all technology initiatives.
+Manage the product lifecycle from concept to launch, ensuring timely and efficient delivery.
+                        </p>
                     </li>
                     <li>
-                        <p></p>
+                        <p>
+                        IT Infrastructure and Operations:
+Oversee the design, implementation, and maintenance of StudyBuddy’s IT infrastructure.
+Ensure the security, scalability, and reliability of all technology systems and platforms.
+Implement best practices for IT operations, including disaster recovery, data backup, and cybersecurity measures.
+                        </p>
                     </li>
                     <li>
                         <p></p>
