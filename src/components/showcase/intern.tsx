@@ -117,7 +117,11 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         </p>
                     </li>
                     <li>
-                        <p>Integrated RESTful APIs and GraphQL endpoints into Vue.js applications to fetch and manage data efficiently.</p>
+                        <p>
+                            Integrated RESTful APIs and GraphQL endpoints into
+                            Vue.js applications to fetch and manage data
+                            efficiently.
+                        </p>
                     </li>
                     <li>
                         <p></p>
