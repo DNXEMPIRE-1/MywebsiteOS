@@ -69,6 +69,65 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
+                        <h1>StudyBuddy</h1>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href={'https://studybuddy.co.ke/'}
+                        >
+                            <h4>studybuddy.co.ke/</h4>
+                        </a>
+                    </div>
+                    <div style={styles.headerRow}>
+                        <h3>CTO/CO-FOUNDER</h3>
+                        <b>
+                            <p>June 2024 → Now</p>
+                        </b>
+                    </div>
+                </div>
+            </div>
+            <div className="text-block">
+                <p>
+                    StudyBuddy is an innovative e-learning platform
+                    revolutionizing education in Africa by providing students
+                    with access to a diverse range of teachers from any school
+                    in the country. Through StudyBuddy, students can engage with
+                    teachers outside their own school, expanding their learning
+                    opportunities and gaining insights from a variety of
+                    perspectives.
+                </p>
+                <br />
+                <ul>
+                    <li>
+                        <p>
+                          
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                           
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div style={styles.headerContainer}>
+                <div style={styles.header}>
+                    <div style={styles.headerRow}>
                         <h1>GoPro Digital Agency</h1>
                         <a
                             target="_blank"
