@@ -93,7 +93,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 <br />
                 <ul>
                     <li>
-                        <p></p>
+                        <p>Developed dynamic and responsive single-page applications (SPAs) using Vue.js, Vuex, and Vue Router.</p>
                     </li>
                     <li>
                         <p></p>
