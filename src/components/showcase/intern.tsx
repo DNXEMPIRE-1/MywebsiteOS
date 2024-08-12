@@ -71,6 +71,54 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
+                        <h1>Ogilvista</h1>
+                        <a
+                            target="_blank"
+                            rel="noreferrer"
+                            href={'https://www.linkedin.com/company/ogilvista'}
+                        >
+                            <h4>Ogilvista</h4>
+                        </a>
+                    </div>
+                    <div style={styles.headerRow}>
+                        <h3>Vue js Developer</h3>
+                        <b>
+                            <p>January 2024 → Now</p>
+                        </b>
+                    </div>
+                </div>
+            </div>
+            <div className="text-block">
+                <p>
+                    
+                </p>
+                <br />
+                <ul>
+                    <li>
+                        <p>
+                            
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                           
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div style={styles.headerContainer}>
+                <div style={styles.header}>
+                    <div style={styles.headerRow}>
                         <h1>South Muchatha primary School</h1>
                         <a
                             target="_blank"
