@@ -172,7 +172,12 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         </p>
                     </li>
                     <li>
-                        <p> Implemented custom designs and layouts, ensuring compatibility across various browsers and devices for optimal user experience.</p>
+                        <p>
+                            {' '}
+                            Implemented custom designs and layouts, ensuring
+                            compatibility across various browsers and devices
+                            for optimal user experience.
+                        </p>
                     </li>
                     <li>
                         <p></p>
