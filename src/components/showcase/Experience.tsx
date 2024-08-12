@@ -164,7 +164,12 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 <br />
                 <ul>
                     <li>
-                        <p></p>
+                        <p>
+                            Developed responsive and user-friendly websites and
+                            web applications using HTML5, CSS3, JavaScript, and
+                            modern front-end frameworks like React.js and
+                            Angular.
+                        </p>
                     </li>
                     <li>
                         <p></p>
