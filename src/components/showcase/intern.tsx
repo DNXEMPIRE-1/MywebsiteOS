@@ -124,7 +124,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         </p>
                     </li>
                     <li>
-                        <p></p>
+                        <p>Implemented client-side routing using Vue Router to create seamless navigation experiences within SPAs.</p>
                     </li>
                 </ul>
             </div>
