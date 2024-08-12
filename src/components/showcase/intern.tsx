@@ -111,7 +111,10 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         </p>
                     </li>
                     <li>
-                        <p>Designed and developed reusable Vue components to enhance code modularity and maintainability.</p>
+                        <p>
+                            Designed and developed reusable Vue components to
+                            enhance code modularity and maintainability.
+                        </p>
                     </li>
                     <li>
                         <p></p>
