@@ -89,7 +89,10 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 </div>
             </div>
             <div className="text-block">
-                <p></p>
+                <p>During my internship at ., I had the opportunity
+                    to enhance my skills and gain hands-on experience in
+                    full-stack development. My role encompassed a variety of
+                    responsibilities and projects, including:</p>
                 <br />
                 <ul>
                     <li>
