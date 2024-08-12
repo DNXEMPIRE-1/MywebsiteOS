@@ -196,7 +196,9 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     </li>
                     <li>
                         <p>
-                        Maintained and updated existing websites and applications, implementing new features and enhancements as required.
+                            Maintained and updated existing websites and
+                            applications, implementing new features and
+                            enhancements as required.
                         </p>
                     </li>
                 </ul>
