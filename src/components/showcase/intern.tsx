@@ -7,7 +7,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
     return (
         <div className="site-page-content">
             <ResumeDownload />
-            
+
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
@@ -89,30 +89,20 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 </div>
             </div>
             <div className="text-block">
-                <p>
-                    
-                </p>
+                <p></p>
                 <br />
                 <ul>
                     <li>
-                        <p>
-                            
-                        </p>
+                        <p></p>
                     </li>
                     <li>
-                        <p>
-                            
-                        </p>
+                        <p></p>
                     </li>
                     <li>
-                        <p>
-                            
-                        </p>
+                        <p></p>
                     </li>
                     <li>
-                        <p>
-                           
-                        </p>
+                        <p></p>
                     </li>
                 </ul>
             </div>
@@ -138,41 +128,22 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             </div>
             <div className="text-block">
                 <p>
-                    
+                    GirlScript Summer Of Code is a three-month-long Open-Source
+                    Program conducted every summer by the Girlscript Foundation.
+                    With constant efforts, participants contribute to numerous
+                    projects under the extreme guidance of skilled mentors over
+                    these months. With such exposure, students begin to
+                    contribute to real-world projects from the comfort of their
+                    homes.
                 </p>
                 <br />
-                <ul>
-                    <li>
-                        <p>
-                            
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                           
-                        </p>
-                    </li>
-                </ul>
+                
             </div>
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
                         <h1>South Muchatha primary School</h1>
-                        <a
-                            target="_blank"
-                            rel="noreferrer"
-                            href={'#'}
-                        >
+                        <a target="_blank" rel="noreferrer" href={'#'}>
                             <h4>SouthMuchatha</h4>
                         </a>
                     </div>
