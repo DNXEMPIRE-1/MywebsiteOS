@@ -116,6 +116,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     </li>
                 </ul>
             </div>
+            
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
