@@ -89,10 +89,12 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 </div>
             </div>
             <div className="text-block">
-                <p>During my internship at Ogilvista., I had the opportunity
-                    to enhance my skills and gain hands-on experience in
-                    Vue Development. My role encompassed a variety of
-                    responsibilities and projects, including:</p>
+                <p>
+                    During my internship at Ogilvista., I had the opportunity to
+                    enhance my skills and gain hands-on experience in Vue
+                    Development. My role encompassed a variety of
+                    responsibilities and projects, including:
+                </p>
                 <br />
                 <ul>
                     <li>
@@ -103,7 +105,10 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         </p>
                     </li>
                     <li>
-                        <p>Implemented state management solutions with Vuex to maintain a centralized store for application data.</p>
+                        <p>
+                            Implemented state management solutions with Vuex to
+                            maintain a centralized store for application data.
+                        </p>
                     </li>
                     <li>
                         <p></p>
