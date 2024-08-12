@@ -91,7 +91,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div className="text-block">
                 <p>During my internship at Ogilvista., I had the opportunity
                     to enhance my skills and gain hands-on experience in
-                    full-stack development. My role encompassed a variety of
+                    Vue Development. My role encompassed a variety of
                     responsibilities and projects, including:</p>
                 <br />
                 <ul>
