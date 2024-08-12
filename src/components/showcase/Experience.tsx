@@ -89,45 +89,52 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 <ul>
                     <li>
                         <p>
-                            Develop and
-                            implement StudyBuddy’s technology vision and
-                            strategy. Align the technology roadmap with overall
-                            business goals and objectives. Stay abreast of
-                            emerging technologies and trends to keep StudyBuddy
-                            competitive and innovative.
+                            Develop and implement StudyBuddy’s technology vision
+                            and strategy. Align the technology roadmap with
+                            overall business goals and objectives. Stay abreast
+                            of emerging technologies and trends to keep
+                            StudyBuddy competitive and innovative.
                         </p>
                     </li>
                     <li>
                         <p>
-                        
-Lead and mentor the technology team, including software engineers, IT professionals, and other technical staff.
-Foster a culture of innovation, collaboration, and continuous improvement within the technology department.
-Ensure effective communication and collaboration between the technology team and other departments.
+                            Lead and mentor the technology team, including
+                            software engineers, IT professionals, and other
+                            technical staff. Foster a culture of innovation,
+                            collaboration, and continuous improvement within the
+                            technology department. Ensure effective
+                            communication and collaboration between the
+                            technology team and other departments.
                         </p>
                     </li>
                     <li>
                         <p>
-                        
-Oversee the development and delivery of StudyBuddy’s software products and services.
-Ensure the highest standards of quality, security, and performance in all technology initiatives.
-Manage the product lifecycle from concept to launch, ensuring timely and efficient delivery.
+                            Oversee the development and delivery of StudyBuddy’s
+                            software products and services. Ensure the highest
+                            standards of quality, security, and performance in
+                            all technology initiatives. Manage the product
+                            lifecycle from concept to launch, ensuring timely
+                            and efficient delivery.
                         </p>
                     </li>
                     <li>
                         <p>
-                        
-Oversee the design, implementation, and maintenance of StudyBuddy’s IT infrastructure.
-Ensure the security, scalability, and reliability of all technology systems and platforms.
-Implement best practices for IT operations, including disaster recovery, data backup, and cybersecurity measures.
+                            Oversee the design, implementation, and maintenance
+                            of StudyBuddy’s IT infrastructure. Ensure the
+                            security, scalability, and reliability of all
+                            technology systems and platforms. Implement best
+                            practices for IT operations, including disaster
+                            recovery, data backup, and cybersecurity measures.
                         </p>
-                        </li>
+                    </li>
                     <li>
                         <p>
-                        
-Develop and manage the technology budget, ensuring cost-effective use of resources.
-Identify and manage external partnerships and vendor relationships.
-Optimize the allocation of technical resources to support business priorities.
-Compliance and Risk Management:
+                            Develop and manage the technology budget, ensuring
+                            cost-effective use of resources. Identify and manage
+                            external partnerships and vendor relationships.
+                            Optimize the allocation of technical resources to
+                            support business priorities. Compliance and Risk
+                            Management:
                         </p>
                     </li>
                 </ul>
