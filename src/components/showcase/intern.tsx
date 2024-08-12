@@ -93,7 +93,11 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 <br />
                 <ul>
                     <li>
-                        <p>Developed dynamic and responsive single-page applications (SPAs) using Vue.js, Vuex, and Vue Router.</p>
+                        <p>
+                            Developed dynamic and responsive single-page
+                            applications (SPAs) using Vue.js, Vuex, and Vue
+                            Router.
+                        </p>
                     </li>
                     <li>
                         <p></p>
@@ -137,7 +141,6 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     homes.
                 </p>
                 <br />
-                
             </div>
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
