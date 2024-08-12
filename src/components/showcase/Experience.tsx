@@ -99,7 +99,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     </li>
                     <li>
                         <p>
-                        Leadership and Management:
+                        Leadership and Management:</br>
 Lead and mentor the technology team, including software engineers, IT professionals, and other technical staff.
 Foster a culture of innovation, collaboration, and continuous improvement within the technology department.
 Ensure effective communication and collaboration between the technology team and other departments.
