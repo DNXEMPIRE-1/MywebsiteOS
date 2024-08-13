@@ -94,7 +94,7 @@ const Contact: React.FC<ContactProps> = (props) => {
             }
         } catch (e) {
             setFormMessage(
-                'There seems to be a problem with the system, We have notifield Dennis. In the mean time contact him directly through his gmail dennisnzioki019@gmail.com'
+                'There seems to be a problem with the system, We have notifield Dennis. In the mean time contact him directly through his gmail dennis@dennisnzioki.com'
             );
             setFormMessageColor(colors.red);
             setIsLoading(false);
@@ -143,8 +143,8 @@ const Contact: React.FC<ContactProps> = (props) => {
                 <br />
                 <p>
                     <b>Email: </b>
-                    <a href="mailto:dennisnzioki019@gmail.com">
-                        dennisnzioki019@gmail.com
+                    <a href="mailto:dennis@dennisnzioki.com">
+                        dennis@dennisnzioki.com
                     </a>
                 </p>
 
