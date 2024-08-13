@@ -16,9 +16,9 @@ const About: React.FC<AboutProps> = (props) => {
             <br />
             <div className="text-block">
                 <p>
-                    I'm a software engineer currently working at Gopro! In June I will
-                     graduated from Strathmore University
-                    with my BS in Business Information Technology.
+                    I'm a software engineer currently working at Gopro! In June
+                    I will graduated from Strathmore University with my BS in
+                    Business Information Technology.
                 </p>
                 <br />
                 <p>
@@ -27,8 +27,8 @@ const About: React.FC<AboutProps> = (props) => {
                     building it. If you have any questions or comments, feel
                     free to contact me using{' '}
                     <Link to="/contact">this form</Link> or shoot me an email at{' '}
-                    <a href="mailto:dennisnzioki019@gmail.com">
-                        dennisnzioki019@gmail.com
+                    <a href="mailto:dennis@dennisnzioki.com">
+                        dennis@dennisnzioki.com
                     </a>
                 </p>
             </div>
@@ -37,11 +37,14 @@ const About: React.FC<AboutProps> = (props) => {
                 <h3>About Me</h3>
                 <br />
                 <p>
-                Ever since I was a kid, I've been fascinated by how things work.
-                 This curiosity quickly turned into an obsession with Lego, sparking a lifelong love for building.
-                  In high school, I dove into programming for the first time by joining the Computer Robotics team,
-                   which opened up a whole new world for me. In 2010, my family and I made a big move to Nairobi, 
-                where I continued my journey through primary school, high school, and eventually university.
+                    Ever since I was a kid, I've been fascinated by how things
+                    work. This curiosity quickly turned into an obsession with
+                    Lego, sparking a lifelong love for building. In high school,
+                    I dove into programming for the first time by joining the
+                    Computer Robotics team, which opened up a whole new world
+                    for me. In 2010, my family and I made a big move to Nairobi,
+                    where I continued my journey through primary school, high
+                    school, and eventually university.
                 </p>
                 <br />
                 <div className="captioned-image">
@@ -55,19 +58,24 @@ const About: React.FC<AboutProps> = (props) => {
                 </div>
 
                 <p>
-                My serious programming journey kicked off in high school, where I began by learning to scrape and interact with websites. 
-                From there, I dived into numerous passion projects, creating chat bots, 
-                developing multiple game projects, building apps, and more. 
-                few of these projects are showcased on my...{' '}
+                    My serious programming journey kicked off in high school,
+                    where I began by learning to scrape and interact with
+                    websites. From there, I dived into numerous passion
+                    projects, creating chat bots, developing multiple game
+                    projects, building apps, and more. few of these projects are
+                    showcased on my...{' '}
                     <Link to="/projects/software">Software Projects</Link> page.
                 </p>
                 <br />
                 <p>
-                In 2020, I was thrilled to be accepted into Strathmore University,
-                to study Business Information Technology. By the end of my sophomore year, 
-                I landed an internship at the startup Fujicom, where I primarily focused on Website development. 
-                I continued working at Fujicom intermittently for about a year. 
-                As my senior year approached, I decided to explore new opportunities and shift my focus to other exciting ventures.
+                    In 2020, I was thrilled to be accepted into Strathmore
+                    University, to study Business Information Technology. By the
+                    end of my sophomore year, I landed an internship at the
+                    startup Fujicom, where I primarily focused on Website
+                    development. I continued working at Fujicom intermittently
+                    for about a year. As my senior year approached, I decided to
+                    explore new opportunities and shift my focus to other
+                    exciting ventures.
                 </p>
                 <br />
                 <br />
@@ -86,22 +94,22 @@ const About: React.FC<AboutProps> = (props) => {
                             Beyond software, I have a lot of hobbies that I
                             enjoy doing in my free time. The more tangible
                             hobbies I have are{' '}
-                            <Link to="/projects/music">Music Production</Link>{' '}
-                            , creating{' '}
-                            <Link to="/projects/art">Digital Art</Link>.
-                            and {' '}
-                            <Link to="/projects/design">Design</Link>. 
-                            You can
-                            read more about each of these on their respective
-                            pages under my projects tab. Some other hobbies I
-                            enjoy are working out, cooking, watching scifi/fantasy Movies/series, and (unsurprisingly)
+                            <Link to="/projects/music">Music Production</Link> ,
+                            creating <Link to="/projects/art">Digital Art</Link>
+                            . and <Link to="/projects/design">Design</Link>. You
+                            can read more about each of these on their
+                            respective pages under my projects tab. Some other
+                            hobbies I enjoy are working out, cooking, watching
+                            scifi/fantasy Movies/series, and (unsurprisingly)
                             playing video games.
                         </p>
                         <br />
                         <p>
-                            In University, I was an active member in the Strathmore Computing and Engineering Student Association 
-                            and held the Head of Cybersecurity Department. I met a lot of amazing people through
-                            my fraternity and thoroughly enjoyed the community.
+                            In University, I was an active member in the
+                            Strathmore Computing and Engineering Student
+                            Association and held the Head of Cybersecurity
+                            Department. I met a lot of amazing people through my
+                            fraternity and thoroughly enjoyed the community.
                         </p>
                     </div>
                     <div style={styles.verticalImage}>
@@ -135,8 +143,8 @@ const About: React.FC<AboutProps> = (props) => {
                     them. You can reach me through the{' '}
                     <Link to="/contact">contact page</Link> or shoot me an email
                     at{' '}
-                    <a href="mailto:dennisnzioki019@gmail.com">
-                        dennisnzioki019@gmail.com
+                    <a href="mailto:dennis@dennisnzioki.com">
+                        dennis@dennisnzioki.com
                     </a>
                 </p>
             </div>
