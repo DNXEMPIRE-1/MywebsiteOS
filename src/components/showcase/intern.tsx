@@ -7,64 +7,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
     return (
         <div className="site-page-content">
             <ResumeDownload />
-            <div style={styles.headerContainer}>
-                <div style={styles.header}>
-                    <div style={styles.headerRow}>
-                        <h1>National Bank of Kenya</h1>
-                        <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href={'https://www.nationalbank.co.ke/'}
-                        >
-                            <h4>nationalbank.co.ke/</h4>
-                        </a>
-                    </div>
-                    <div style={styles.headerRow}>
-                        <h3>Quality Assurance - QA</h3>
-                        <b>
-                            <p>June 2024 → Now</p>
-                        </b>
-                    </div>
-                </div>
-            </div>
-            <div className="text-block">
-                <p>
-                    National Bank of Kenya Limited is a financial services
-                    provider headquartered in Nairobi, Kenya. It is licensed as
-                    a commercial bank, by the Central Bank of Kenya, the
-                    national banking regulator. The bank has also been running
-                    Agency banking model. National Bank is a subsidiary of KCB
-                    Group Plc after a successful acquisition in 2019.
-                </p>
-                <br />
-                <ul>
-                    <li>
-                        <p>
-                            
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                           
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                           
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            
-                        </p>
-                    </li>
-                </ul>
-            </div>
+
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
@@ -74,7 +17,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                             rel="noreferrer"
                             href={'https://thegaogroup.com/'}
                         >
-                            <h4>www.thegaogroup.com</h4>
+                            <h4>thegaogroup.com</h4>
                         </a>
                     </div>
                     <div style={styles.headerRow}>
@@ -128,12 +71,103 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>South Muchatha primary School</h1>
+                        <h1>Ogilvista</h1>
                         <a
                             target="_blank"
                             rel="noreferrer"
-                            href={'#'}
+                            href={'https://www.linkedin.com/company/ogilvista'}
                         >
+                            <h4>Ogilvista</h4>
+                        </a>
+                    </div>
+                    <div style={styles.headerRow}>
+                        <h3>Vue js Developer</h3>
+                        <b>
+                            <p>January 2024 → Now</p>
+                        </b>
+                    </div>
+                </div>
+            </div>
+            <div className="text-block">
+                <p>
+                    During my internship at Ogilvista., I had the opportunity to
+                    enhance my skills and gain hands-on experience in Vue
+                    Development. My role encompassed a variety of
+                    responsibilities and projects, including:
+                </p>
+                <br />
+                <ul>
+                    <li>
+                        <p>
+                            Developed dynamic and responsive single-page
+                            applications (SPAs) using Vue.js, Vuex, and Vue
+                            Router.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Implemented state management solutions with Vuex to
+                            maintain a centralized store for application data.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Designed and developed reusable Vue components to
+                            enhance code modularity and maintainability.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Integrated RESTful APIs and GraphQL endpoints into
+                            Vue.js applications to fetch and manage data
+                            efficiently.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Implemented client-side routing using Vue Router to
+                            create seamless navigation experiences within SPAs.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div style={styles.headerContainer}>
+                <div style={styles.header}>
+                    <div style={styles.headerRow}>
+                        <h1>GirlScript Summer of Code</h1>
+                        <a
+                            target="_blank"
+                            rel="noreferrer"
+                            href={'https://gssoc.girlscript.tech/'}
+                        >
+                            <h4>GirlScript</h4>
+                        </a>
+                    </div>
+                    <div style={styles.headerRow}>
+                        <h3>Contributor</h3>
+                        <b>
+                            <p>may 2024 → August 2024</p>
+                        </b>
+                    </div>
+                </div>
+            </div>
+            <div className="text-block">
+                <p>
+                    GirlScript Summer Of Code is a three-month-long Open-Source
+                    Program conducted every summer by the Girlscript Foundation.
+                    With constant efforts, participants contribute to numerous
+                    projects under the extreme guidance of skilled mentors over
+                    these months. With such exposure, students begin to
+                    contribute to real-world projects from the comfort of their
+                    homes.
+                </p>
+                <br />
+            </div>
+            <div style={styles.headerContainer}>
+                <div style={styles.header}>
+                    <div style={styles.headerRow}>
+                        <h1>South Muchatha primary School</h1>
+                        <a target="_blank" rel="noreferrer" href={'#'}>
                             <h4>SouthMuchatha</h4>
                         </a>
                     </div>
