@@ -103,6 +103,67 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 </p>
                 <br />
             </div>
+            
+            <div style={styles.headerContainer}>
+                <div style={styles.header}>
+                    <div style={styles.headerRow}>
+                        <h1>GAOTek Inc</h1>
+                        <a
+                            target="_blank"
+                            rel="noreferrer"
+                            href={'https://thegaogroup.com/'}
+                        >
+                            <h4>thegaogroup.com</h4>
+                        </a>
+                    </div>
+                    <div style={styles.headerRow}>
+                        <h3>Full Stack Developer</h3>
+                        <b>
+                            <p>January 2023 → June 2023</p>
+                        </b>
+                    </div>
+                </div>
+            </div>
+            <div className="text-block">
+                <p>
+                    During my internship at GAOTek Inc., I had the opportunity
+                    to enhance my skills and gain hands-on experience in
+                    full-stack development. My role encompassed a variety of
+                    responsibilities and projects, including:
+                </p>
+                <br />
+                <ul>
+                    <li>
+                        <p>
+                            Front-End Development: Designed and implemented
+                            responsive user interfaces using HTML, CSS,
+                            JavaScript, and popular frameworks like React.js.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Back-End Development: Developed and maintained
+                            server-side logic using Node.js and Express.js,
+                            ensuring seamless integration with front-end
+                            components.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Database Management: Worked with both SQL and NoSQL
+                            databases (e.g., MySQL, MongoDB) to design,
+                            implement, and manage data models.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            API Development: Created and consumed RESTful APIs
+                            to enable communication between various software
+                            components.
+                        </p>
+                    </li>
+                </ul>
+            </div>
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
