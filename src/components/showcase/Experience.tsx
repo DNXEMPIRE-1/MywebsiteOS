@@ -58,7 +58,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
-                        <h1>KCB-NBK</h1>
+                        <h1>Ogilvista</h1>
                         <a
                             rel="noreferrer"
                             target="_blank"
