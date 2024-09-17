@@ -62,7 +62,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         <a
                             rel="noreferrer"
                             target="_blank"
-                            href={'https://www.nationalbank.co.ke/'}
+                            href={'https://www.linkedin.com/company/ogilvista'}
                         >
                             <h4>nationalbank.co.ke/</h4>
                         </a>
