@@ -58,6 +58,54 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
+                        <h1>KCB-NBK</h1>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href={'https://www.nationalbank.co.ke/'}
+                        >
+                            <h4>nationalbank.co.ke/</h4>
+                        </a>
+                    </div>
+                    <div style={styles.headerRow}>
+                        <h3>Quality Assurance - QA</h3>
+                        <b>
+                            <p>June 2024 → Now</p>
+                        </b>
+                    </div>
+                </div>
+            </div>
+            <div className="text-block">
+                <p>
+                    National Bank of Kenya Limited is a financial services
+                    provider headquartered in Nairobi, Kenya. It is licensed as
+                    a commercial bank, by the Central Bank of Kenya, the
+                    national banking regulator. The bank has also been running
+                    Agency banking model. National Bank is a subsidiary of KCB
+                    Group Plc after a successful acquisition in 2019.
+                </p>
+                <br />
+                <ul>
+                    <li>
+                        <p></p>
+                    </li>
+                    <li>
+                        <p></p>
+                    </li>
+                    <li>
+                        <p></p>
+                    </li>
+                    <li>
+                        <p></p>
+                    </li>
+                    <li>
+                        <p></p>
+                    </li>
+                </ul>
+            </div>
+            <div style={styles.headerContainer}>
+                <div style={styles.header}>
+                    <div style={styles.headerRow}>
                         <h1>StudyBuddy</h1>
                         <a
                             rel="noreferrer"
