@@ -20,10 +20,9 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                         </a>
                     </div>
                     <div style={styles.headerRow}>
-                        <h3>Quality Assurance - QA</h3></br>
-                        <h3>Application Developer - AAD</h3>
+                        <h3>Quality Assurance - QA</h3>
                         <b>
-                            <p>June 2024 → Now</p>
+                            <p>June 2024 → September</p>
                         </b>
                     </div>
                 </div>
@@ -40,20 +39,47 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 <br />
                 <ul>
                     <li>
-                        <p></p>
+                        <p>Develop and execute detailed test cases for various banking applications, ensuring that all functionalities align with business requirements and regulatory standards.</p>
                     </li>
                     <li>
-                        <p></p>
+                        <p>Identify, log, and track defects within applications using tools like JIRA or Bugzilla. Collaborate with developers to ensure timely fixes.</p>
                     </li>
                     <li>
-                        <p></p>
+                        <p>Implement automated test scripts using tools like Selenium, QTP, or Appium to improve efficiency and accuracy in regression and functional testing.</p>
                     </li>
                     <li>
-                        <p></p>
+                        <p>Conduct performance testing to evaluate system stability under heavy loads, and security testing to ensure compliance with banking industry security protocols.
+                        </p>
                     </li>
                     <li>
-                        <p></p>
+                        <p>Ensure all testing activities meet internal compliance standards and are properly documented for audits and regulatory review.</p>
                     </li>
+                </ul>
+            </div>
+            <div style={styles.headerRow}>
+                        <h3>Application Developer - AAD</h3>
+                        <b>
+                            <p>September 2024 → Now</p>
+                        </b>
+                    </div>
+            
+            <div className="text-block">
+                
+                <br />
+                <ul>
+                    <li>
+                        <p>Work on integrating third-party APIs, such as payment gateways or KYC systems, with the bank’s existing infrastructure to provide additional services to customers.</p>
+                    </li>
+                    <li>
+                        <p>Design, optimize, and manage databases (e.g., MySQL, Oracle) to store customer data, transaction records, and other critical banking information.</p>
+                    </li>
+                    <li>
+                        <p>Implement secure coding practices and encryption methods to protect sensitive customer data and transactions, complying with cybersecurity standards.</p>
+                    </li>
+                    <li>
+                        <p>Monitor applications post-deployment, address any bugs or performance issues, and perform regular system updates to ensure continuous availability.</p>
+                    </li>
+                    
                 </ul>
             </div>
             <div style={styles.headerContainer}>
