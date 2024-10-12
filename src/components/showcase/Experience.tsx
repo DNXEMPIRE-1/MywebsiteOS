@@ -112,19 +112,19 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 <br />
                 <ul>
                     <li>
-                        <p></p>
+                        <p>Translate UI/UX designs into interactive, user-friendly web interfaces using HTML, CSS, and JavaScript frameworks like React, Angular, or Vue. Ensure a seamless and visually appealing user experience across different banking platforms, including web and mobile.</p>
                     </li>
                     <li>
-                        <p></p>
+                        <p>Translate UI/UX designs into interactive, user-friendly web interfaces using HTML, CSS, and JavaScript frameworks like React, Angular, or Vue. Ensure a seamless and visually appealing user experience across different banking platforms, including web and mobile.</p>
                     </li>
                     <li>
-                        <p></p>
+                        <p>Ensure that all applications and web pages are fully responsive, meaning they work smoothly across various devices, such as desktops, tablets, and mobile phones. This is crucial in delivering a consistent experience to customers using different devices.</p>
                     </li>
                     <li>
-                        <p></p>
+                        <p>Optimize web applications for speed and performance by reducing page load times, optimizing images, and using techniques such as lazy loading or code splitting to ensure a fast user experience, even with heavy traffic.</p>
                     </li>
                     <li>
-                        <p></p>
+                        <p>Implement front-end security practices, such as input validation, to prevent vulnerabilities like cross-site scripting (XSS) or cross-site request forgery (CSRF). Ensure the application adheres to the bank’s security policies and is compliant with financial industry standards (e.g., PCI-DSS).</p>
                     </li>
                 </ul>
             </div>
@@ -302,16 +302,16 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 <br />
                 <ul>
                     <li>
-                        <p></p>
+                        <p>Design visually appealing and functional website layouts using tools like Adobe XD, Figma, or Sketch. Ensure the design aligns with the bank's brand guidelines and provides an intuitive navigation experience for users.</p>
                     </li>
                     <li>
-                        <p></p>
+                        <p>Develop graphic elements (such as logos, banners, and icons) that reinforce the bank's brand identity across its digital platforms. Maintain consistency in the use of fonts, colors, and imagery across the website, social media, and other digital materials.</p>
                     </li>
                     <li>
-                        <p></p>
+                        <p>Design and integrate multimedia elements, including animations, interactive infographics, and videos, to enhance user engagement on the website or in promotional materials. Tools like Adobe After Effects or Illustrator may be used for these tasks.</p>
                     </li>
                     <li>
-                        <p></p>
+                        <p>Create interactive prototypes to demonstrate how web elements (buttons, forms, menus) will work. Conduct usability testing to gather feedback on the design, ensuring it meets user expectations and improves the overall experience.</p>
                     </li>
                 </ul>
             </div>
