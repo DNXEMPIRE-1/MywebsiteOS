@@ -146,24 +146,26 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                 🚀 Explore the Suite
                     of Tools: {' '}
                     <br></br>
-                    Design Assets: High-quality graphics, UI kits, icons, fonts,
-                    and more to enhance your design projects. <br></br>
-                    Coding Libraries: A curated selection of libraries and
-                    frameworks to streamline your development process. <br></br>
-                    Project Inspiration: Case studies, portfolios, and showcases
-                    of outstanding work from the design and development
-                    community. <br></br>
-                    Educational Resources: Tutorials, articles, and guides to
-                    help you learn new skills and stay updated with industry
-                    trends. <br></br>
-                    Community Support: Forums, discussion groups, and networking
-                    opportunities to connect with like-minded professionals and
-                    collaborate on projects. <br></br>
-                    Whether you are a seasoned professional or just starting,
-                    DevDesign-Hub is your go-to resource for everything related
-                    to design and development. Join our community to access
-                    top-notch resources, stay inspired, and elevate your
-                    projects to the next level.
+                    💬 Conversational AI – Engage in natural language
+                    conversations with an intelligent chatbot.  <br></br>
+                    🍳 Creative Chef
+                    – Generate recipes and discover culinary inspiration. <br></br>
+                    📖
+                    Story Weaver – Create captivating stories with AI
+                    assistance.   <br></br>
+                    🔍 Psychology Insights – Unlock personality and
+                    behavior insights. <br></br>
+                    💻 Code Architect – Automate tasks by
+                    generating code in multiple languages. . <br></br>
+                    🤖 Algorithm Builder
+                    – Develop Python algorithms for diverse applications. <br></br>
+                    📚
+                    Document Summarizer – Summarize lengthy documents in
+                    seconds. <br></br>
+                    🧠 Health Analyzer – Diagnose potential health
+                    concerns with AI insights. <br></br>
+                    🔗 NeuraChart – Design AI-powered
+                    flowcharts for enhanced creativity.
                 </p>
                 <br />
                 <h3>Links:</h3>
