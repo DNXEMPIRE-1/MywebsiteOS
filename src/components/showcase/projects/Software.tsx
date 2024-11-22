@@ -8,6 +8,8 @@ import computer from '../../../assets/pictures/projects/software/computer.mp4';
 // @ts-ignore
 import ninja from '../../../assets/pictures/projects/software/ninja.mp4';
 // @ts-ignore
+import flexiai from '../../../assets/pictures/projects/software/flexiai.webm';
+// @ts-ignore
 import ResumeDownload from '../ResumeDownload';
 import VideoAsset from '../../general/VideoAsset';
 
@@ -120,6 +122,7 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     </a>
                 </p>
             </div>
+            
             <div className="text-block">
                 <h2>DevDesign-Hub</h2>
                 <br />
