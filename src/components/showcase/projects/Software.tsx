@@ -122,7 +122,80 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     </a>
                 </p>
             </div>
-            
+            <div className="text-block">
+                <h2>FlexiAI</h2>
+                <br />
+                <p>
+                    🌟 FlexiAI: Revolutionizing Everyday Experiences with AI!
+                    🤖🧠 Excited to share the launch of FlexiAI, a platform
+                    offering next-generation AI tools to simplify tasks, spark
+                    creativity, and empower productivity.
+                </p>
+                <br />
+                <div className="captioned-image">
+                    <VideoAsset src={flexiai} />
+                    <div style={styles.caption}>
+                        <p>
+                            <sub>
+                                <b>Figure 2: </b>Step into the future of AI
+                            </sub>
+                        </p>
+                    </div>
+                </div>
+                <p>
+                🚀 Explore the Suite
+                    of Tools: {' '}
+                    <br></br>
+                    Design Assets: High-quality graphics, UI kits, icons, fonts,
+                    and more to enhance your design projects. <br></br>
+                    Coding Libraries: A curated selection of libraries and
+                    frameworks to streamline your development process. <br></br>
+                    Project Inspiration: Case studies, portfolios, and showcases
+                    of outstanding work from the design and development
+                    community. <br></br>
+                    Educational Resources: Tutorials, articles, and guides to
+                    help you learn new skills and stay updated with industry
+                    trends. <br></br>
+                    Community Support: Forums, discussion groups, and networking
+                    opportunities to connect with like-minded professionals and
+                    collaborate on projects. <br></br>
+                    Whether you are a seasoned professional or just starting,
+                    DevDesign-Hub is your go-to resource for everything related
+                    to design and development. Join our community to access
+                    top-notch resources, stay inspired, and elevate your
+                    projects to the next level.
+                </p>
+                <br />
+                <h3>Links:</h3>
+                <ul>
+                    <li>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href="https://flexiai.onrender.com/"
+                        >
+                            <p>
+                                <b>[🚀Live Demo]</b> - FlexiAI Site
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            rel="noreferrer"
+                            target="_blank"
+                            href="https://github.com/DNXEMPIRE-1/"
+                        >
+                            <p>
+                                <b>[👨‍💻GitHub]</b> - FlexiAI Repository
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+                <p>
+                    Unfortunately, FlexiAI Weather API is still on development and
+                    Contributors are all welcome.✨
+                </p>
+            </div>
             <div className="text-block">
                 <h2>DevDesign-Hub</h2>
                 <br />
@@ -294,7 +367,9 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     <VideoAsset src={ninja} />
                     <p style={styles.caption}>
                         <sub>
-                            <b>Figure 3:</b>An Excalidraw clone with React and TypeScript. Rough.js is used for the sketchy, hand-drawn style.
+                            <b>Figure 3:</b>An Excalidraw clone with React and
+                            TypeScript. Rough.js is used for the sketchy,
+                            hand-drawn style.
                         </sub>
                     </p>
                 </div>
@@ -340,49 +415,49 @@ const SoftwareProjects: React.FC<SoftwareProjectsProps> = (props) => {
                     </li>
                 </ul>
                 <p>
-                    👩🏽‍🍳 The Process<br></br>
-                     I started by rendering a canvas with rough.js
-                    to create the base for all the drawings. Then, I focused on
-                    drawing on the canvas, allowing users to make lines,
-                    rectangles, and other shapes. <br></br>
-                    Next, I made sure users could
-                    move elements around. This was important for adjusting
-                    drawings. After that, I added the ability to resize elements
-                    to give more control over the shapes.<br></br> 
-                    To make sure mistakes could be fixed, I implemented undo and redo features. I also
-                    added freehand drawing for a more natural sketching
-                    experience and a text tool to label or note on the canvas.<br></br>
+                    👩🏽‍🍳 The Process<br></br>I started by rendering a canvas with
+                    rough.js to create the base for all the drawings. Then, I
+                    focused on drawing on the canvas, allowing users to make
+                    lines, rectangles, and other shapes. <br></br>
+                    Next, I made sure users could move elements around. This was
+                    important for adjusting drawings. After that, I added the
+                    ability to resize elements to give more control over the
+                    shapes.<br></br>
+                    To make sure mistakes could be fixed, I implemented undo and
+                    redo features. I also added freehand drawing for a more
+                    natural sketching experience and a text tool to label or
+                    note on the canvas.<br></br>
                     To navigate larger drawings, I put in pan and zoom tools.
                     With everything functioning, I designed the whole UI to make
                     it user-friendly and appealing. <br></br>
-                    Finally, I added testing with Cypress and Testing Library. I conducted end-to-end
-                    tests on drawing and manipulating text, lines, rectangles,
-                    and freehand drawings to make sure everything worked
-                    smoothly. <br></br>
-                    Along the way, while building everything, I took
-                    notes on what I've learned so I don't miss out on it. I also
+                    Finally, I added testing with Cypress and Testing Library. I
+                    conducted end-to-end tests on drawing and manipulating text,
+                    lines, rectangles, and freehand drawings to make sure
+                    everything worked smoothly. <br></br>
+                    Along the way, while building everything, I took notes on
+                    what I've learned so I don't miss out on it. I also
                     documented the behind-the-scenes processes every time a
                     feature was added. <br></br>
-                    This way, I understood what I've built.
-                    The funny thing is, as soon as I started to document what
-                    happened behind the scenes and the features I've added, it
-                    made me realize that we fully understand something once
-                    we've actually taken a step back, thought about it, and
-                    documented what we've done. I think this is a good practice
-                    to follow when learning something new.
+                    This way, I understood what I've built. The funny thing is,
+                    as soon as I started to document what happened behind the
+                    scenes and the features I've added, it made me realize that
+                    we fully understand something once we've actually taken a
+                    step back, thought about it, and documented what we've done.
+                    I think this is a good practice to follow when learning
+                    something new.
                 </p>
                 <h3>For more Projects visit </h3>
-                    <li>
-                        <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href="https://github.com/DNXEMPIRE-1/"
-                        >
-                            <p>
-                                <b>👨‍💻 My GitHub Profile</b>
-                            </p>
-                        </a>
-                    </li>
+                <li>
+                    <a
+                        rel="noreferrer"
+                        target="_blank"
+                        href="https://github.com/DNXEMPIRE-1/"
+                    >
+                        <p>
+                            <b>👨‍💻 My GitHub Profile</b>
+                        </p>
+                    </a>
+                </li>
             </div>
             <ResumeDownload />
         </div>
