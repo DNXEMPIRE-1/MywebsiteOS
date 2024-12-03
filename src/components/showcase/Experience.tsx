@@ -85,6 +85,71 @@ const Experience: React.FC<ExperienceProps> = (props) => {
             <div style={styles.headerContainer}>
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
+                        <h1>GoPro Digital Agency</h1>
+                        <a
+                            target="_blank"
+                            rel="noreferrer"
+                            href={'https://gopro4.vercel.app/'}
+                        >
+                            <h4>gopro-digital</h4>
+                        </a>
+                    </div>
+                    <div style={styles.headerRow}>
+                        <h3>Web Developer & Web Designer</h3>
+                        <b>
+                            <p>March 2024 → Now</p>
+                        </b>
+                    </div>
+                </div>
+            </div>
+            <div className="text-block">
+                <p></p>
+                <br />
+                <ul>
+                    <li>
+                        <p>
+                            Developed responsive and user-friendly websites and
+                            web applications using HTML5, CSS3, JavaScript, and
+                            modern front-end frameworks like React.js and
+                            Angular.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            {' '}
+                            Implemented custom designs and layouts, ensuring
+                            compatibility across various browsers and devices
+                            for optimal user experience.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Integrated third-party APIs and services to add
+                            functionalities such as payment gateways, social
+                            media sharing, and geolocation services.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Collaborated closely with designers, UX/UI
+                            specialists, and project managers to translate
+                            design mockups and wireframes into fully functional
+                            web interfaces.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Maintained and updated existing websites and
+                            applications, implementing new features and
+                            enhancements as required.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            
+            <div style={styles.headerContainer}>
+                <div style={styles.header}>
+                    <div style={styles.headerRow}>
                         <h1>Ogilvista</h1>
                         <a
                             rel="noreferrer"
@@ -143,7 +208,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                     <div style={styles.headerRow}>
                         <h3>CTO/CO-FOUNDER</h3>
                         <b>
-                            <p>June 2024 → October</p>
+                            <p>June 2024 → October 2024</p>
                         </b>
                     </div>
                 </div>
@@ -208,70 +273,6 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                             Optimize the allocation of technical resources to
                             support business priorities. Compliance and Risk
                             Management:
-                        </p>
-                    </li>
-                </ul>
-            </div>
-            <div style={styles.headerContainer}>
-                <div style={styles.header}>
-                    <div style={styles.headerRow}>
-                        <h1>GoPro Digital Agency</h1>
-                        <a
-                            target="_blank"
-                            rel="noreferrer"
-                            href={'https://gopro4.vercel.app/'}
-                        >
-                            <h4>gopro-digital</h4>
-                        </a>
-                    </div>
-                    <div style={styles.headerRow}>
-                        <h3>Web Developer & Web Designer</h3>
-                        <b>
-                            <p>March 2024 → Now</p>
-                        </b>
-                    </div>
-                </div>
-            </div>
-            <div className="text-block">
-                <p></p>
-                <br />
-                <ul>
-                    <li>
-                        <p>
-                            Developed responsive and user-friendly websites and
-                            web applications using HTML5, CSS3, JavaScript, and
-                            modern front-end frameworks like React.js and
-                            Angular.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            {' '}
-                            Implemented custom designs and layouts, ensuring
-                            compatibility across various browsers and devices
-                            for optimal user experience.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Integrated third-party APIs and services to add
-                            functionalities such as payment gateways, social
-                            media sharing, and geolocation services.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Collaborated closely with designers, UX/UI
-                            specialists, and project managers to translate
-                            design mockups and wireframes into fully functional
-                            web interfaces.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Maintained and updated existing websites and
-                            applications, implementing new features and
-                            enhancements as required.
                         </p>
                     </li>
                 </ul>
