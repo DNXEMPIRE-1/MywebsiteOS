@@ -67,7 +67,7 @@ const Credits: React.FC<CreditsProps> = (props) => {
             closeWindow={props.onClose}
             onInteract={props.onInteract}
             minimizeWindow={props.onMinimize}
-            bottomLeftText={'© Copyright 2024 Dennis Nzioki'}
+            bottomLeftText={'© Copyright 2025 Dennis Nzioki'}
         >
             <div
                 onMouseDown={nextSlide}
@@ -75,7 +75,7 @@ const Credits: React.FC<CreditsProps> = (props) => {
                 style={styles.credits}
             >
                 <h2>Credits</h2>
-                <p>dennisnzioki.com, 2024</p>
+                <p>dennisnzioki.com, 2025</p>
                 <br />
                 <br />
                 <br />
