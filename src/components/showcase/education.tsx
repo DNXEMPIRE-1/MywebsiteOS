@@ -24,7 +24,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                             Bachelor of Business Information Technology - BBIT
                         </h3>
                         <b>
-                            <p>2020 → Now</p>
+                            <p>2020 → 2024</p>
                         </b>
                     </div>
                 </div>
