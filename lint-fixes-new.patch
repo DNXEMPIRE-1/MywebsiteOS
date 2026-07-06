@@ -1,0 +1,23 @@
+diff --git a/src/components/showcase/Contact.tsx b/src/components/showcase/Contact.tsx
+index 4ab05bd..798d106 100644
+--- a/src/components/showcase/Contact.tsx
++++ b/src/components/showcase/Contact.tsx
+@@ -1,4 +1,4 @@
+-import React, { useEffect, useState, useCallback } from 'react';
++import React, { useEffect, useState } from 'react';
+ import colors from '../../constants/colors';
+ import twitterIcon from '../../assets/pictures/contact-twitter.png';
+ import ghIcon from '../../assets/pictures/contact-gh.png';
+diff --git a/src/components/showcase/Home.tsx b/src/components/showcase/Home.tsx
+index e1b916b..c9e9daa 100644
+--- a/src/components/showcase/Home.tsx
++++ b/src/components/showcase/Home.tsx
+@@ -1,8 +1,6 @@
+ import React from 'react';
+ import { Link } from '../general';
+ 
+-import forhire from '../../assets/pictures/forHireGif.gif';
+-import dnx from '../../assets/pictures/dnxblack.png';
+ import { useNavigate } from 'react-router';
+ 
+ export interface HomeProps {}

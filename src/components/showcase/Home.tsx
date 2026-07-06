@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from '../general';
 
-import forhire from '../../assets/pictures/forHireGif.gif';
-import dnx from '../../assets/pictures/dnxblack.png';
 import { useNavigate } from 'react-router';
 
 export interface HomeProps {}
