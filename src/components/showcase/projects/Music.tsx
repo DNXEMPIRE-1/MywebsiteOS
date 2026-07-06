@@ -23,7 +23,6 @@ import trap from '../../../assets/audio/trap.mp3';
 import houseProject from '../../../assets/pictures/projects/audio/houseProject.png';
 import dnbDrumsProject from '../../../assets/pictures/projects/audio/dnbDrumsProject.png';
 import dubstepProject from '../../../assets/pictures/projects/audio/dubstep.png';
-import africaProject from '../../../assets/pictures/projects/audio/africa.png';
 import badguyProject from '../../../assets/pictures/projects/audio/badguy.png';
 
 import { MusicPlayer } from '../../general';

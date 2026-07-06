@@ -168,9 +168,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
                 <div style={styles.header}>
                     <div style={styles.headerRow}>
                         <h1>South Muchatha primary School</h1>
-                        <a target="_blank" rel="noreferrer" href={'#'}>
-                            <h4>SouthMuchatha</h4>
-                        </a>
+                        <h4>SouthMuchatha</h4>
                     </div>
                     <div style={styles.headerRow}>
                         <h3>Volunteer Teacher</h3>

@@ -54,15 +54,9 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
                 <ul>
                     
                     <li>
-                        <a
-                            rel="noreferrer"
-                            target="_blank"
-                            href="#"
-                        >
-                            <p>
-                                <b>VIDEO</b> - COMING SOON
-                            </p>
-                        </a>
+                        <p>
+                            <b>VIDEO</b> - COMING SOON
+                        </p>
                     </li>
                 </ul>
                 <br />

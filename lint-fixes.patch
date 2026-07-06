@@ -1,0 +1,63 @@
+diff --git a/src/components/showcase/intern.tsx b/src/components/showcase/intern.tsx
+index 9671797..236cf8b 100644
+--- a/src/components/showcase/intern.tsx
++++ b/src/components/showcase/intern.tsx
+@@ -168,9 +168,7 @@ const Experience: React.FC<ExperienceProps> = (props) => {
+                 <div style={styles.header}>
+                     <div style={styles.headerRow}>
+                         <h1>South Muchatha primary School</h1>
+-                        <a target="_blank" rel="noreferrer" href={'#'}>
+-                            <h4>SouthMuchatha</h4>
+-                        </a>
++                        <h4>SouthMuchatha</h4>
+                     </div>
+                     <div style={styles.headerRow}>
+                         <h3>Volunteer Teacher</h3>
+diff --git a/src/components/showcase/projects/Art.tsx b/src/components/showcase/projects/Art.tsx
+index 0dfa2f5..bea6f7c 100644
+--- a/src/components/showcase/projects/Art.tsx
++++ b/src/components/showcase/projects/Art.tsx
+@@ -54,15 +54,9 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
+                 <ul>
+                     
+                     <li>
+-                        <a
+-                            rel="noreferrer"
+-                            target="_blank"
+-                            href="#"
+-                        >
+-                            <p>
+-                                <b>VIDEO</b> - COMING SOON
+-                            </p>
+-                        </a>
++                        <p>
++                            <b>VIDEO</b> - COMING SOON
++                        </p>
+                     </li>
+                 </ul>
+                 <br />
+diff --git a/src/components/showcase/projects/Design.tsx b/src/components/showcase/projects/Design.tsx
+index e61ee5f..31d232b 100644
+--- a/src/components/showcase/projects/Design.tsx
++++ b/src/components/showcase/projects/Design.tsx
+@@ -11,8 +11,6 @@ import krist from '../../../assets/pictures/projects/design/krist.png';
+ import food from '../../../assets/pictures/projects/design/food.jpg';
+ import sap from '../../../assets/pictures/projects/design/sap.jpg';
+ 
+-import gsts from '../../../assets/pictures/projects/art/gsts.png';
+-
+ export interface DesignProjectsProps {}
+ 
+ const DesignProjects: React.FC<DesignProjectsProps> = (props) => {
+diff --git a/src/components/showcase/projects/Music.tsx b/src/components/showcase/projects/Music.tsx
+index 6c1a902..97a9007 100644
+--- a/src/components/showcase/projects/Music.tsx
++++ b/src/components/showcase/projects/Music.tsx
+@@ -23,7 +23,6 @@ import trap from '../../../assets/audio/trap.mp3';
+ import houseProject from '../../../assets/pictures/projects/audio/houseProject.png';
+ import dnbDrumsProject from '../../../assets/pictures/projects/audio/dnbDrumsProject.png';
+ import dubstepProject from '../../../assets/pictures/projects/audio/dubstep.png';
+-import africaProject from '../../../assets/pictures/projects/audio/africa.png';
+ import badguyProject from '../../../assets/pictures/projects/audio/badguy.png';
+ 
+ import { MusicPlayer } from '../../general';
